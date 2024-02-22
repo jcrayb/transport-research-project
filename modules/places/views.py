@@ -1,5 +1,5 @@
 from main import socketio
-from .utils import find_coords_from_address, find_coords_from_maps_url,\
+from utils import find_coords_from_address, find_coords_from_maps_url,\
                     to_caching_address,\
                     get_cached_coordinates, cache_coordinates,\
                     cache_places, get_cached_places
@@ -27,7 +27,7 @@ def test(data):
     places = get_cached_places(address=address)
 
     if places:
-        socketio.emit('places-return', data=data_temp)
+        socketio.emit('places-return', data=places)
         return places
 
     coordinates = get_cached_coordinates(address=address)
