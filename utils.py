@@ -90,3 +90,23 @@ def get_cached_places(address: str) -> dict:
         return False
     
     return data
+
+def get_route_from_edges(flowed_edges: list, starting_node: int, final_node: int) -> list:
+    current_edge = [edge for edge in flowed_edges if edge[0] == starting_node][0]
+
+    route_edges = [current_edge]
+    route_pts = [current_edge[0]]
+
+    flowed_edges.remove(current_edge)
+
+    while len(flowed_edges):
+        for edge in flowed_edges:
+            if current_edge[1] == edge[0]:
+                route_edges += [edge]
+                route_pts += [edge[0]]
+                flowed_edges.remove(edge)
+                current_edge = edge
+                continue
+
+    route_pts += [final_node]
+    return route_pts, route_edges
