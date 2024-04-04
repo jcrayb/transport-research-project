@@ -1,4 +1,5 @@
 import osmnx as ox
+import time
 
 def node_from_address(network ,address: str)->int:
     lat, lon = find_coords_from_address(address=address)
@@ -113,6 +114,39 @@ def get_route_from_edges(edges: list, starting_node: int, final_node: int) -> li
     route_pts += [final_node]
     return route_pts, route_edges
 
+'''def get_edges_for_real(edges: list, starting_node: int, final_node: int) -> list:
+    flowed_edges = edges.copy()
+
+    current_point = starting_node
+    matching_edges = [edge for edge in flowed_edges if edge[0] == current_point]
+
+    if len(matching_edges) == 1 and matching_edges[0][1] == final_node:
+        return None, matching_edges
+
+    for edge in matching_edges:
+        flowed_edges.remove(edge)
+        current_edge, all_edges = get_edges_for_real(flowed_edges, edge[1], final_node)
+
+        if not current_edge:
+            return None, all_edges + [edge]
+        
+    return'''
+
+def get_edges_for_real(edges: list, starting_node: int, final_node: int) -> list:
+    flowed_edges = edges.copy()
+
+    current_point = starting_node
+    matching_edges = [edge for edge in flowed_edges if edge[0] == current_point]
+
+    if len(matching_edges) == 1 and matching_edges[0][1] == final_node:
+        return matching_edges
+
+    for edge in matching_edges:
+        flowed_edges.remove(edge)
+        all_edges = get_edges_for_real(flowed_edges, edge[1], final_node)
+        
+        return all_edges + [edge]
+
 def find_path(edges, starting_edge, reversed=False):
     flowed_edges = edges.copy()
 
@@ -144,12 +178,22 @@ def get_unique_path(edges, starting_node, final_node):
     starting_edges = [x for x in edges if x[0] == starting_node]
 
     for starting_edge in starting_edges:
-        positive_path, positive_pts = find_path(edges, starting_edge, reversed=False)
+        start = time.time()
+        current = time.time()
+        while current-start <= 2:
+            current = time.time()
+            positive_path, positive_pts = find_path(edges, starting_edge, reversed=False)
 
-        for final_edge in final_edges:
-            negative_path = find_path(edges, final_edge, reversed=True)
+            for final_edge in final_edges:
+                negative_path = find_path(edges, final_edge, reversed=True)
 
-            if positive_path == negative_path:
-                break
+                if positive_path == negative_path:
+                    break
 
     return positive_path, positive_pts
+
+def get_edges_and_points(edges: list, starting_node: int, final_node: int) -> list:
+    path = get_edges_for_real(edges, starting_node, final_node)[1]
+    path.reverse()
+    pts = [edge[0] for edge in path] + [final_node]
+    return path, pts
