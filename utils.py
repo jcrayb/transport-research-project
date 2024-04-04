@@ -91,7 +91,9 @@ def get_cached_places(address: str) -> dict:
     
     return data
 
-def get_route_from_edges(flowed_edges: list, starting_node: int, final_node: int) -> list:
+def get_route_from_edges(edges: list, starting_node: int, final_node: int) -> list:
+    flowed_edges = edges.copy()
+
     current_edge = [edge for edge in flowed_edges if edge[0] == starting_node][0]
 
     route_edges = [current_edge]
@@ -110,3 +112,44 @@ def get_route_from_edges(flowed_edges: list, starting_node: int, final_node: int
 
     route_pts += [final_node]
     return route_pts, route_edges
+
+def find_path(edges, starting_edge, reversed=False):
+    flowed_edges = edges.copy()
+
+    current_idx = int(reversed)
+    search_idx = (1-int(reversed))%2
+
+    current_edge = starting_edge
+
+    route_edges = [current_edge]
+    route_pts = [current_edge[current_idx]]
+
+    flowed_edges.remove(current_edge)
+
+    while len(flowed_edges):
+        for edge in flowed_edges:
+            if current_edge[search_idx] == edge[current_idx]:
+                route_edges += [edge]
+                route_pts += [edge[current_idx]]
+                flowed_edges.remove(edge)
+                current_edge = edge
+                continue
+    
+    if reversed: route_edges.reverse()
+
+    return route_edges, route_pts
+
+def get_unique_path(edges, starting_node, final_node):
+    final_edges = [x for x in edges if x[1] == final_node]
+    starting_edges = [x for x in edges if x[0] == starting_node]
+
+    for starting_edge in starting_edges:
+        positive_path, positive_pts = find_path(edges, starting_edge, reversed=False)
+
+        for final_edge in final_edges:
+            negative_path = find_path(edges, final_edge, reversed=True)
+
+            if positive_path == negative_path:
+                break
+
+    return positive_path, positive_pts
