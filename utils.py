@@ -133,19 +133,15 @@ def get_route_from_edges(edges: list, starting_node: int, final_node: int) -> li
     return'''
 
 def get_edges_for_real(edges: list, starting_node: int, final_node: int) -> list:
-    flowed_edges = edges.copy()
-
-    current_point = starting_node
-    matching_edges = [edge for edge in flowed_edges if edge[0] == current_point]
+    matching_edges = [edge for edge in edges if edge[0] == starting_node]
 
     if len(matching_edges) == 1 and matching_edges[0][1] == final_node:
         return matching_edges
 
-    for edge in matching_edges:
-        flowed_edges.remove(edge)
-        all_edges = get_edges_for_real(flowed_edges, edge[1], final_node)
+    for matching_edge in matching_edges:
+        all_edges = get_edges_for_real([edge for edge in edges if edge != matching_edge], matching_edge[1], final_node)
         
-        return all_edges + [edge]
+        return all_edges + [matching_edge]
 
 def find_path(edges, starting_edge, reversed=False):
     flowed_edges = edges.copy()
@@ -193,7 +189,7 @@ def get_unique_path(edges, starting_node, final_node):
     return positive_path, positive_pts
 
 def get_edges_and_points(edges: list, starting_node: int, final_node: int) -> list:
-    path = get_edges_for_real(edges, starting_node, final_node)[1]
+    path = get_edges_for_real(edges, starting_node, final_node)
     path.reverse()
     pts = [edge[0] for edge in path] + [final_node]
     return path, pts
