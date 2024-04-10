@@ -1,11 +1,18 @@
 import osmnx as ox
+import networkx as nx
+import numpy as np
+import tqdm
+import gurobipy as gp
+from gurobipy import GRB
+import json
+import tqdm
+import utils
 
 ## IMPORT CITY
 print('Getting city data')
 city = ox.graph_from_place('Chicago, IL, USA', network_type='drive')
 
-import networkx as nx
-import numpy as np
+
 
 ## ADDING EDGE PROPERTIES
 print('Addign edge attributes')
@@ -40,11 +47,6 @@ for i, (u, v, k) in enumerate(edges):
 
 print('Starting Linear Program logic')
 ## LINEAR PROGRAM LOGIC
-import gurobipy as gp
-from gurobipy import GRB
-import json
-import tqdm
-import utils
 
 unrestricted_path_lengths = {}
 
@@ -99,6 +101,7 @@ for i in tqdm.trange(len(centroids)):
     
     path, pts = utils.get_edges_and_points(flowed_edges, starting_node=starting_node, final_node=final_node)
     unrestricted_path_lengths[tract]['n_banned_nodes'] = len([pt for pt in pts if pt in red_nodes])
+    if not i: tqdm.tqdm.write(str(unrestricted_path_lengths))
     continue
 
-json.dump(unrestricted_path_lengths, open('./results.json'))
+json.dump(unrestricted_path_lengths, open('./results.json', 'w'))
