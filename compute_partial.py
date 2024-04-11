@@ -12,8 +12,6 @@ import utils
 print('Getting city data')
 city = ox.graph_from_place('Chicago, IL, USA', network_type='drive')
 
-
-
 ## ADDING EDGE PROPERTIES
 print('Addign edge attributes')
 city = ox.speed.add_edge_speeds(city)
@@ -48,7 +46,7 @@ for i, (u, v, k) in enumerate(edges):
 print('Starting Linear Program logic')
 ## LINEAR PROGRAM LOGIC
 
-unrestricted_path_lengths = {}
+path_lengths = {}
 
 centroids = json.load(open('./data/tract-centroids.json'))
 red_nodes = json.load(open('./data/banned_nodes.json'))
@@ -67,11 +65,27 @@ obj = np.array(weights)@f
 
 m.setObjective(obj, GRB.MINIMIZE)
 
+##MAX BUDGET DICT
+
+max_budgets = {0: [],
+    1: [],
+    2: [1],
+    3: [1, 2],
+    4: [1, 2, 3],
+    5: [2, 3, 4],
+    6: [2, 3, 5],
+    7: [2, 4, 6],
+    8: [2, 4, 6],
+    9: [3, 5, 7],
+    10: [3, 5, 8]
+}
+
+previous_results = json.load(open('./results.json', 'r'))
+
 print('Model generated, solving...')
 for i in tqdm.trange(len(centroids)):
-    
     tract = list(centroids.keys())[i]
-    unrestricted_path_lengths[tract] = {}
+    path_lengths[tract] = {}
     lon, lat = centroids[tract]
 
     starting_node = ox.nearest_nodes(city, lon, lat)
@@ -83,27 +97,32 @@ for i in tqdm.trange(len(centroids)):
     m.remove(m.getConstrs())
     m.addConstr(A@f==b)
 
-    m.optimize()
+    budgets = max_budgets[previous_results[tract]['n_banned_nodes']]
 
-    flows = m.getAttr("X", m.getVars())
+    for budget in list(np.flip(budgets)):
+        m.addConstr(gp.quicksum(f[i] for i in banned_edges_idx) <= (budget)*2)
 
-    objval = m.ObjVal
-    
-    unrestricted_path_lengths[tract]['length']=objval
-    flowed_edges_idx = []
-    flowed_edges = []
+        m.optimize()
 
-    for i in range(len(flows)):
-        if flows[i]:
-            flowed_edges_idx += [i]
+        flows = m.getAttr("X", m.getVars())
 
-    for i, (u, v, k) in enumerate(city.edges):
-        if i in flowed_edges_idx:
-            flowed_edges += [(u, v, k)]
-    
-    path, pts = utils.get_edges_and_points(flowed_edges, starting_node=starting_node, final_node=final_node)
-    unrestricted_path_lengths[tract]['n_banned_nodes'] = len([pt for pt in pts if pt in red_nodes])
-    if not i: tqdm.tqdm.write(str(unrestricted_path_lengths))
-    continue
+        objval = m.ObjVal
+        
+        '''path_lengths[tract][budget]=objval
+        flowed_edges_idx = []
+        flowed_edges = []
 
-json.dump(unrestricted_path_lengths, open('./results.json', 'w'))
+        for i in range(len(flows)):
+            if flows[i]:
+                flowed_edges_idx += [i]
+
+        for i, (u, v, k) in enumerate(city.edges):
+            if i in flowed_edges_idx:
+                flowed_edges += [(u, v, k)]
+        
+        path, pts = utils.get_edges_and_points(flowed_edges, starting_node=starting_node, final_node=final_node)'''
+        
+        continue
+    json.dump(path_lengths, open('./results_partial.json', 'w'))
+
+
