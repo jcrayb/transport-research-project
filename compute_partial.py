@@ -23,7 +23,7 @@ travel_times_dict = nx.get_edge_attributes(city, 'travel_time')
 
 print('Generating incidence matrix')
 
-banned_nodes = []
+banned_nodes = json.load(open('./osmnx/data/banned_nodes.json', 'r'))
 banned_edges = []
 banned_edges_idx = []
 
@@ -49,7 +49,6 @@ print('Starting Linear Program logic')
 path_lengths = {}
 
 centroids = json.load(open('./data/tract-centroids.json'))
-red_nodes = json.load(open('./data/banned_nodes.json'))
 
 final_node = ox.nearest_nodes(city, -87.851528, 41.984025)
 
@@ -68,26 +67,37 @@ m.setObjective(obj, GRB.MINIMIZE)
 ##MAX BUDGET DICT
 
 max_budgets = {0: [],
-    1: [],
-    2: [1],
-    3: [1, 2],
-    4: [1, 2, 3],
-    5: [2, 3, 4],
-    6: [2, 3, 5],
-    7: [2, 4, 6],
-    8: [2, 4, 6],
-    9: [3, 5, 7],
-    10: [3, 5, 8]
+    1: [0],
+    2: [0, 1],
+    3: [0, 1, 2],
+    4: [0, 1, 2, 3],
+    5: [0, 2, 3, 4],
+    6: [0, 2, 3, 5],
+    7: [0, 2, 4, 6],
+    8: [0, 2, 4, 6],
+    9: [0, 3, 5, 7],
+    10: [0, 3, 5, 8]
 }
 
 previous_results = json.load(open('./results.json', 'r'))
+current_results = json.load(open('./results_partial.json', 'r'))
+
+with open('log.txt', 'w') as file:
+    file.write('')
 
 print('Model generated, solving...')
 for i in tqdm.trange(len(centroids)):
     tract = list(centroids.keys())[i]
+
+    budgets = max_budgets[previous_results[tract]['n_banned_nodes']]
+
+    if not budgets: continue
+    if tract in current_results: continue
+
+    print(tract, f"# banned nodes: {previous_results[tract]['n_banned_nodes']}, og path length: {previous_results[tract]['length']}")
     path_lengths[tract] = {}
     lon, lat = centroids[tract]
-
+    
     starting_node = ox.nearest_nodes(city, lon, lat)
     b = np.zeros(n_points)
     b[indexes[starting_node]] = -1
@@ -97,17 +107,20 @@ for i in tqdm.trange(len(centroids)):
     m.remove(m.getConstrs())
     m.addConstr(A@f==b)
 
-    budgets = max_budgets[previous_results[tract]['n_banned_nodes']]
+    
 
-    for budget in list(np.flip(budgets)):
+    for budget in list(np.flip([i for i in range(previous_results[tract]['n_banned_nodes'])])):
         m.addConstr(gp.quicksum(f[i] for i in banned_edges_idx) <= (budget)*2)
-
-        m.optimize()
-
-        flows = m.getAttr("X", m.getVars())
-
-        objval = m.ObjVal
         
+        m.optimize()
+        try:
+            flows = m.getAttr("X", m.getVars())
+        except:
+            with open('log.txt', 'a') as file:
+                file.write(f'ERR: {tract}')
+            continue
+        objval = m.ObjVal
+        print('Budget: ', budget, "Path length: ", objval)
         '''path_lengths[tract][budget]=objval
         flowed_edges_idx = []
         flowed_edges = []
@@ -121,7 +134,8 @@ for i in tqdm.trange(len(centroids)):
                 flowed_edges += [(u, v, k)]
         
         path, pts = utils.get_edges_and_points(flowed_edges, starting_node=starting_node, final_node=final_node)'''
-        
+        #print(budget)
+        path_lengths[tract][int(budget)] = objval
         continue
     json.dump(path_lengths, open('./results_partial.json', 'w'))
 

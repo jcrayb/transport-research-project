@@ -3,7 +3,7 @@ lib64
 bin
 include
 pyvenv.cfg
-
+cache
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
