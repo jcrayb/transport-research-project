@@ -46,8 +46,6 @@ for i, (u, v, k) in enumerate(edges):
 print('Starting Linear Program logic')
 ## LINEAR PROGRAM LOGIC
 
-path_lengths = {}
-
 centroids = json.load(open('./data/tract-centroids.json'))
 
 final_node = ox.nearest_nodes(city, -87.851528, 41.984025)
@@ -80,8 +78,8 @@ max_budgets = {0: [],
 }
 
 previous_results = json.load(open('./results.json', 'r'))
-current_results = json.load(open('./results_partial.json', 'r'))
-
+path_lengths = json.load(open('./results_partial.json', 'r'))
+print(len(path_lengths))
 with open('log.txt', 'w') as file:
     file.write('')
 
@@ -92,7 +90,7 @@ for i in tqdm.trange(len(centroids)):
     budgets = max_budgets[previous_results[tract]['n_banned_nodes']]
 
     if not budgets: continue
-    if tract in current_results: continue
+    if tract in path_lengths: continue
 
     print(tract, f"# banned nodes: {previous_results[tract]['n_banned_nodes']}, og path length: {previous_results[tract]['length']}")
     path_lengths[tract] = {}
