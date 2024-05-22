@@ -1,9 +1,12 @@
-##
 lib64
 bin
+cache
 include
 pyvenv.cfg
-cache
+
+computation_results/
+*.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

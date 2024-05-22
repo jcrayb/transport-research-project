@@ -6,7 +6,7 @@ import gurobipy as gp
 from gurobipy import GRB
 import json
 import tqdm
-import utils
+import utils.main as main
 
 ## IMPORT CITY
 print('Getting city data')
@@ -91,7 +91,7 @@ for i in tqdm.trange(len(centroids)):
 
     if not budgets: continue
     if tract in path_lengths: continue
-
+    
     print(tract, f"# banned nodes: {previous_results[tract]['n_banned_nodes']}, og path length: {previous_results[tract]['length']}")
     path_lengths[tract] = {}
     lon, lat = centroids[tract]
@@ -119,20 +119,7 @@ for i in tqdm.trange(len(centroids)):
             continue
         objval = m.ObjVal
         print('Budget: ', budget, "Path length: ", objval)
-        '''path_lengths[tract][budget]=objval
-        flowed_edges_idx = []
-        flowed_edges = []
 
-        for i in range(len(flows)):
-            if flows[i]:
-                flowed_edges_idx += [i]
-
-        for i, (u, v, k) in enumerate(city.edges):
-            if i in flowed_edges_idx:
-                flowed_edges += [(u, v, k)]
-        
-        path, pts = utils.get_edges_and_points(flowed_edges, starting_node=starting_node, final_node=final_node)'''
-        #print(budget)
         path_lengths[tract][int(budget)] = objval
         continue
     json.dump(path_lengths, open('./results_partial.json', 'w'))

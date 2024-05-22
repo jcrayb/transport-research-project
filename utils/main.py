@@ -6,27 +6,14 @@ def node_from_address(network ,address: str)->int:
     return ox.nearest_nodes(network, lon, lat)
 
 from time import sleep
-from selenium import webdriver
 import json 
 import os
+from selenium import webdriver
 
-'''req_folders = [
-    './modules/places/cached',
-    './modules/places/cached/coordinates',
-    './modules/places/cached/places'
-]
-
-for folder in req_folders:
-    if not os.path.exists(folder):
-        os.mkdir(folder)'''
 
 def find_coords_from_maps_url(url:str)->tuple:
     fsplit = url.replace('?entry=ttu', '').split('!3d')[1].split('!4d')
     return (float(fsplit[0]), float(fsplit[1].split('!16s')[0]))
-
-'''def find_coords_from_maps_url_0(url:str)->tuple:
-    fsplit = url.split('/@')[1].split(',')
-    return (fsplit[0], fsplit[1])'''
 
 def find_coords_from_address(address:str, sleep_timer:float=5,
                              max_attempts:int=3)->tuple:
@@ -113,24 +100,6 @@ def get_route_from_edges(edges: list, starting_node: int, final_node: int) -> li
 
     route_pts += [final_node]
     return route_pts, route_edges
-
-'''def get_edges_for_real(edges: list, starting_node: int, final_node: int) -> list:
-    flowed_edges = edges.copy()
-
-    current_point = starting_node
-    matching_edges = [edge for edge in flowed_edges if edge[0] == current_point]
-
-    if len(matching_edges) == 1 and matching_edges[0][1] == final_node:
-        return None, matching_edges
-
-    for edge in matching_edges:
-        flowed_edges.remove(edge)
-        current_edge, all_edges = get_edges_for_real(flowed_edges, edge[1], final_node)
-
-        if not current_edge:
-            return None, all_edges + [edge]
-        
-    return'''
 
 def get_edges_for_real(edges: list, starting_node: int, final_node: int) -> list:
     matching_edges = [edge for edge in edges if edge[0] == starting_node]
