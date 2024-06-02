@@ -14,9 +14,14 @@ parser = argparse.ArgumentParser()
 
 parser.add_argument("-ts", "--totalsplits", help="How many segments to split the solving into")
 parser.add_argument("-s", "--segment", help="Which segment is this ")
+parser.add_argument("-q", "--query", help="What to search for ")
 
 ts = int(parser.parse_args().totalsplits)
 seg = int(parser.parse_args().segment)
+query = str(parser.parse_args().query)
+
+if not query:
+    raise ValueError
 
 if seg > ts:
     raise ValueError
@@ -25,8 +30,6 @@ centroids = json.load(open('./data/tract-centroids.json'))
 red_nodes = json.load(open('./data/banned_nodes.json'))
 
 centroids = {tract: coords for tract, coords in centroids.items() if list(centroids.keys()).index(tract) in [i for i in range(int(len(centroids)/ts*seg),int(len(centroids)/ts*(seg+1)))]}
-
-query = 'high-school'
 
 ## IMPORT CITY
 print('Getting city data')
@@ -92,6 +95,10 @@ for i in tqdm.trange(len(centroids)):
     lon, lat = centroids[tract]
 
     starting_node = ox.nearest_nodes(city, lon, lat)
+
+    if not tract in places_of_interest:
+        continue
+    
     for poi_name, poi_coords in places_of_interest[tract].items():
         
         if tract in previous_results:

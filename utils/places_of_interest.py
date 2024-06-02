@@ -10,10 +10,12 @@ from utils.main import find_coords_from_address, find_coords_from_maps_url
 
 def get_places_from_address(address:str, query:str, zoom_level:int = 15, amount_of_data:int = 5) -> dict:
     coordinates = find_coords_from_address(address=address, sleep_timer=4, max_attempts=4)
-
+    op = webdriver.ChromeOptions()
+    op.add_argument('headless')
+    driver = webdriver.Chrome(options=op)
     scroll_amount = 1000
     url = f'https://www.google.com/maps/search/{query}/@{coordinates[0]},{coordinates[1]},{zoom_level}z'
-    with webdriver.Chrome() as browser:
+    with driver as browser:
         browser.set_window_size(1024, 768)
         browser.get(url)
 
@@ -39,9 +41,12 @@ def get_places_from_address(address:str, query:str, zoom_level:int = 15, amount_
     return data
 
 def get_places_from_coordinates(coordinates:tuple, query:str, zoom_level:int = 15, amount_of_data:int = 5) -> dict:
+    op = webdriver.ChromeOptions()
+    op.add_argument('headless')
+    driver = webdriver.Chrome(options=op)
     scroll_amount = 1000
     url = f'https://www.google.com/maps/search/{query}/@{coordinates[0]},{coordinates[1]},{zoom_level}z'
-    with webdriver.Chrome() as browser:
+    with driver as browser:
         browser.set_window_size(1024, 768)
         browser.get(url)
 

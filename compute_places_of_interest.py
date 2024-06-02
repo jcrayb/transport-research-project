@@ -12,8 +12,16 @@ importlib.reload(utils.places_of_interest)
 
 import json
 import tqdm
+import argparse
 
-query = 'high-school'
+parser = argparse.ArgumentParser()
+
+parser.add_argument("-q", "--query", help="What to search for ")
+
+query = str(parser.parse_args().query)
+
+with open(f'./computation_results/err-{query}.txt', 'w+') as f:
+    f.write('')
 
 census_tract_centroids = json.load(open('./osmnx/data/tract-centroids.json', 'r'))
 
@@ -30,9 +38,9 @@ for i in tqdm.trange(len(census_tract_centroids)):
     try:
         places = utils.places_of_interest.get_places_from_coordinates(coords, query, zoom_level=13, amount_of_data=3)
         results[tract] = places
-    except:
+    except Exception as e:
         with open(f'./computation_results/err-{query}.txt', 'a+') as f:
-            f.write(tract + ', ')
+            f.write(tract + f': {e} , ')
         print(tract)
 
     json.dump(results, open(f'./computation_results/{query}.json', 'w'), indent=1)
