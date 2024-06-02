@@ -22,6 +22,9 @@ seg = int(parser.parse_args().segment)
 if seg > ts:
     raise ValueError
 
+if not os.path.exists('./computation_results/budget_paths'):
+    os.mkdir('./computation_results/budget_paths')
+
 with open(f'./computation_results/budget_paths/err-{query}-{seg}-{ts}.txt', 'w') as file:
     file.write(f'')
 
@@ -85,6 +88,11 @@ obj = np.array(weights)@f
 
 m.setObjective(obj, GRB.MINIMIZE)
 
+constraint_indexes = {
+    'previous' : [],
+    'current': []
+}
+
 print('Model generated, solving...')
 for i in tqdm.trange(len(centroids)):
     
@@ -117,13 +125,22 @@ for i in tqdm.trange(len(centroids)):
 
         final_node = ox.nearest_nodes(city, lon2, lat2)
 
+        constraint_indexes['previous'] = constraint_indexes['current']
+
         b = np.zeros(n_points)
         b[indexes[starting_node]] = -1
         b[indexes[final_node]] = 1
 
+        constraint_indexes['current'] = [indexes[starting_node], indexes[final_node]]
 
-        m.remove(m.getConstrs())
-        m.addConstr(A@f==b)
+        if constraint_indexes['previous']:
+            cstrs = m.getConstrs()
+            for idx in (constraint_indexes['previous'] + constraint_indexes['current']):
+                m.remove(cstrs[idx])
+                m.addConstr(A[idx,]@f==b[idx])
+        else:
+            m.addConstr(A@f==b)
+            
         for budget in list(np.flip([i for i in range(int(previous_results[tract][poi_name]['n_banned_nodes']))])):
             m.addConstr(gp.quicksum(f[i] for i in banned_edges_idx) <= (budget)*2)
 

@@ -14,19 +14,25 @@ parser = argparse.ArgumentParser()
 
 parser.add_argument("-ts", "--totalsplits", help="How many segments to split the solving into")
 parser.add_argument("-s", "--segment", help="Which segment is this ")
+parser.add_argument("-q", "--query", help="What to search for ")
 
 ts = int(parser.parse_args().totalsplits)
 seg = int(parser.parse_args().segment)
+query = str(parser.parse_args().query)
+
+if not query:
+    raise ValueError
 
 if seg > ts:
     raise ValueError
+
+with open(f'./computation_results/initial_paths/err-{query}.txt', 'w+') as file:
+    file.write(f'')
 
 centroids = json.load(open('./data/tract-centroids.json'))
 red_nodes = json.load(open('./data/banned_nodes.json'))
 
 centroids = {tract: coords for tract, coords in centroids.items() if list(centroids.keys()).index(tract) in [i for i in range(int(len(centroids)/ts*seg),int(len(centroids)/ts*(seg+1)))]}
-
-query = 'high-school'
 
 ## IMPORT CITY
 print('Getting city data')
@@ -67,10 +73,11 @@ for i, (u, v, k) in enumerate(edges):
 
 print('Starting Linear Program logic')
 ## LINEAR PROGRAM LOGIC
+if not os.path.exists('./computation_results/initial_paths'):
+    os.mkdir('./computation_results/initial_paths')
 
 previous_results = json.load(open(f'./computation_results/initial_paths/{query}-{seg}-{ts}.json', 'r')) if os.path.exists(f'./computation_results/initial_paths/{query}-{seg}-{ts}.json') else {}
-
-unrestricted_path_lengths = {}
+unrestricted_path_lengths = {} 
 
 m = gp.Model("lp")
 m.Params.LogToConsole = 0
@@ -84,14 +91,26 @@ obj = np.array(weights)@f
 
 m.setObjective(obj, GRB.MINIMIZE)
 
+b = np.zeros(n_points)
+
+m.addConstr(A@f==b)
+m.update()
+
+cnstr = m.getConstrs()
 print('Model generated, solving...')
 for i in tqdm.trange(len(centroids)):
     
+
     tract = list(centroids.keys())[i]
     unrestricted_path_lengths[tract] = {}
     lon, lat = centroids[tract]
 
     starting_node = ox.nearest_nodes(city, lon, lat)
+
+    s_idx = indexes[starting_node]
+    
+    cnstr[s_idx].rhs = -1
+
     for poi_name, poi_coords in places_of_interest[tract].items():
         
         if tract in previous_results:
@@ -106,26 +125,23 @@ for i in tqdm.trange(len(centroids)):
 
         final_node = ox.nearest_nodes(city, lon2, lat2)
 
-        b = np.zeros(n_points)
-        b[indexes[starting_node]] = -1
-        b[indexes[final_node]] = 1
-
-
-        m.remove(m.getConstrs())
-        m.addConstr(A@f==b)
+        f_idx = indexes[final_node]
+        cnstr[f_idx].rhs = 1
 
         m.optimize()
-
+        
         try:
             flows = m.getAttr("X", m.getVars())
-        except:
+        except Exception as e:
             with open(f'./computation_results/initial_paths/err-{query}.txt', 'a+') as file:
-                file.write(f'ERR: {tract} {poi_name} -- No solution found,\n')
+                file.write(f'ERR: {tract} {poi_name} -- No solution found, {e}\n')
             continue
 
         objval = m.ObjVal
-        
-        unrestricted_path_lengths[tract][poi_name]['length']=objval
+
+        cnstr[f_idx].rhs = 0
+
+        unrestricted_path_lengths[tract][poi_name]['length'] = objval
         flowed_edges_idx = []
         flowed_edges = []
 
@@ -137,18 +153,17 @@ for i in tqdm.trange(len(centroids)):
             if i in flowed_edges_idx:
                 flowed_edges += [(u, v, k)]
         try:
-            path, pts = utils.pathfinding.get_edges_and_points(flowed_edges, \
+            pts = utils.pathfinding.get_edges_and_points(flowed_edges, \
                                         starting_node=starting_node, final_node=final_node)
         except:
             with open(f'./computation_results/initial_paths/err-{query}.txt', 'a+') as file:
-                file.write(f'ERR {seg}: {tract} {poi_name} -- No path found,\n')
+                file.write(f'ERR {seg}: {tract} {poi_name} -- No path found, {str((starting_node, final_node))}, {str(flowed_edges)}\n')
             continue
 
         unrestricted_path_lengths[tract][poi_name]['n_banned_nodes'] = len([pt for pt in pts if pt in red_nodes])
         
         json.dump(unrestricted_path_lengths, open(f'./computation_results/initial_paths/{query}-{seg}-{ts}.json', 'w'), indent=2)
-
-        if not i: tqdm.tqdm.write(str(unrestricted_path_lengths))
-        continue
-
+        
+    
+    cnstr[s_idx].rhs = 0
         
