@@ -9,15 +9,18 @@ import utils.pathfinding
 import argparse
 import os
 
-query = 'high-school'
-
 parser = argparse.ArgumentParser()
 
 parser.add_argument("-ts", "--totalsplits", help="How many segments to split the solving into")
 parser.add_argument("-s", "--segment", help="Which segment is this ")
+parser.add_argument("-q", "--query", help="What to search for ")
 
 ts = int(parser.parse_args().totalsplits)
 seg = int(parser.parse_args().segment)
+query = str(parser.parse_args().query)
+
+if not query:
+    raise ValueError
 
 if seg > ts:
     raise ValueError
@@ -85,13 +88,14 @@ path_lengths = json.load(open(f'./computation_results/budget_paths/{query}-{seg}
 previous_results = json.load(open(f'./computation_results/initial_paths/{query}-{seg}-{ts}.json', 'r'))
 
 obj = np.array(weights)@f
-
 m.setObjective(obj, GRB.MINIMIZE)
 
-constraint_indexes = {
-    'previous' : [],
-    'current': []
-}
+b = np.zeros(n_points)
+
+m.addConstr(A@f==b)
+m.update()
+
+cnstr = m.getConstrs()
 
 print('Model generated, solving...')
 for i in tqdm.trange(len(centroids)):
@@ -101,6 +105,10 @@ for i in tqdm.trange(len(centroids)):
     lon, lat = centroids[tract]
 
     starting_node = ox.nearest_nodes(city, lon, lat)
+
+    s_idx = indexes[starting_node]
+    cnstr[s_idx].rhs = -1
+
     for poi_name, poi_coords in places_of_interest[tract].items():
         
         if poi_name in path_lengths[tract]:
@@ -125,31 +133,19 @@ for i in tqdm.trange(len(centroids)):
 
         final_node = ox.nearest_nodes(city, lon2, lat2)
 
-        constraint_indexes['previous'] = constraint_indexes['current']
-
-        b = np.zeros(n_points)
-        b[indexes[starting_node]] = -1
-        b[indexes[final_node]] = 1
-
-        constraint_indexes['current'] = [indexes[starting_node], indexes[final_node]]
-
-        if constraint_indexes['previous']:
-            cstrs = m.getConstrs()
-            for idx in (constraint_indexes['previous'] + constraint_indexes['current']):
-                m.remove(cstrs[idx])
-                m.addConstr(A[idx,]@f==b[idx])
-        else:
-            m.addConstr(A@f==b)
-            
+        f_idx = indexes[final_node]
+        cnstr[f_idx].rhs = 1
+        
+        budget_constraints = []
         for budget in list(np.flip([i for i in range(int(previous_results[tract][poi_name]['n_banned_nodes']))])):
-            m.addConstr(gp.quicksum(f[i] for i in banned_edges_idx) <= (budget)*2)
+            budget_constraints += [m.addConstr(gp.quicksum(f[i] for i in banned_edges_idx) <= (budget)*2)]
 
             m.optimize()
 
             try:
                 flows = m.getAttr("X", m.getVars())
             except:
-                with open(f'./computation_results/budget_paths/err-{query}.txt', 'a+') as file:
+                with open(f'./computation_results/budget_paths/err-{query}-{seg}-{ts}.txt', 'a+') as file:
                     file.write(f'ERR: {tract} {poi_name} -- No solution found,\n')
                 continue
 
@@ -166,16 +162,22 @@ for i in tqdm.trange(len(centroids)):
                 if i in flowed_edges_idx:
                     flowed_edges += [(u, v, k)]
             try:
-                path, pts = utils.pathfinding.get_edges_and_points(flowed_edges, \
+                pts = utils.pathfinding.get_edges_and_points(flowed_edges, \
                                             starting_node=starting_node, final_node=final_node)
             except:
-                with open(f'./computation_results/budget_paths/err-{query}.txt', 'a+') as file:
+                with open(f'./computation_results/budget_paths/err-{query}-{seg}-{ts}.txt', 'a+') as file:
                     file.write(f'ERR {seg}: {tract} {poi_name} -- No path found,\n')
                 continue
 
             path_lengths[tract][poi_name][int(budget)] = objval
             
             json.dump(path_lengths, open(f'./computation_results/budget_paths/{query}-{seg}-{ts}.json', 'w'), indent=2)
-            continue
+        
+        cnstr[f_idx].rhs = 0
+        m.remove(budget_constraints)
+        m.update()
+
+    cnstr[s_idx].rhs = 0
+
 
         

@@ -26,7 +26,7 @@ if not query:
 if seg > ts:
     raise ValueError
 
-with open(f'./computation_results/initial_paths/err-{query}.txt', 'w+') as file:
+with open(f'./computation_results/initial_paths/err-{query}-{seg}-{ts}.txt', 'w+') as file:
     file.write(f'')
 
 centroids = json.load(open('./data/tract-centroids.json'))
@@ -110,6 +110,7 @@ for i in tqdm.trange(len(centroids)):
     s_idx = indexes[starting_node]
     
     cnstr[s_idx].rhs = -1
+    m.update()
 
     for poi_name, poi_coords in places_of_interest[tract].items():
         
@@ -126,20 +127,23 @@ for i in tqdm.trange(len(centroids)):
         final_node = ox.nearest_nodes(city, lon2, lat2)
 
         f_idx = indexes[final_node]
-        cnstr[f_idx].rhs = 1
 
+        cnstr[f_idx].rhs = 1
+        m.update()
+        m.write('./debug.lp')
+        
         m.optimize()
+
+        cnstr[f_idx].rhs = 0
         
         try:
             flows = m.getAttr("X", m.getVars())
         except Exception as e:
-            with open(f'./computation_results/initial_paths/err-{query}.txt', 'a+') as file:
+            with open(f'./computation_results/initial_paths/err-{query}-{seg}-{ts}.txt', 'a+') as file:
                 file.write(f'ERR: {tract} {poi_name} -- No solution found, {e}\n')
             continue
 
         objval = m.ObjVal
-
-        cnstr[f_idx].rhs = 0
 
         unrestricted_path_lengths[tract][poi_name]['length'] = objval
         flowed_edges_idx = []
@@ -156,7 +160,7 @@ for i in tqdm.trange(len(centroids)):
             pts = utils.pathfinding.get_edges_and_points(flowed_edges, \
                                         starting_node=starting_node, final_node=final_node)
         except:
-            with open(f'./computation_results/initial_paths/err-{query}.txt', 'a+') as file:
+            with open(f'./computation_results/initial_paths/err-{query}-{seg}-{ts}.txt', 'a+') as file:
                 file.write(f'ERR {seg}: {tract} {poi_name} -- No path found, {str((starting_node, final_node))}, {str(flowed_edges)}\n')
             continue
 
