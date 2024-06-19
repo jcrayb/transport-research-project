@@ -1,6 +1,9 @@
-from main import create_app, socketio
+from flask import Flask
 
-app = create_app(debug=True)
+app = Flask(__name__)
 
-if __name__ == '__main__':
-    socketio.run(app, '0.0.0.0', port=8080, debug=True)
+
+
+if __name__ == "__main__":
+    app.run('0.0.0.0', debug=True, port=8080)
+
