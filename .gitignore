@@ -5,7 +5,7 @@ include
 pyvenv.cfg
 
 #computation_results/
-*.json
+#*.json
 *.geojson
 
 # Byte-compiled / optimized / DLL files
