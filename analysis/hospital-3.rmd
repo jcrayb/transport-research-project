@@ -1,0 +1,75 @@
+---
+title: "Analysis"
+output: pdf_document
+date: "2024-10-10"
+---
+
+```{r imports}
+library(ggplot2)
+```
+
+## Including zero results
+
+```{r data}
+data1 <- read.csv('./hospital-3-closest.csv')
+
+head(data)
+```
+
+```{r plot}
+ggplot(data1, aes(x = shortest_path, y=n_cameras, color=majority)) +  geom_point() + geom_smooth(method = "lm", se = FALSE)
+```
+
+Predicting the distance based on demographics
+
+```{r regression}
+linmod1 <- lm(shortest_path ~ majority, data=data1)
+
+summary(linmod1)
+```
+
+Predicting the number of cameras depending on the distance and demographics
+
+```{r regression}
+linmod <- lm(n_cameras ~ shortest_path + majority, data=data)
+
+summary(linmod)
+```
+
+## Only including paths that have cameras
+
+```{r data}
+data <- na.omit(read.csv('./hospital-3-closest-nonzero.csv'))
+
+head(data)
+```
+
+```{r plot}
+ggplot(data, aes(x = shortest_path, y=n_cameras, color=majority)) +  geom_point() + geom_smooth(method = "lm", se = FALSE)
+```
+
+```{r plot}
+ggplot(data, aes(x = shortest_path, y=shortest_restricted_path, color=majority)) +  geom_point() + geom_smooth(method = "lm", se = FALSE)
+```
+
+Predicting the distance based on demographics
+
+```{r regression}
+linmod <- lm(shortest_path ~ majority, data=data)
+
+summary(linmod)
+```
+Predicting the added distance based on demographics
+```{r regression}
+linmod <- lm(shortest_restricted_path ~ shortest_path + majority, data=data)
+
+summary(linmod)
+```
+
+Predicting the number of cameras depending on the distance and demographics
+
+```{r regression}
+linmod <- lm(n_cameras ~ shortest_path + majority + 0, data=data)
+
+summary(linmod)
+```

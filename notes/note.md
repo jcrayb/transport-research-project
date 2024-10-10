@@ -1,7 +1,22 @@
-OSMNX:
+# WHAT DOES EVERYTHING DO?
 
-experimented a little bit with osmnx. So, nodes have an int ID, and edges have 2 ints, corresponding to which node they connect.
+## ANALYSIS
 
-Using indexes on the city object, can fetch info on nodes using City[node_idx] and on an edge using City[node1_idx][node2_idx].
+- analysis.ipynb
+    - analyzes data
 
-So next step would be to find how to reverse this process, so we can assign which nodes have cameras and which don't based on GPS coordinates or address maybe? We could find a node based on which streets it connects to but that would mean looping through every node in the city.
+## SHORTEST PATH
+
+### PLACE OF INTEREST
+
+- c_poi_initial.py
+    - computes the **unrestricted** shortest path and # cameras encountered between each census tract and their points of interest
+- c_poi_budgets.py
+    - computes the **restricted** shortest path and # cameras encountered between each census tract and their points of interest
+
+### SINGLE POINT
+
+- c_single_budgets_deprecated.py **DEPRECATED**
+    - computes the **restricted** shortest path between each census tract and a certain point
+- c_single_budgets.py
+- c_single_initial.py

@@ -62,21 +62,6 @@ obj = np.array(weights)@f
 
 m.setObjective(obj, GRB.MINIMIZE)
 
-##MAX BUDGET DICT
-
-max_budgets = {0: [],
-    1: [0],
-    2: [0, 1],
-    3: [0, 1, 2],
-    4: [0, 1, 2, 3],
-    5: [0, 2, 3, 4],
-    6: [0, 2, 3, 5],
-    7: [0, 2, 4, 6],
-    8: [0, 2, 4, 6],
-    9: [0, 3, 5, 7],
-    10: [0, 3, 5, 8]
-}
-
 previous_results = json.load(open('./results.json', 'r'))
 path_lengths = json.load(open('./results_partial.json', 'r'))
 print(len(path_lengths))
@@ -87,9 +72,6 @@ print('Model generated, solving...')
 for i in tqdm.trange(len(centroids)):
     tract = list(centroids.keys())[i]
 
-    budgets = max_budgets[previous_results[tract]['n_banned_nodes']]
-
-    if not budgets: continue
     if tract in path_lengths: continue
     
     print(tract, f"# banned nodes: {previous_results[tract]['n_banned_nodes']}, og path length: {previous_results[tract]['length']}")
@@ -104,8 +86,6 @@ for i in tqdm.trange(len(centroids)):
 
     m.remove(m.getConstrs())
     m.addConstr(A@f==b)
-
-    
 
     for budget in list(np.flip([i for i in range(previous_results[tract]['n_banned_nodes'])])):
         m.addConstr(gp.quicksum(f[i] for i in banned_edges_idx) <= (budget)*2)
