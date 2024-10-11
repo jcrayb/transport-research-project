@@ -11,65 +11,12 @@ library(ggplot2)
 ## Including zero results
 
 ```{r data}
-data1 <- read.csv('./hospital-1-closest.csv')
+data <- read.csv('./CHI.csv')
 
 head(data)
 ```
 
 ```{r plot}
-ggplot(data1, aes(x = shortest_path, y=n_cameras, color=majority)) +  geom_point() + geom_smooth(method = "lm", se = FALSE)
-```
-
-Predicting the distance based on demographics
-
-```{r regression}
-linmod1 <- lm(shortest_path ~ majority, data=data1)
-
-summary(linmod1)
-```
-
-Predicting the number of cameras depending on the distance and demographics
-
-```{r regression}
-linmod <- lm(n_cameras ~ shortest_path + majority, data=data)
-
-summary(linmod)
-```
-
-## Only including paths that have cameras
-
-```{r data}
-data <- na.omit(read.csv('./hospital-1-closest-nonzero.csv'))
-
-head(data)
-```
-
-```{r plot}
-ggplot(data, aes(x = shortest_path, y=n_cameras, color=majority)) +  geom_point() + geom_smooth(method = "lm", se = FALSE)
-```
-
-```{r plot}
-ggplot(data, aes(x = shortest_path, y=shortest_restricted_path, color=majority)) +  geom_point() + geom_smooth(method = "lm", se = FALSE)
-```
-
-Predicting the distance based on demographics
-
-```{r regression}
-linmod <- lm(shortest_path ~ majority, data=data)
-
-summary(linmod)
-```
-Predicting the added distance based on demographics
-```{r regression}
-linmod <- lm(shortest_restricted_path ~ shortest_path + majority, data=data)
-
-summary(linmod)
-```
-
-Predicting the number of cameras depending on the distance and demographics
-
-```{r regression}
-linmod <- lm(n_cameras ~ shortest_path + majority, data=data)
-
-summary(linmod)
+ggplot(data, aes(x = seq_along(shortest_path), y = shortest_path, color = majority)) + geom_point() + stat_summary(fun = "mean", geom = "line", aes(group = majority), size = 1)  +
+  labs(x = "Row Number", y = "Shortest Path", title = "Scatterplot with Group Average Line")
 ```
