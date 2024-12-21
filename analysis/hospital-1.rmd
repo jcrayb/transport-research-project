@@ -11,12 +11,17 @@ library(ggplot2)
 ## Including zero results
 
 ```{r data}
-data <- read.csv('./CHI.csv')
+data <- read.csv('./hospital-3-closest.csv')
 
 head(data)
 ```
 
 ```{r plot}
-ggplot(data, aes(x = seq_along(shortest_path), y = shortest_path, color = majority)) + geom_point() + stat_summary(fun = "mean", geom = "line", aes(group = majority), size = 1)  +
-  labs(x = "Row Number", y = "Shortest Path", title = "Scatterplot with Group Average Line")
+ggplot(data, aes(x = seq_along(shortest_path), y = shortest_path, color = majority)) + geom_point() + 
+  labs(x = "Row Number", y = "Shortest Path", title = "Time to reach destination by demographic group")
+```
+
+```{r lmhosp}
+
+summary(lm(formula=absolute_increase ~ majority + shortest_path, data=data))
 ```
