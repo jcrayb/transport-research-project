@@ -1,4 +1,4 @@
-,race,distance,restricted_distance,rdiff,adiff,n_cameras
+,majority,shortest_path,shortest_restricted_path,relative_increase_pct,absolute_increase,n_cameras
 Census Tract 8424,black,1267.8999999999999,1339.4,5.639245997318419,71.50000000000023,4
 Census Tract 8403,white,693.3000000000001,734.2,5.899322082792438,40.89999999999998,2
 Census Tract 8411,white,860.9000000000001,872.8,1.382274364037619,11.899999999999864,1

@@ -8,7 +8,7 @@ date: "2024-10-10"
 library(ggplot2)
 ```
 
-## 1 closest
+## Union station
 
 ```{r data_chi}
 data <- read.csv('./hospital-1-closest.csv')
@@ -31,13 +31,17 @@ ggplot(data, aes(x = seq_along(shortest_path), y = shortest_path, color = majori
 
 ### Number of cameras on route by demographic group
 ```{r lm_chi}
-#linmod <- lm(data = data, n_cameras)
+linmod <- lm(data = data, n_cameras ~ majority + shortest_path)
+summary(linmod)
+
+linmod <- lm(data = data, absolute_increase ~ majority + shortest_path)
+summary(linmod)
 ```
 
-## 3 closest
+## Midway airport
 
 ```{r data}
-data <- read.csv('./hospital-3-closest.csv')
+data <- read.csv('./MDW.csv')
 
 head(data)
 ```
