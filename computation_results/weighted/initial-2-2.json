@@ -2,47 +2,47 @@
   "Census Tract 3902": {
     "Census Tract 8362": {
       "n_banned_nodes": 0,
-      "length": 269.3704983744178
+      "length": 269.3861628594797
     }
   },
   "Census Tract 1710": {
     "Census Tract 1701": {
       "n_banned_nodes": 0,
-      "length": 117.13165183349209
+      "length": 117.13942030657941
     }
   },
   "Census Tract 1801": {
     "Census Tract 1001": {
       "n_banned_nodes": 2,
-      "length": 686.2836687028207
+      "length": 686.4240298283411
     },
     "Census Tract 1407.02": {
       "n_banned_nodes": 6,
-      "length": 791.9066228306265
+      "length": 791.9497032016473
     },
     "Census Tract 8391": {
       "n_banned_nodes": 6,
-      "length": 1120.4603492355677
+      "length": 1120.516794892335
     }
   },
   "Census Tract 3903": {
     "Census Tract 813": {
       "n_banned_nodes": 0,
-      "length": 636.3845777182862
+      "length": 636.3934655884844
     }
   },
   "Census Tract 3907": {
     "Census Tract 1907.01": {
       "n_banned_nodes": 4,
-      "length": 1402.6508011642468
+      "length": 1402.7492914180625
     },
     "Census Tract 2801": {
       "n_banned_nodes": 0,
-      "length": 678.157297456605
+      "length": 678.2279180627511
     },
     "Census Tract 3302": {
       "n_banned_nodes": 0,
-      "length": 547.4105202309288
+      "length": 547.4965446556382
     },
     "Census Tract 3907": {},
     "Census Tract 4203": {},
@@ -59,11 +59,11 @@
   "Census Tract 4003": {
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 717.529598414209
+      "length": 717.5508410088329
     },
     "Census Tract 3404": {
       "n_banned_nodes": 0,
-      "length": 592.9110702570339
+      "length": 592.9265454467978
     },
     "Census Tract 4003": {},
     "Census Tract 818": {}
@@ -71,292 +71,292 @@
   "Census Tract 4005": {
     "Census Tract 2518": {
       "n_banned_nodes": 1,
-      "length": 1071.1857971072257
+      "length": 1071.2569756501816
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 690.9829949758935
+      "length": 691.0183287407003
     },
     "Census Tract 3514": {
       "n_banned_nodes": 0,
-      "length": 331.17369268684854
+      "length": 331.21925928705076
     },
     "Census Tract 8381": {
       "n_banned_nodes": 0,
-      "length": 687.8195003948017
+      "length": 687.8507001217816
     },
     "Census Tract 8418": {
       "n_banned_nodes": 1,
-      "length": 348.21041715236066
+      "length": 348.23813606684297
     }
   },
   "Census Tract 4008": {
     "Census Tract 2433": {
       "n_banned_nodes": 0,
-      "length": 877.1117683109758
+      "length": 877.1585158920217
     },
     "Census Tract 8307": {
       "n_banned_nodes": 1,
-      "length": 1348.5990471030623
+      "length": 1348.6663789417964
     },
     "Census Tract 8367": {
       "n_banned_nodes": 1,
-      "length": 991.12096221722
+      "length": 991.1540524828199
     }
   },
   "Census Tract 4101": {
     "Census Tract 2804": {
       "n_banned_nodes": 1,
-      "length": 877.3814665888474
+      "length": 877.4107759233351
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 663.8022490262738
+      "length": 663.8171419169604
     },
     "Census Tract 6809": {
       "n_banned_nodes": 0,
-      "length": 574.7436947740357
+      "length": 574.8243730636223
     },
     "Census Tract 8331": {
       "n_banned_nodes": 0,
-      "length": 763.2315689982805
+      "length": 763.2396133512356
     },
     "Census Tract 8362": {
       "n_banned_nodes": 0,
-      "length": 224.90097800801482
+      "length": 224.91595597548883
     },
     "Census Tract 8422": {
       "n_banned_nodes": 1,
-      "length": 941.9515387635265
+      "length": 941.9865308017991
     },
     "Census Tract 8429": {
       "n_banned_nodes": 0,
-      "length": 881.7563608136891
+      "length": 881.8344805865501
     }
   },
   "Census Tract 4403": {
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 847.245551918018
+      "length": 847.2525698165441
     },
     "Census Tract 4112": {
       "n_banned_nodes": 1,
-      "length": 553.1042733542713
+      "length": 553.1235811703699
     },
     "Census Tract 4205": {
       "n_banned_nodes": 1,
-      "length": 388.1247005792717
+      "length": 388.1688932781036
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 827.685609144158
+      "length": 827.6919664384761
     }
   },
   "Census Tract 4308": {
     "Census Tract 4314": {
       "n_banned_nodes": 0,
-      "length": 354.06026211099334
+      "length": 354.1671003492092
     },
     "Census Tract 6812": {
       "n_banned_nodes": 1,
-      "length": 548.8477830955969
+      "length": 548.8830761859194
     },
     "Census Tract 6911": {
       "n_banned_nodes": 1,
-      "length": 479.74115505259186
+      "length": 479.7898355655607
     },
     "Census Tract 8318": {
       "n_banned_nodes": 3,
-      "length": 1805.3590447082133
+      "length": 1805.4863523072604
     },
     "Census Tract 8381": {
       "n_banned_nodes": 0,
-      "length": 1074.2552014056423
+      "length": 1074.3054837310783
     }
   },
   "Census Tract 2001": {
     "Census Tract 1913.02": {
       "n_banned_nodes": 3,
-      "length": 368.37937417903913
+      "length": 368.4282527750042
     },
     "Census Tract 2414": {
       "n_banned_nodes": 1,
-      "length": 572.5343035231105
+      "length": 572.612192355897
     },
     "Census Tract 2415": {
       "n_banned_nodes": 1,
-      "length": 507.4792687323446
+      "length": 507.55085076306125
     },
     "Census Tract 3204": {
       "n_banned_nodes": 2,
-      "length": 842.8770830605654
+      "length": 842.9521312581822
     },
     "Census Tract 3301": {
       "n_banned_nodes": 1,
-      "length": 957.8544127268228
+      "length": 957.915533504834
     },
     "Census Tract 8378": {
       "n_banned_nodes": 4,
-      "length": 730.1232507944552
+      "length": 730.2271372265085
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 730.8127280586708
+      "length": 730.8773431151578
     },
     "Census Tract 9800": {}
   },
   "Census Tract 4102": {
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 658.5014596823628
+      "length": 658.5350228798778
     },
     "Census Tract 4203": {
       "n_banned_nodes": 0,
-      "length": 287.8430308710498
+      "length": 287.8910080183367
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 713.0524031525509
+      "length": 713.0917696897368
     }
   },
   "Census Tract 6806": {
     "Census Tract 3107": {
       "n_banned_nodes": 0,
-      "length": 757.7543572194479
+      "length": 757.843941473034
     },
     "Census Tract 3510": {
       "n_banned_nodes": 1,
-      "length": 698.5891781712824
+      "length": 698.6643774200674
     },
     "Census Tract 6114": {
       "n_banned_nodes": 0,
-      "length": 358.9356924081454
+      "length": 358.99811087813566
     },
     "Census Tract 8347": {
       "n_banned_nodes": 0,
-      "length": 131.47913431169408
+      "length": 131.51446038524992
     },
     "Census Tract 8348": {
       "n_banned_nodes": 0,
-      "length": 67.64970815305713
+      "length": 67.69613493551059
     },
     "Census Tract 8413": {
       "n_banned_nodes": 1,
-      "length": 799.0026481904345
+      "length": 799.0960923882226
     }
   },
   "Census Tract 4303": {
     "Census Tract 814.01": {
       "n_banned_nodes": 0,
-      "length": 972.5122248695868
+      "length": 972.5401775105809
     }
   },
   "Census Tract 4307": {
     "Census Tract 1403.02": {
       "n_banned_nodes": 2,
-      "length": 1644.0820748916888
+      "length": 1644.1416417031667
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 917.4136318932204
+      "length": 917.427988339948
     },
     "Census Tract 6303": {
       "n_banned_nodes": 4,
-      "length": 1222.205382020561
+      "length": 1222.3762802050694
     },
     "Census Tract 8381": {
       "n_banned_nodes": 0,
-      "length": 1063.8108526339868
+      "length": 1063.8210750428877
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 971.9645753634086
+      "length": 971.984735149807
     }
   },
   "Census Tract 4309": {
     "Census Tract 3204": {
       "n_banned_nodes": 0,
-      "length": 849.6804690770338
+      "length": 849.7242764691504
     },
     "Census Tract 6905": {
       "n_banned_nodes": 1,
-      "length": 286.31964310568276
+      "length": 286.37343851067305
     },
     "Census Tract 812.01": {
       "n_banned_nodes": 0,
-      "length": 1059.0380879409538
+      "length": 1059.0887601916345
     }
   },
   "Census Tract 4312": {
     "Census Tract 317": {
       "n_banned_nodes": 0,
-      "length": 1622.043655876721
+      "length": 1622.0870544845964
     },
     "Census Tract 814.03": {
       "n_banned_nodes": 0,
-      "length": 1051.1571643803152
+      "length": 1051.2019825273633
     },
     "Census Tract 8373": {
       "n_banned_nodes": 0,
-      "length": 1289.1272188772682
+      "length": 1289.1749128705474
     },
     "Census Tract 8419": {
       "n_banned_nodes": 0,
-      "length": 980.2766004488069
+      "length": 980.322582050357
     }
   },
   "Census Tract 4314": {
     "Census Tract 319": {
       "n_banned_nodes": 1,
-      "length": 1837.6330705293306
+      "length": 1837.732728477394
     },
     "Census Tract 4313.01": {
       "n_banned_nodes": 0,
-      "length": 236.6432521422521
+      "length": 236.76205052137652
     },
     "Census Tract 4603.02": {
       "n_banned_nodes": 0,
-      "length": 267.7372121065528
+      "length": 267.8680879369658
     },
     "Census Tract 7108": {
       "n_banned_nodes": 2,
-      "length": 864.3228775448342
+      "length": 864.5108247068874
     },
     "Census Tract 8342": {
       "n_banned_nodes": 0,
-      "length": 418.5230671577151
+      "length": 418.65873281069395
     },
     "Census Tract 8362": {
       "n_banned_nodes": 0,
-      "length": 733.6220050273762
+      "length": 733.7116786112747
     },
     "Census Tract 8381": {
       "n_banned_nodes": 0,
-      "length": 1312.4294350334903
+      "length": 1312.5082243355776
     },
     "Census Tract 8382": {
       "n_banned_nodes": 0,
-      "length": 1330.7456021220837
+      "length": 1330.8279308419549
     },
     "Census Tract 8422": {
       "n_banned_nodes": 1,
-      "length": 1444.1815040299768
+      "length": 1444.284526517477
     }
   },
   "Census Tract 2308": {
     "Census Tract 2307": {
       "n_banned_nodes": 0,
-      "length": 100.63439435426747
+      "length": 100.68129619342903
     },
     "Census Tract 311": {
       "n_banned_nodes": 6,
-      "length": 939.580434389879
+      "length": 939.6873313411606
     }
   },
   "Census Tract 2311": {
     "Census Tract 814.01": {
       "n_banned_nodes": 2,
-      "length": 666.6173506477768
+      "length": 666.6728278814053
     }
   },
   "Census Tract 2101": {
@@ -368,53 +368,53 @@
   "Census Tract 4202": {
     "Census Tract 3907": {
       "n_banned_nodes": 0,
-      "length": 273.09906970764996
+      "length": 273.14374989646615
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 828.9941500998897
+      "length": 829.0310537297505
     }
   },
   "Census Tract 4203": {
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 821.4957674302375
+      "length": 821.5209225811185
     },
     "Census Tract 3206": {
       "n_banned_nodes": 0,
-      "length": 715.5235094638954
+      "length": 715.5418160770448
     },
     "Census Tract 3301": {
       "n_banned_nodes": 0,
-      "length": 629.3916626624907
+      "length": 629.4099692756402
     },
     "Census Tract 4112": {
       "n_banned_nodes": 0,
-      "length": 114.95022883078536
+      "length": 114.96069850505984
     },
     "Census Tract 8362": {
       "n_banned_nodes": 0,
-      "length": 137.4708458618024
+      "length": 137.5491586282429
     }
   },
   "Census Tract 4406": {
     "Census Tract 2518": {
       "n_banned_nodes": 1,
-      "length": 1305.3154134298393
+      "length": 1305.3931981792086
     },
     "Census Tract 4401.01": {
       "n_banned_nodes": 0,
-      "length": 295.7609692197841
+      "length": 295.84124721829824
     }
   },
   "Census Tract 4408": {
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 1049.4955415998875
+      "length": 1049.5388014483171
     },
     "Census Tract 4207": {
       "n_banned_nodes": 1,
-      "length": 474.9290282434859
+      "length": 475.048759018058
     },
     "Census Tract 4408": {},
     "Census Tract 4701": {}
@@ -422,149 +422,149 @@
   "Census Tract 4409": {
     "Census Tract 8339": {
       "n_banned_nodes": 0,
-      "length": 547.2723337751191
+      "length": 547.3382987881056
     },
     "Census Tract 8381": {
       "n_banned_nodes": 0,
-      "length": 1021.8730596113445
+      "length": 1021.8879885562031
     }
   },
   "Census Tract 4503": {
     "Census Tract 3906": {
       "n_banned_nodes": 0,
-      "length": 675.1955699170887
+      "length": 675.2775020920063
     }
   },
   "Census Tract 6720": {
     "Census Tract 2801": {
       "n_banned_nodes": 1,
-      "length": 1046.465906554455
+      "length": 1046.536585342886
     },
     "Census Tract 4409": {
       "n_banned_nodes": 1,
-      "length": 702.6209035337196
+      "length": 702.7064731627888
     }
   },
   "Census Tract 6809": {
     "Census Tract 4204": {
       "n_banned_nodes": 1,
-      "length": 336.46550518335687
+      "length": 336.53938428566863
     },
     "Census Tract 5302": {
       "n_banned_nodes": 0,
-      "length": 779.1966581810664
+      "length": 779.272153423395
     },
     "Census Tract 8348": {
       "n_banned_nodes": 0,
-      "length": 129.23837760913165
+      "length": 129.28047130108735
     },
     "Census Tract 8395": {
       "n_banned_nodes": 0,
-      "length": 509.04155626850695
+      "length": 509.1056434259854
     },
     "Census Tract 8424": {
       "n_banned_nodes": 0,
-      "length": 318.7636106716801
+      "length": 318.833261935287
     }
   },
   "Census Tract 6810": {
     "Census Tract 3204": {
       "n_banned_nodes": 0,
-      "length": 781.2645513076145
+      "length": 781.3116133797356
     },
     "Census Tract 8348": {
       "n_banned_nodes": 0,
-      "length": 113.19333748191923
+      "length": 113.23323082420512
     }
   },
   "Census Tract 2402": {
     "Census Tract 1608": {
       "n_banned_nodes": 1,
-      "length": 371.32093679383627
+      "length": 371.3428173295875
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 405.571172819989
+      "length": 405.59309384060185
     }
   },
   "Census Tract 2403": {
     "Census Tract 2415": {
       "n_banned_nodes": 0,
-      "length": 81.01887293707189
+      "length": 81.05414243131756
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 435.1738765969942
+      "length": 435.1957811163127
     },
     "Census Tract 818": {
       "n_banned_nodes": 0,
-      "length": 263.2422670388912
+      "length": 263.25847118910775
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 363.10447647992487
+      "length": 363.1327789999411
     },
     "Census Tract 8437": {
       "n_banned_nodes": 3,
-      "length": 341.00458169802255
+      "length": 341.04833551651427
     }
   },
   "Census Tract 2002": {
     "Census Tract 209.02": {
       "n_banned_nodes": 7,
-      "length": 978.3142161523676
+      "length": 978.3754872153612
     },
     "Census Tract 8367": {
       "n_banned_nodes": 3,
-      "length": 507.1567108970002
+      "length": 507.21011789746484
     }
   },
   "Census Tract 4105": {
     "Census Tract 2505": {
       "n_banned_nodes": 2,
-      "length": 1694.6035358906313
+      "length": 1694.7080143703108
     },
     "Census Tract 3204": {
       "n_banned_nodes": 0,
-      "length": 632.685982820027
+      "length": 632.7203351896861
     },
     "Census Tract 7305": {
       "n_banned_nodes": 1,
-      "length": 739.7224415830077
+      "length": 739.7976000942414
     },
     "Census Tract 817": {
       "n_banned_nodes": 0,
-      "length": 848.6574525041879
+      "length": 848.7062998205433
     },
     "Census Tract 8333": {
       "n_banned_nodes": 0,
-      "length": 763.4914666001287
+      "length": 763.5726654975734
     },
     "Census Tract 8362": {
       "n_banned_nodes": 0,
-      "length": 106.27028338136844
+      "length": 106.34321477253793
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 759.6331686543164
+      "length": 759.6799657533219
     }
   },
   "Census Tract 4106": {
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 743.4655501229461
+      "length": 743.5046838820674
     }
   },
   "Census Tract 1702": {
     "Census Tract 319": {
       "n_banned_nodes": 7,
-      "length": 824.2445315326952
+      "length": 824.3067288984979
     }
   },
   "Census Tract 1703": {
     "Census Tract 1701": {
       "n_banned_nodes": 0,
-      "length": 56.644279730528496
+      "length": 56.65208680385119
     },
     "Census Tract 1703": {},
     "Census Tract 8419": {},
@@ -573,119 +573,119 @@
   "Census Tract 3818": {
     "Census Tract 8419": {
       "n_banned_nodes": 0,
-      "length": 491.15305629372557
+      "length": 491.16248048561187
     }
   },
   "Census Tract 3514": {
     "Census Tract 8362": {
       "n_banned_nodes": 0,
-      "length": 469.9012287696012
+      "length": 469.9559416256046
     }
   },
   "Census Tract 3812": {
     "Census Tract 4313.02": {
       "n_banned_nodes": 0,
-      "length": 656.3908850576945
+      "length": 656.4265365885321
     },
     "Census Tract 6505": {
       "n_banned_nodes": 2,
-      "length": 1285.838919443838
+      "length": 1286.058619813146
     },
     "Census Tract 9800": {}
   },
   "Census Tract 3814": {
     "Census Tract 8331": {
       "n_banned_nodes": 0,
-      "length": 568.3496590630243
+      "length": 568.3565002612356
     },
     "Census Tract 8419": {
       "n_banned_nodes": 0,
-      "length": 455.92816497911815
+      "length": 455.9375891710044
     }
   },
   "Census Tract 3901": {
     "Census Tract 814.03": {
       "n_banned_nodes": 0,
-      "length": 534.148200403106
+      "length": 534.1496199422791
     }
   },
   "Census Tract 4304": {
     "Census Tract 3906": {
       "n_banned_nodes": 0,
-      "length": 504.33286778350396
+      "length": 504.4373786379416
     },
     "Census Tract 817": {
       "n_banned_nodes": 1,
-      "length": 1051.3736212338385
+      "length": 1056.6838044777269
     },
     "Census Tract 8381": {
       "n_banned_nodes": 1,
-      "length": 1006.6122083440216
+      "length": 1011.9214965779738
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 990.2157601512533
+      "length": 995.5285218188247
     },
     "Census Tract 8419": {
       "n_banned_nodes": 1,
-      "length": 847.222813491356
+      "length": 852.5319702190786
     }
   },
   "Census Tract 4305": {
     "Census Tract 3204": {
       "n_banned_nodes": 0,
-      "length": 811.5639915995141
+      "length": 811.5927881516164
     },
     "Census Tract 4402.01": {
       "n_banned_nodes": 2,
-      "length": 366.7699905338496
+      "length": 366.85749179872096
     }
   },
   "Census Tract 4306": {
     "Census Tract 3204": {
       "n_banned_nodes": 0,
-      "length": 822.384220018301
+      "length": 822.4281221057109
     },
     "Census Tract 5001": {
       "n_banned_nodes": 2,
-      "length": 596.1875060999374
+      "length": 596.2875422669981
     }
   },
   "Census Tract 2307": {
     "Census Tract 2204": {
       "n_banned_nodes": 2,
-      "length": 327.54476329671263
+      "length": 327.55812864851066
     },
     "Census Tract 2414": {
       "n_banned_nodes": 1,
-      "length": 370.24349113668853
+      "length": 370.29766583543557
     },
     "Census Tract 610": {
       "n_banned_nodes": 5,
-      "length": 810.6535300256759
+      "length": 810.6873808911977
     },
     "Census Tract 7608.03": {
       "n_banned_nodes": 5,
-      "length": 1070.9820937343625
+      "length": 1071.095831736048
     },
     "Census Tract 811": {
       "n_banned_nodes": 2,
-      "length": 675.8643109818888
+      "length": 675.8882915824331
     },
     "Census Tract 8391": {
       "n_banned_nodes": 2,
-      "length": 657.426872672159
+      "length": 657.4394284052609
     },
     "Census Tract 9800": {}
   },
   "Census Tract 2309": {
     "Census Tract 2204": {
       "n_banned_nodes": 0,
-      "length": 255.17541148085581
+      "length": 255.19336194559276
     },
     "Census Tract 2308": {
       "n_banned_nodes": 0,
-      "length": 94.41712312309842
+      "length": 94.46395192475339
     },
     "Census Tract 2309": {},
     "Census Tract 2801": {},
@@ -702,57 +702,57 @@
   "Census Tract 1707": {
     "Census Tract 3204": {
       "n_banned_nodes": 7,
-      "length": 1385.0311765070562
+      "length": 1385.0877818014053
     }
   },
   "Census Tract 1708": {
     "Census Tract 2602": {
       "n_banned_nodes": 3,
-      "length": 996.0266916390303
+      "length": 996.1526485402514
     },
     "Census Tract 8318": {
       "n_banned_nodes": 7,
-      "length": 979.2144895632553
+      "length": 979.308923201763
     }
   },
   "Census Tract 2422": {
     "Census Tract 2421": {
       "n_banned_nodes": 0,
-      "length": 45.06991247152885
+      "length": 45.06991247152886
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 426.34825345877607
+      "length": 426.354576465456
     },
     "Census Tract 817": {
       "n_banned_nodes": 0,
-      "length": 279.2783500149571
+      "length": 279.28212479907415
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 354.27885334170674
+      "length": 354.29157434908444
     },
     "Census Tract 8422": {
       "n_banned_nodes": 2,
-      "length": 268.61056372197027
+      "length": 268.66826711426364
     }
   },
   "Census Tract 2104": {
     "Census Tract 1701": {
       "n_banned_nodes": 4,
-      "length": 569.3124022117731
+      "length": 569.3907491198396
     },
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 757.8596909243117
+      "length": 757.9059928912435
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 685.7902908072424
+      "length": 685.8429907748719
     },
     "Census Tract 8422": {
       "n_banned_nodes": 1,
-      "length": 538.3718464745688
+      "length": 538.4164797238546
     }
   },
   "Census Tract 2203": {
@@ -762,123 +762,123 @@
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 548.059682134806
+      "length": 548.0699470009588
     },
     "Census Tract 604": {
       "n_banned_nodes": 1,
-      "length": 391.43473577589975
+      "length": 391.47400278152224
     },
     "Census Tract 818": {
       "n_banned_nodes": 0,
-      "length": 376.12807257670306
+      "length": 376.1326370737541
     },
     "Census Tract 8307": {
       "n_banned_nodes": 2,
-      "length": 534.1740313814632
+      "length": 534.2175802990638
     },
     "Census Tract 8309": {
       "n_banned_nodes": 0,
-      "length": 83.59250626043254
+      "length": 83.60381262392525
     },
     "Census Tract 8312": {
       "n_banned_nodes": 2,
-      "length": 404.48055478293657
+      "length": 404.5319421784304
     },
     "Census Tract 8362": {
       "n_banned_nodes": 1,
-      "length": 1066.7747257999852
+      "length": 1066.7990118072541
     },
     "Census Tract 8382": {
       "n_banned_nodes": 0,
-      "length": 543.5260013446039
+      "length": 543.5748782572255
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 475.9902820177367
+      "length": 476.00694488458726
     }
   },
   "Census Tract 2107": {
     "Census Tract 2801": {
       "n_banned_nodes": 0,
-      "length": 432.3344052393976
+      "length": 432.348150458687
     },
     "Census Tract 3204": {
       "n_banned_nodes": 1,
-      "length": 613.6029600426947
+      "length": 613.6338725567645
     },
     "Census Tract 702": {
       "n_banned_nodes": 3,
-      "length": 431.7033707722213
+      "length": 431.76063156990966
     },
     "Census Tract 814.02": {
       "n_banned_nodes": 1,
-      "length": 597.3768858614028
+      "length": 597.4047670463274
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 501.5386050408
+      "length": 501.5590844137401
     }
   },
   "Census Tract 2109": {
     "Census Tract 308": {
       "n_banned_nodes": 2,
-      "length": 623.6574817419056
+      "length": 623.770569246728
     },
     "Census Tract 511": {
       "n_banned_nodes": 0,
-      "length": 171.971316834515
+      "length": 172.00809472632002
     },
     "Census Tract 8390": {
       "n_banned_nodes": 0,
-      "length": 569.2463117417255
+      "length": 569.2733827334115
     }
   },
   "Census Tract 4204": {
     "Census Tract 8362": {
       "n_banned_nodes": 0,
-      "length": 122.11714571182097
+      "length": 122.19288973432774
     },
     "Census Tract 8435": {
       "n_banned_nodes": 0,
-      "length": 942.7580913605689
+      "length": 942.8077756285674
     }
   },
   "Census Tract 4205": {
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 826.193447469292
+      "length": 826.2327672774578
     }
   },
   "Census Tract 6913": {
     "Census Tract 1701": {
       "n_banned_nodes": 6,
-      "length": 1588.361177318499
+      "length": 1588.390345447538
     },
     "Census Tract 2801": {
       "n_banned_nodes": 1,
-      "length": 755.4939909768743
+      "length": 755.5244520432282
     }
   },
   "Census Tract 317": {
     "Census Tract 104": {
       "n_banned_nodes": 2,
-      "length": 460.5576761239618
+      "length": 460.61218326345465
     },
     "Census Tract 106": {
       "n_banned_nodes": 1,
-      "length": 446.5759217437431
+      "length": 446.62266973379343
     },
     "Census Tract 1201": {
       "n_banned_nodes": 1,
-      "length": 893.611206885929
+      "length": 893.6314326407046
     },
     "Census Tract 2819": {
       "n_banned_nodes": 1,
-      "length": 772.3134588710022
+      "length": 772.3678414819079
     },
     "Census Tract 307.06": {
       "n_banned_nodes": 1,
-      "length": 243.60672795807463
+      "length": 243.6146613713057
     },
     "Census Tract 317": {},
     "Census Tract 3201": {},
@@ -898,23 +898,23 @@
   "Census Tract 4701": {
     "Census Tract 3102": {
       "n_banned_nodes": 0,
-      "length": 908.9816951128038
+      "length": 909.0759678311586
     },
     "Census Tract 3204": {
       "n_banned_nodes": 0,
-      "length": 1074.897686404997
+      "length": 1074.9919726292867
     },
     "Census Tract 3301": {
       "n_banned_nodes": 0,
-      "length": 955.1898240013517
+      "length": 955.2839030775849
     },
     "Census Tract 3902": {
       "n_banned_nodes": 1,
-      "length": 927.8078014312475
+      "length": 928.0011780028207
     },
     "Census Tract 4004": {
       "n_banned_nodes": 0,
-      "length": 690.2587354503623
+      "length": 690.373601820006
     },
     "Census Tract 4701": {},
     "Census Tract 4804": {},
@@ -927,83 +927,83 @@
   "Census Tract 4801": {
     "Census Tract 2819": {
       "n_banned_nodes": 0,
-      "length": 1131.5010011501342
+      "length": 1131.5567828209196
     },
     "Census Tract 8362": {
       "n_banned_nodes": 0,
-      "length": 630.3625581201622
+      "length": 630.4043387383185
     },
     "Census Tract 8421": {
       "n_banned_nodes": 3,
-      "length": 1581.8438026273989
+      "length": 1581.89913742217
     },
     "Census Tract 8422": {
       "n_banned_nodes": 1,
-      "length": 1321.5511732513203
+      "length": 1321.6194313658186
     }
   },
   "Census Tract 6910": {
     "Census Tract 317": {
       "n_banned_nodes": 1,
-      "length": 1407.9668328477655
+      "length": 1408.0210308021844
     },
     "Census Tract 4802": {
       "n_banned_nodes": 1,
-      "length": 440.5278763940398
+      "length": 440.5680337891844
     }
   },
   "Census Tract 2423": {
     "Census Tract 2819": {
       "n_banned_nodes": 0,
-      "length": 353.07818929226266
+      "length": 353.08271260228094
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 471.5099042057173
+      "length": 471.5162272123972
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 0,
-      "length": 429.40231031558346
+      "length": 429.41842857595526
     },
     "Census Tract 814.03": {
       "n_banned_nodes": 1,
-      "length": 495.2787849092508
+      "length": 495.2989077286131
     },
     "Census Tract 815": {
       "n_banned_nodes": 0,
-      "length": 363.53680416086905
+      "length": 363.5451766950399
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 399.44050408864797
+      "length": 399.4532250960256
     },
     "Census Tract 8419": {
       "n_banned_nodes": 0,
-      "length": 413.3834115736423
+      "length": 413.3871104404012
     }
   },
   "Census Tract 4111": {
     "Census Tract 4110": {
       "n_banned_nodes": 0,
-      "length": 110.11346593992225
+      "length": 110.12950673378626
     },
     "Census Tract 4204": {
       "n_banned_nodes": 0,
-      "length": 170.94162538233263
+      "length": 170.98771512562865
     },
     "Census Tract 8362": {
       "n_banned_nodes": 0,
-      "length": 103.06583012600436
+      "length": 103.08187091986836
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 759.9194855364042
+      "length": 759.9481782076706
     }
   },
   "Census Tract 4604": {
     "Census Tract 2519": {
       "n_banned_nodes": 2,
-      "length": 1626.0240342014613
+      "length": 1626.091231761718
     }
   },
   "Census Tract 6812": {
@@ -1012,479 +1012,479 @@
   "Census Tract 2414": {
     "Census Tract 2435": {
       "n_banned_nodes": 1,
-      "length": 250.77917993659406
+      "length": 250.8305670311263
     },
     "Census Tract 2801": {
       "n_banned_nodes": 1,
-      "length": 300.62837411162474
+      "length": 300.6721922027063
     },
     "Census Tract 2819": {
       "n_banned_nodes": 1,
-      "length": 323.47025911664184
+      "length": 323.51261366401474
     },
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 441.9019740300964
+      "length": 441.94612827413096
     },
     "Census Tract 3204": {
       "n_banned_nodes": 2,
-      "length": 481.8969289149218
+      "length": 481.957914300784
     },
     "Census Tract 7608.01": {},
     "Census Tract 814.01": {
       "n_banned_nodes": 1,
-      "length": 399.79438013996264
+      "length": 399.848329637689
     },
     "Census Tract 8318": {
       "n_banned_nodes": 3,
-      "length": 795.82898958901
+      "length": 795.9345588719259
     },
     "Census Tract 8330": {
       "n_banned_nodes": 1,
-      "length": 292.427492402412
+      "length": 292.5468643541978
     },
     "Census Tract 8362": {
       "n_banned_nodes": 2,
-      "length": 960.6170176952755
+      "length": 960.6751930804265
     },
     "Census Tract 8382": {
       "n_banned_nodes": 1,
-      "length": 344.06501220765165
+      "length": 344.1274713529419
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 369.8325739130271
+      "length": 369.8831261577594
     },
     "Census Tract 8422": {
       "n_banned_nodes": 0,
-      "length": 251.94158908368155
+      "length": 251.97190760784025
     }
   },
   "Census Tract 2415": {
     "Census Tract 2204": {
       "n_banned_nodes": 1,
-      "length": 282.2227537476951
+      "length": 282.2448115746443
     },
     "Census Tract 2413": {
       "n_banned_nodes": 0,
-      "length": 136.9634834469515
+      "length": 137.0398170596977
     },
     "Census Tract 4602": {
       "n_banned_nodes": 0,
-      "length": 1365.0609421779307
+      "length": 1365.100114366263
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 0,
-      "length": 368.9415292197769
+      "length": 368.97700491320336
     },
     "Census Tract 814.03": {
       "n_banned_nodes": 1,
-      "length": 434.8180038134442
+      "length": 434.8574840658611
     },
     "Census Tract 815": {
       "n_banned_nodes": 0,
-      "length": 303.0760230650625
+      "length": 303.10375303228795
     },
     "Census Tract 8330": {
       "n_banned_nodes": 0,
-      "length": 261.5746414822263
+      "length": 261.6755396297121
     },
     "Census Tract 8367": {
       "n_banned_nodes": 1,
-      "length": 383.83137792242565
+      "length": 383.92344619601454
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 338.9797229928414
+      "length": 339.01180143327366
     }
   },
   "Census Tract 2416": {
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 390.1362995538109
+      "length": 390.18349785041335
     },
     "Census Tract 8382": {
       "n_banned_nodes": 0,
-      "length": 373.40206717756155
+      "length": 373.46028905618084
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 318.06689943674155
+      "length": 318.1204957340418
     }
   },
   "Census Tract 2420": {
     "Census Tract 2415": {
       "n_banned_nodes": 1,
-      "length": 124.2075163432001
+      "length": 124.23283094191969
     },
     "Census Tract 2819": {
       "n_banned_nodes": 0,
-      "length": 217.51496299173027
+      "length": 217.5194863017484
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 335.9466779051849
+      "length": 335.9530009118647
     },
     "Census Tract 8331": {
       "n_banned_nodes": 0,
-      "length": 250.59921876634363
+      "length": 250.60014588066284
     },
     "Census Tract 8380": {
       "n_banned_nodes": 0,
-      "length": 310.7501186350611
+      "length": 310.77454447606243
     },
     "Census Tract 8382": {
       "n_banned_nodes": 0,
-      "length": 306.7536604889612
+      "length": 306.78797617470286
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 263.8772777881155
+      "length": 263.88999879549317
     },
     "Census Tract 9800": {}
   },
   "Census Tract 2433": {
     "Census Tract 2422": {
       "n_banned_nodes": 0,
-      "length": 164.3733804462276
+      "length": 164.40165569862216
     },
     "Census Tract 4110": {
       "n_banned_nodes": 0,
-      "length": 869.8680041965049
+      "length": 868.9685798823757
     },
     "Census Tract 818": {
       "n_banned_nodes": 0,
-      "length": 213.98079003540363
+      "length": 214.01273201650005
     },
     "Census Tract 8381": {
       "n_banned_nodes": 0,
-      "length": 179.2958364231591
+      "length": 179.33389987801664
     },
     "Census Tract 8382": {
       "n_banned_nodes": 0,
-      "length": 248.99490335608226
+      "length": 249.04421117093938
     },
     "Census Tract 8390": {
       "n_banned_nodes": 0,
-      "length": 380.1176113122565
+      "length": 380.16013462369074
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 311.22844099030925
+      "length": 311.2676310863602
     },
     "Census Tract 8437": {
       "n_banned_nodes": 1,
-      "length": 470.48386042904497
+      "length": 470.52630618591724
     }
   },
   "Census Tract 4803": {
     "Census Tract 2801": {
       "n_banned_nodes": 0,
-      "length": 1116.1131565916367
+      "length": 1116.214440733883
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 1186.7477302621323
+      "length": 1186.8537903346694
     },
     "Census Tract 3907": {
       "n_banned_nodes": 0,
-      "length": 690.4698829344586
+      "length": 690.5251799008544
     },
     "Census Tract 6505": {
       "n_banned_nodes": 4,
-      "length": 1297.5313654281108
+      "length": 1297.8278939810612
     }
   },
   "Census Tract 7108": {
     "Census Tract 321": {
       "n_banned_nodes": 2,
-      "length": 1508.396576349151
+      "length": 1508.4525404907433
     },
     "Census Tract 7102": {
       "n_banned_nodes": 0,
-      "length": 130.64533441338048
+      "length": 130.72563000094826
     },
     "Census Tract 7107": {
       "n_banned_nodes": 0,
-      "length": 79.52454639849401
+      "length": 79.57912266964362
     },
     "Census Tract 9800": {}
   },
   "Census Tract 7113": {
     "Census Tract 5001": {
       "n_banned_nodes": 2,
-      "length": 673.6597971428969
+      "length": 673.781417209493
     }
   },
   "Census Tract 102.02": {
     "Census Tract 2106.01": {
       "n_banned_nodes": 7,
-      "length": 1013.2760314353345
+      "length": 1013.3777282511015
     },
     "Census Tract 2819": {
       "n_banned_nodes": 1,
-      "length": 1222.3637621472271
+      "length": 1221.5003725594781
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 1092.9722251900698
+      "length": 1092.0891108328321
     },
     "Census Tract 3204": {
       "n_banned_nodes": 0,
-      "length": 1085.3075369394505
+      "length": 1084.4078068981103
     },
     "Census Tract 501": {
       "n_banned_nodes": 1,
-      "length": 621.7878797186029
+      "length": 621.9079381052283
     },
     "Census Tract 5702": {
       "n_banned_nodes": 2,
-      "length": 1804.4169343465455
+      "length": 1804.618797426121
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 0,
-      "length": 997.6511918140245
+      "length": 996.7613762235725
     },
     "Census Tract 8382": {
       "n_banned_nodes": 2,
-      "length": 1338.5581669220205
+      "length": 1338.7323479456604
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 1142.0747576190524
+      "length": 1141.201926114247
     }
   },
   "Census Tract 4804": {
     "Census Tract 7203": {
       "n_banned_nodes": 1,
-      "length": 627.2241563520024
+      "length": 636.6312036473659
     },
     "Census Tract 8418": {
       "n_banned_nodes": 0,
-      "length": 431.8935546796174
+      "length": 431.9667033212807
     },
     "Census Tract 8422": {
       "n_banned_nodes": 1,
-      "length": 1349.534184493506
+      "length": 1349.581267828024
     }
   },
   "Census Tract 4805": {
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 1071.7157817584923
+      "length": 1071.7426741245124
     },
     "Census Tract 4309": {
       "n_banned_nodes": 0,
-      "length": 369.4620824727097
+      "length": 369.51632607698986
     },
     "Census Tract 5203": {
       "n_banned_nodes": 0,
-      "length": 400.36415693923914
+      "length": 400.4315410301661
     },
     "Census Tract 6720": {
       "n_banned_nodes": 1,
-      "length": 810.6905280262727
+      "length": 810.7902922674422
     },
     "Census Tract 8382": {
       "n_banned_nodes": 0,
-      "length": 1086.8684542659937
+      "length": 1086.8947520119702
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 1052.1558389846323
+      "length": 1052.1820707464444
     },
     "Census Tract 8422": {
       "n_banned_nodes": 1,
-      "length": 1200.3043561738868
+      "length": 1200.3513476874925
     }
   },
   "Census Tract 2412": {
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 517.261858439071
+      "length": 517.2995194801454
     },
     "Census Tract 818": {
       "n_banned_nodes": 0,
-      "length": 345.33024888096793
+      "length": 345.3622095529405
     },
     "Census Tract 8312": {
       "n_banned_nodes": 3,
-      "length": 398.7540594636482
+      "length": 398.8207099359107
     },
     "Census Tract 8357": {
       "n_banned_nodes": 0,
-      "length": 783.8914621055051
+      "length": 783.952919386978
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 445.1924583220016
+      "length": 445.23651736377394
     }
   },
   "Census Tract 6911": {
     "Census Tract 3301": {
       "n_banned_nodes": 0,
-      "length": 621.4522666554456
+      "length": 621.4592729788056
     },
     "Census Tract 5001": {
       "n_banned_nodes": 0,
-      "length": 529.7548548408608
+      "length": 529.8463557143548
     },
     "Census Tract 6912": {
       "n_banned_nodes": 0,
-      "length": 70.80216760819744
+      "length": 70.81049388148894
     }
   },
   "Census Tract 6912": {
     "Census Tract 8419": {
       "n_banned_nodes": 1,
-      "length": 670.6701797816062
+      "length": 670.6774032806951
     }
   },
   "Census Tract 6914": {
     "Census Tract 3204": {
       "n_banned_nodes": 1,
-      "length": 814.5905505527876
+      "length": 814.5929583906885
     },
     "Census Tract 8382": {
       "n_banned_nodes": 1,
-      "length": 902.1394654243902
+      "length": 902.1479200319234
     },
     "Census Tract 8399": {
       "n_banned_nodes": 1,
-      "length": 651.3733646217456
+      "length": 651.4143220707404
     }
   },
   "Census Tract 512": {
     "Census Tract 3201": {
       "n_banned_nodes": 3,
-      "length": 651.3280678835092
+      "length": 651.4235334982806
     },
     "Census Tract 502": {
       "n_banned_nodes": 0,
-      "length": 208.63882498422117
+      "length": 208.68212173194902
     },
     "Census Tract 703": {
       "n_banned_nodes": 0,
-      "length": 267.44732106823983
+      "length": 267.49763152113877
     }
   },
   "Census Tract 6915": {
     "Census Tract 2801": {
       "n_banned_nodes": 1,
-      "length": 900.5707373819816
+      "length": 900.5906796083527
     },
     "Census Tract 3406": {
       "n_banned_nodes": 1,
-      "length": 641.7689519883046
+      "length": 641.8298136581909
     },
     "Census Tract 3515": {
       "n_banned_nodes": 1,
-      "length": 623.7134172976035
+      "length": 623.7464878402045
     },
     "Census Tract 6909": {
       "n_banned_nodes": 0,
-      "length": 151.41413584886124
+      "length": 151.43564730281
     },
     "Census Tract 8361": {
       "n_banned_nodes": 1,
-      "length": 489.9751773538899
+      "length": 490.058224002046
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 951.6453682786171
+      "length": 951.6694258310712
     }
   },
   "Census Tract 4107": {
     "Census Tract 3017.01": {
       "n_banned_nodes": 0,
-      "length": 1079.2741808635353
+      "length": 1079.3187726478795
     },
     "Census Tract 4203": {
       "n_banned_nodes": 0,
-      "length": 247.037510097381
+      "length": 247.08137878132567
     },
     "Census Tract 4801": {
       "n_banned_nodes": 2,
-      "length": 683.7591125927149
+      "length": 683.8090645394964
     },
     "Census Tract 501": {
       "n_banned_nodes": 3,
-      "length": 1346.467382976386
+      "length": 1346.5021996342489
     },
     "Census Tract 6809": {
       "n_banned_nodes": 0,
-      "length": 500.17462326160444
+      "length": 500.2582110518135
     },
     "Census Tract 8318": {
       "n_banned_nodes": 3,
-      "length": 1561.0671681713043
+      "length": 1561.1714202901105
     },
     "Census Tract 8352": {
       "n_banned_nodes": 1,
-      "length": 1093.1005717188063
+      "length": 1093.1270004247594
     },
     "Census Tract 8362": {
       "n_banned_nodes": 0,
-      "length": 150.3319064955836
+      "length": 150.34979396368007
     }
   },
   "Census Tract 4108": {
     "Census Tract 2819": {
       "n_banned_nodes": 0,
-      "length": 740.2349347424574
+      "length": 740.2648992814733
     },
     "Census Tract 4107": {
       "n_banned_nodes": 0,
-      "length": 110.06708268034544
+      "length": 110.09549062970241
     },
     "Census Tract 817": {
       "n_banned_nodes": 0,
-      "length": 795.7110444264507
+      "length": 795.7412398186142
     },
     "Census Tract 8326": {
       "n_banned_nodes": 0,
-      "length": 974.1105785116207
+      "length": 974.126071809032
     },
     "Census Tract 8362": {
       "n_banned_nodes": 0,
-      "length": 157.65211523435158
+      "length": 157.6876562053759
     }
   },
   "Census Tract 4109": {
     "Census Tract 710": {
       "n_banned_nodes": 0,
-      "length": 1080.04576154295
+      "length": 1080.0612132643414
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 0,
-      "length": 785.1867613677722
+      "length": 785.2038163984324
     },
     "Census Tract 8342": {
       "n_banned_nodes": 2,
-      "length": 422.8200923712465
+      "length": 422.8662441223134
     },
     "Census Tract 8362": {
       "n_banned_nodes": 0,
-      "length": 193.67902436456998
+      "length": 193.69875943537346
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 747.0718428729638
+      "length": 747.0967219938998
     },
     "Census Tract 9800": {}
   },
   "Census Tract 4110": {
     "Census Tract 1701": {
       "n_banned_nodes": 5,
-      "length": 1686.4235795841553
+      "length": 1686.424359254282
     },
     "Census Tract 2819": {
       "n_banned_nodes": 0,
-      "length": 862.7293692272348
+      "length": 862.7438404688393
     },
     "Census Tract 3204": {
       "n_banned_nodes": 0,
-      "length": 702.234009227067
+      "length": 702.2342163751232
     },
     "Census Tract 3301": {
       "n_banned_nodes": 0,
@@ -1492,45 +1492,45 @@
     },
     "Census Tract 3905": {
       "n_banned_nodes": 0,
-      "length": 397.9628225051414
+      "length": 397.985094131814
     },
     "Census Tract 4203": {
       "n_banned_nodes": 0,
-      "length": 255.2331022590368
+      "length": 255.2507990100395
     },
     "Census Tract 817": {
       "n_banned_nodes": 0,
-      "length": 918.2054789112279
+      "length": 918.2201810059802
     },
     "Census Tract 8362": {
       "n_banned_nodes": 0,
-      "length": 347.17201435324785
+      "length": 347.20637705584016
     },
     "Census Tract 8381": {
       "n_banned_nodes": 0,
-      "length": 921.0274723319346
+      "length": 921.0301868318392
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 829.1811950613563
+      "length": 829.1938469387587
     }
   },
   "Census Tract 4112": {
     "Census Tract 3105": {
       "n_banned_nodes": 0,
-      "length": 719.6887224605305
+      "length": 719.7640438011435
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 714.9764038920356
+      "length": 714.983252429767
     },
     "Census Tract 3905": {
       "n_banned_nodes": 0,
-      "length": 175.482427558907
+      "length": 175.4980785651266
     },
     "Census Tract 4110": {
       "n_banned_nodes": 0,
-      "length": 119.72132776574176
+      "length": 119.72132776574178
     },
     "Census Tract 4112": {},
     "Census Tract 8331": {},
@@ -1540,53 +1540,53 @@
   "Census Tract 5306": {
     "Census Tract 5002": {
       "n_banned_nodes": 0,
-      "length": 399.02296616382773
+      "length": 399.0637447564515
     },
     "Census Tract 5401.01": {
       "n_banned_nodes": 0,
-      "length": 372.86420454962933
+      "length": 373.0088446156566
     },
     "Census Tract 630": {
       "n_banned_nodes": 0,
-      "length": 1742.8710764962684
+      "length": 1742.9491142200388
     }
   },
   "Census Tract 4601": {
     "Census Tract 2827": {
       "n_banned_nodes": 1,
-      "length": 1335.940554351398
+      "length": 1335.9610902313711
     },
     "Census Tract 3204": {
       "n_banned_nodes": 0,
-      "length": 1035.122903713448
+      "length": 1035.1231108615045
     },
     "Census Tract 812.01": {
       "n_banned_nodes": 0,
-      "length": 1244.4805225773684
+      "length": 1244.4875945839888
     }
   },
   "Census Tract 4602": {
     "Census Tract 4701": {
       "n_banned_nodes": 0,
-      "length": 520.1587179551598
+      "length": 520.2908032078407
     },
     "Census Tract 6104": {
       "n_banned_nodes": 0,
-      "length": 1036.7628737366338
+      "length": 1036.826746876935
     }
   },
   "Census Tract 4605": {
     "Census Tract 2705": {
       "n_banned_nodes": 1,
-      "length": 1335.3324585825394
+      "length": 1335.4446654009353
     },
     "Census Tract 2714": {
       "n_banned_nodes": 1,
-      "length": 1323.719835050012
+      "length": 1323.8251360825798
     },
     "Census Tract 4312": {
       "n_banned_nodes": 0,
-      "length": 125.55811874777692
+      "length": 125.64428703472915
     },
     "Census Tract 4605": {},
     "Census Tract 4804": {},
@@ -1597,120 +1597,120 @@
   "Census Tract 4606": {
     "Census Tract 4503": {
       "n_banned_nodes": 0,
-      "length": 184.97644616617396
+      "length": 185.0248799349025
     },
     "Census Tract 4601": {
       "n_banned_nodes": 0,
-      "length": 254.3082643523813
+      "length": 254.34988992455345
     },
     "Census Tract 8339": {
       "n_banned_nodes": 0,
-      "length": 142.96587588305505
+      "length": 143.0545376469284
     }
   },
   "Census Tract 4607": {
     "Census Tract 3204": {
       "n_banned_nodes": 0,
-      "length": 1084.737059780281
+      "length": 1084.7627729535943
     },
     "Census Tract 4503": {
       "n_banned_nodes": 0,
-      "length": 265.30681331646394
+      "length": 265.3604763542902
     },
     "Census Tract 815": {
       "n_banned_nodes": 0,
-      "length": 1237.828023852078
+      "length": 1237.8617371372295
     },
     "Census Tract 8381": {
       "n_banned_nodes": 0,
-      "length": 1153.9698075632905
+      "length": 1153.9980280884517
     }
   },
   "Census Tract 2413": {
     "Census Tract 2801": {
       "n_banned_nodes": 2,
-      "length": 358.93446613568824
+      "length": 358.9901010215583
     },
     "Census Tract 818": {
       "n_banned_nodes": 2,
-      "length": 328.2764564960569
+      "length": 328.3267271657782
     },
     "Census Tract 8391": {
       "n_banned_nodes": 2,
-      "length": 428.1386659370906
+      "length": 428.20103497661154
     }
   },
   "Census Tract 6813": {
     "Census Tract 6809": {
       "n_banned_nodes": 0,
-      "length": 229.37384725508235
+      "length": 229.51417631481746
     },
     "Census Tract 6813": {}
   },
   "Census Tract 6814": {
     "Census Tract 107.02": {
       "n_banned_nodes": 3,
-      "length": 1899.445724080141
+      "length": 1899.4921181094453
     },
     "Census Tract 2801": {
       "n_banned_nodes": 1,
-      "length": 895.4672648691527
+      "length": 895.4855447513719
     },
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 966.1018385396483
+      "length": 966.1248943521582
     },
     "Census Tract 6912": {
       "n_banned_nodes": 0,
-      "length": 194.8978101268378
+      "length": 194.91954020533836
     },
     "Census Tract 7004.01": {
       "n_banned_nodes": 1,
-      "length": 637.4453265988268
+      "length": 637.5660633432923
     },
     "Census Tract 7106": {
       "n_banned_nodes": 0,
-      "length": 237.10491522106693
+      "length": 237.14017222615928
     },
     "Census Tract 8318": {
       "n_banned_nodes": 4,
-      "length": 1694.0421872611273
+      "length": 1694.138134309421
     }
   },
   "Census Tract 601": {
     "Census Tract 1105.02": {
       "n_banned_nodes": 1,
-      "length": 671.5040904444081
+      "length": 671.5101953226593
     },
     "Census Tract 2801": {
       "n_banned_nodes": 1,
-      "length": 658.6689791992445
+      "length": 658.7180619256496
     },
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 706.4563780198275
+      "length": 705.5486411151899
     },
     "Census Tract 624": {
       "n_banned_nodes": 0,
-      "length": 188.32554744519038
+      "length": 188.36014231777304
     },
     "Census Tract 817": {
       "n_banned_nodes": 1,
-      "length": 652.8726756738972
+      "length": 652.9195463306926
     },
     "Census Tract 8326": {
       "n_banned_nodes": 1,
-      "length": 466.03479859560116
+      "length": 466.07416420456957
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 727.8731790006468
+      "length": 727.9289958807028
     }
   },
   "Census Tract 6903": {
     "Census Tract 3204": {
       "n_banned_nodes": 0,
-      "length": 715.2051091818115
+      "length": 715.2053163298677
     },
     "Census Tract 6812": {
       "n_banned_nodes": 0,
@@ -1723,272 +1723,272 @@
   "Census Tract 6904": {
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 834.3897132245047
+      "length": 834.4320072220692
     },
     "Census Tract 4108": {
       "n_banned_nodes": 0,
-      "length": 490.105470740504
+      "length": 490.1927137045054
     },
     "Census Tract 4610": {
       "n_banned_nodes": 0,
-      "length": 437.96906121076177
+      "length": 437.9690612107617
     },
     "Census Tract 6913": {
       "n_banned_nodes": 0,
-      "length": 183.09925478192133
+      "length": 183.22491251942287
     }
   },
   "Census Tract 6909": {
     "Census Tract 4804": {
       "n_banned_nodes": 0,
-      "length": 454.8846897156041
+      "length": 454.92990817829315
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 866.7665491304144
+      "length": 866.7769620589214
     }
   },
   "Census Tract 602": {
     "Census Tract 3201": {
       "n_banned_nodes": 2,
-      "length": 717.2318798036479
+      "length": 716.2962085456105
     },
     "Census Tract 3204": {
       "n_banned_nodes": 2,
-      "length": 709.5671915530284
+      "length": 708.6149046108885
     },
     "Census Tract 4110": {
       "n_banned_nodes": 2,
-      "length": 1259.1516372700448
+      "length": 1257.2708949165246
     },
     "Census Tract 7608.01": {},
     "Census Tract 812.01": {
       "n_banned_nodes": 2,
-      "length": 592.7635949246703
+      "length": 591.8284466876707
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 2,
-      "length": 621.9108464276026
+      "length": 620.9684739363505
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 726.7123331543572
+      "length": 726.7671163912028
     }
   },
   "Census Tract 2421": {
     "Census Tract 2435": {
       "n_banned_nodes": 0,
-      "length": 190.15554689374483
+      "length": 190.16910275092238
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 381.27834098724725
+      "length": 381.28466399392704
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 0,
-      "length": 339.17074709711335
+      "length": 339.1868653574852
     },
     "Census Tract 815": {
       "n_banned_nodes": 0,
-      "length": 273.30524094239894
+      "length": 273.31361347656974
     },
     "Census Tract 818": {
       "n_banned_nodes": 0,
-      "length": 209.34673142914417
+      "length": 209.34735406672218
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 309.2089408701779
+      "length": 309.22166187755556
     }
   },
   "Census Tract 2431": {
     "Census Tract 2415": {
       "n_banned_nodes": 1,
-      "length": 233.65099814319018
+      "length": 233.7429981900545
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 435.34143027785876
+      "length": 435.3960400842217
     },
     "Census Tract 3204": {
       "n_banned_nodes": 1,
-      "length": 481.4835234720635
+      "length": 481.528297663928
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 0,
-      "length": 415.22292267985927
+      "length": 415.28212600672924
     },
     "Census Tract 814.03": {
       "n_banned_nodes": 1,
-      "length": 464.3396301651031
+      "length": 464.3979526139081
     },
     "Census Tract 818": {
       "n_banned_nodes": 0,
-      "length": 285.39890701189006
+      "length": 285.44261471596633
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 382.64655796679574
+      "length": 382.69751378582646
     }
   },
   "Census Tract 2432": {
     "Census Tract 2422": {
       "n_banned_nodes": 0,
-      "length": 136.65873164508668
+      "length": 136.73705878660098
     },
     "Census Tract 2801": {
       "n_banned_nodes": 0,
-      "length": 240.1538343987009
+      "length": 240.18870457187114
     },
     "Census Tract 3204": {
       "n_banned_nodes": 1,
-      "length": 448.60427973993365
+      "length": 448.645256568543
     },
     "Census Tract 812.01": {
       "n_banned_nodes": 1,
-      "length": 361.6382418439112
+      "length": 361.6993196829626
     },
     "Census Tract 813": {
       "n_banned_nodes": 1,
-      "length": 404.3433948122089
+      "length": 404.4218690821058
     },
     "Census Tract 815": {
       "n_banned_nodes": 0,
-      "length": 316.478172793015
+      "length": 316.5258330304288
     },
     "Census Tract 817": {
       "n_banned_nodes": 0,
-      "length": 277.3813693940442
+      "length": 277.42443188140436
     },
     "Census Tract 818": {
       "n_banned_nodes": 0,
-      "length": 252.5196632797602
+      "length": 252.55957362058126
     },
     "Census Tract 8308": {
       "n_banned_nodes": 3,
-      "length": 733.7867497504932
+      "length": 733.8268693353701
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 349.76731423466583
+      "length": 349.8144726904414
     },
     "Census Tract 8423": {
       "n_banned_nodes": 0,
-      "length": 218.1482314752826
+      "length": 218.17867365029596
     }
   },
   "Census Tract 2434": {
     "Census Tract 2414": {
       "n_banned_nodes": 1,
-      "length": 235.60738716700544
+      "length": 235.66142628185455
     },
     "Census Tract 2421": {
       "n_banned_nodes": 0,
-      "length": 150.4889546724233
+      "length": 150.5145435688644
     },
     "Census Tract 2819": {
       "n_banned_nodes": 0,
-      "length": 247.13548786434316
+      "length": 247.17512017538618
     },
     "Census Tract 3204": {
       "n_banned_nodes": 1,
-      "length": 405.5621576626231
+      "length": 405.6204208121556
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 1,
-      "length": 320.67942006251724
+      "length": 320.7269756770385
     },
     "Census Tract 818": {
       "n_banned_nodes": 0,
-      "length": 194.55437443763975
+      "length": 194.59255959678674
     },
     "Census Tract 8310": {
       "n_banned_nodes": 0,
-      "length": 258.30458379191936
+      "length": 258.32124146698004
     },
     "Census Tract 8382": {
       "n_banned_nodes": 0,
-      "length": 250.5146398879901
+      "length": 250.55378386851376
     },
     "Census Tract 8419": {
       "n_banned_nodes": 0,
-      "length": 307.44071014572273
+      "length": 307.47951801350655
     }
   },
   "Census Tract 2435": {
     "Census Tract 2801": {
       "n_banned_nodes": 0,
-      "length": 118.41124169053387
+      "length": 118.42490513551851
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 280.7195938375619
+      "length": 280.74919955248413
     },
     "Census Tract 704": {
       "n_banned_nodes": 0,
-      "length": 372.69303787526735
+      "length": 372.73153619599253
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 0,
-      "length": 260.6010862395624
+      "length": 260.6352854749916
     },
     "Census Tract 815": {
       "n_banned_nodes": 0,
-      "length": 194.73558008484792
+      "length": 194.76203359407623
     },
     "Census Tract 817": {
       "n_banned_nodes": 0,
-      "length": 155.6387766858772
+      "length": 155.66063244505176
     },
     "Census Tract 8330": {
       "n_banned_nodes": 0,
-      "length": 158.96644211037142
+      "length": 158.98868920010383
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 228.0247215264988
+      "length": 228.05067325408876
     },
     "Census Tract 8419": {
       "n_banned_nodes": 0,
-      "length": 243.6634062796762
+      "length": 243.68273260094847
     }
   },
   "Census Tract 2502": {
     "Census Tract 1911": {
       "n_banned_nodes": 0,
-      "length": 128.03537793175605
+      "length": 128.12079911101657
     },
     "Census Tract 2402": {
       "n_banned_nodes": 5,
-      "length": 559.4504443979401
+      "length": 559.4897874343152
     },
     "Census Tract 2433": {
       "n_banned_nodes": 2,
-      "length": 702.9860009648479
+      "length": 703.0800935358149
     },
     "Census Tract 3201": {
       "n_banned_nodes": 5,
-      "length": 919.0833983477843
+      "length": 919.1131358283538
     },
     "Census Tract 8310": {
       "n_banned_nodes": 5,
-      "length": 527.2280824581059
+      "length": 527.2516622062718
     }
   },
   "Census Tract 4910": {
     "Census Tract 2804": {
       "n_banned_nodes": 1,
-      "length": 1200.1518254277962
+      "length": 1200.189486292058
     }
   },
   "Census Tract 4911": {
     "Census Tract 2801": {
       "n_banned_nodes": 1,
-      "length": 1089.8618258563067
+      "length": 1089.8638984637473
     },
     "Census Tract 8420": {
       "n_banned_nodes": 1,
-      "length": 869.7124202623365
+      "length": 869.7328734351004
     }
   },
   "Census Tract 7101": {
@@ -2002,83 +2002,83 @@
   "Census Tract 5102": {
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 1216.3445517616656
+      "length": 1216.3834116782907
     },
     "Census Tract 8418": {
       "n_banned_nodes": 0,
-      "length": 510.68164023443944
+      "length": 510.74524405828134
     }
   },
   "Census Tract 7103": {
     "Census Tract 6706": {
       "n_banned_nodes": 1,
-      "length": 356.9481619905632
+      "length": 357.02663265473564
     }
   },
   "Census Tract 5202": {
     "Census Tract 3204": {
       "n_banned_nodes": 0,
-      "length": 1201.2321645533355
+      "length": 1201.2586343104267
     },
     "Census Tract 5204": {
       "n_banned_nodes": 0,
-      "length": 153.72244807472063
+      "length": 153.74052570082932
     },
     "Census Tract 5206": {
       "n_banned_nodes": 0,
-      "length": 269.4426610107662
+      "length": 269.47434723320464
     }
   },
   "Census Tract 7109": {
     "Census Tract 4606": {
       "n_banned_nodes": 1,
-      "length": 623.8126011538245
+      "length": 623.9396916417257
     },
     "Census Tract 7203": {
       "n_banned_nodes": 1,
-      "length": 452.4778523734226
+      "length": 452.5028427339963
     },
     "Census Tract 8321": {
       "n_banned_nodes": 0,
-      "length": 1447.377249353807
+      "length": 1447.3931943100135
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 910.8608944578011
+      "length": 910.8673970247515
     },
     "Census Tract 8396": {
       "n_banned_nodes": 0,
-      "length": 628.2953554728783
+      "length": 628.3181008559008
     }
   },
   "Census Tract 7110": {
     "Census Tract 4905": {
       "n_banned_nodes": 2,
-      "length": 388.17258756347303
+      "length": 388.229552397545
     },
     "Census Tract 812.01": {
       "n_banned_nodes": 0,
-      "length": 1191.673804544961
+      "length": 1191.7150341211552
     }
   },
   "Census Tract 7112": {
     "Census Tract 3204": {
       "n_banned_nodes": 2,
-      "length": 1109.365660265175
+      "length": 1109.4286401806867
     },
     "Census Tract 7102": {
       "n_banned_nodes": 0,
-      "length": 272.11058102967513
+      "length": 272.1494994779316
     },
     "Census Tract 8329": {
       "n_banned_nodes": 2,
-      "length": 1164.628578095413
+      "length": 1164.691350862869
     }
   },
   "Census Tract 814.02": {
     "Census Tract 814.01": {
       "n_banned_nodes": 0,
-      "length": 97.23705949755234
+      "length": 97.24790239934633
     },
     "Census Tract 814.03": {},
     "Census Tract 8309": {},
@@ -2089,83 +2089,83 @@
   "Census Tract 7106": {
     "Census Tract 8359": {
       "n_banned_nodes": 2,
-      "length": 713.7631041617499
+      "length": 713.8245874980073
     }
   },
   "Census Tract 619.02": {
     "Census Tract 2801": {
       "n_banned_nodes": 1,
-      "length": 524.6573447751175
+      "length": 523.7308080815634
     },
     "Census Tract 2819": {
       "n_banned_nodes": 1,
-      "length": 581.4390923256861
+      "length": 580.5192331162269
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 452.04755536852895
+      "length": 451.10797138958054
     },
     "Census Tract 3204": {
       "n_banned_nodes": 0,
-      "length": 444.3828671179094
+      "length": 443.42666745485843
     },
     "Census Tract 3301": {
       "n_banned_nodes": 0,
-      "length": 591.6005890131376
+      "length": 590.6443893500867
     },
     "Census Tract 812.01": {
       "n_banned_nodes": 0,
-      "length": 327.57927048955145
+      "length": 326.6402095316408
     },
     "Census Tract 813": {
       "n_banned_nodes": 0,
-      "length": 322.1898843796123
+      "length": 321.23528926535477
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 0,
-      "length": 356.7265219924836
+      "length": 355.78023678032076
     },
     "Census Tract 817": {
       "n_banned_nodes": 0,
-      "length": 410.5203481778524
+      "length": 409.58038907283213
     },
     "Census Tract 8333": {
       "n_banned_nodes": 1,
-      "length": 726.3130283773006
+      "length": 725.4218317328146
     },
     "Census Tract 8362": {
       "n_banned_nodes": 0,
-      "length": 1120.1561316391092
+      "length": 1118.277355467673
     },
     "Census Tract 8381": {
       "n_banned_nodes": 1,
-      "length": 725.6463880041276
+      "length": 724.7414075337546
     },
     "Census Tract 8383": {
       "n_banned_nodes": 0,
-      "length": 392.9124346865878
+      "length": 386.55100089931994
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 501.1500877975117
+      "length": 500.2207866709955
     },
     "Census Tract 8422": {
       "n_banned_nodes": 3,
-      "length": 412.2596176823862
+      "length": 412.30609634104655
     }
   },
   "Census Tract 302": {
     "Census Tract 104": {
       "n_banned_nodes": 1,
-      "length": 165.43714850133182
+      "length": 165.46364120443093
     },
     "Census Tract 2520": {
       "n_banned_nodes": 2,
-      "length": 1567.297382623247
+      "length": 1567.4080767337427
     },
     "Census Tract 2801": {
       "n_banned_nodes": 2,
-      "length": 950.4778612047269
+      "length": 949.5610260938772
     },
     "Census Tract 302": {},
     "Census Tract 308": {},
@@ -2203,199 +2203,199 @@
   "Census Tract 304": {
     "Census Tract 1701": {
       "n_banned_nodes": 7,
-      "length": 1079.9459919363253
+      "length": 1079.9769388406437
     },
     "Census Tract 308": {
       "n_banned_nodes": 0,
-      "length": 165.68428977581954
+      "length": 165.77652055394208
     },
     "Census Tract 406": {
       "n_banned_nodes": 0,
-      "length": 331.7484367119487
+      "length": 331.8214253572739
     },
     "Census Tract 818": {
       "n_banned_nodes": 0,
-      "length": 844.3464540860682
+      "length": 843.4525549816098
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 912.1469108492659
+      "length": 911.2612040775475
     }
   },
   "Census Tract 305": {
     "Census Tract 1408": {
       "n_banned_nodes": 2,
-      "length": 513.6646872807318
+      "length": 513.7101364579801
     },
     "Census Tract 1605.01": {
       "n_banned_nodes": 2,
-      "length": 613.1070576957776
+      "length": 613.1647420318541
     },
     "Census Tract 1607": {
       "n_banned_nodes": 3,
-      "length": 618.6153565580685
+      "length": 618.6913988792622
     },
     "Census Tract 308": {
       "n_banned_nodes": 0,
-      "length": 99.94589297132075
+      "length": 99.99783934112699
     },
     "Census Tract 317": {
       "n_banned_nodes": 1,
-      "length": 274.9569700077234
+      "length": 274.97359592863927
     },
     "Census Tract 318": {
       "n_banned_nodes": 2,
-      "length": 272.1662721002098
+      "length": 272.2201569502335
     },
     "Census Tract 3204": {
       "n_banned_nodes": 0,
-      "length": 789.6412933651648
+      "length": 788.6884036485953
     },
     "Census Tract 610": {
       "n_banned_nodes": 0,
-      "length": 376.32142477702484
+      "length": 376.3469900612292
     },
     "Census Tract 813": {
       "n_banned_nodes": 0,
-      "length": 667.4483106268676
+      "length": 666.4970254590918
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 0,
-      "length": 701.984948239739
+      "length": 701.0419729740577
     },
     "Census Tract 815": {
       "n_banned_nodes": 0,
-      "length": 714.1632037420819
+      "length": 713.2216606286489
     },
     "Census Tract 817": {
       "n_banned_nodes": 0,
-      "length": 755.7787744251077
+      "length": 754.842125266569
     },
     "Census Tract 8382": {
       "n_banned_nodes": 1,
-      "length": 1091.3208722744218
+      "length": 1090.406401047897
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 846.4085140447669
+      "length": 845.4825228647325
     }
   },
   "Census Tract 308": {
     "Census Tract 104": {
       "n_banned_nodes": 1,
-      "length": 309.93568098891797
+      "length": 309.98569164085563
     },
     "Census Tract 2819": {
       "n_banned_nodes": 3,
-      "length": 909.6590258281086
+      "length": 908.770688823228
     },
     "Census Tract 306.01": {
       "n_banned_nodes": 1,
-      "length": 164.7834332199935
+      "length": 164.814830737675
     },
     "Census Tract 319": {
       "n_banned_nodes": 1,
-      "length": 214.18972924698448
+      "length": 214.244825986728
     },
     "Census Tract 3204": {
       "n_banned_nodes": 2,
-      "length": 772.6028006203319
+      "length": 771.6781231618596
     },
     "Census Tract 401": {
       "n_banned_nodes": 0,
-      "length": 201.79899070632155
+      "length": 201.83051291090007
     },
     "Census Tract 602": {
       "n_banned_nodes": 1,
-      "length": 263.6877626118383
+      "length": 263.7387878295737
     },
     "Census Tract 814.03": {
       "n_banned_nodes": 2,
-      "length": 735.6321141560179
+      "length": 734.7118154787124
     },
     "Census Tract 8326": {
       "n_banned_nodes": 1,
-      "length": 664.4125761596184
+      "length": 664.4605437051715
     },
     "Census Tract 8331": {
       "n_banned_nodes": 2,
-      "length": 948.6320893219007
+      "length": 948.7261038834233
     },
     "Census Tract 8383": {
       "n_banned_nodes": 2,
-      "length": 721.1323681890103
+      "length": 714.8024566063209
     },
     "Census Tract 8390": {
       "n_banned_nodes": 2,
-      "length": 917.3263449587146
+      "length": 916.4292206688341
     },
     "Census Tract 8391": {
       "n_banned_nodes": 2,
-      "length": 829.3700212999341
+      "length": 828.4722423779965
     }
   },
   "Census Tract 2424": {
     "Census Tract 2432": {
       "n_banned_nodes": 0,
-      "length": 190.5154919666994
+      "length": 190.5897395376956
     },
     "Census Tract 2801": {
       "n_banned_nodes": 2,
-      "length": 375.36959812610456
+      "length": 375.4271700785173
     },
     "Census Tract 3201": {
       "n_banned_nodes": 2,
-      "length": 516.6431980445764
+      "length": 516.701106149942
     },
     "Census Tract 704": {
       "n_banned_nodes": 3,
-      "length": 470.14683155632144
+      "length": 470.22062419275437
     },
     "Census Tract 710": {
       "n_banned_nodes": 2,
-      "length": 398.94519299629417
+      "length": 398.9912963354298
     },
     "Census Tract 817": {
       "n_banned_nodes": 2,
-      "length": 369.57329460075727
+      "length": 369.6286544835603
     },
     "Census Tract 8382": {
       "n_banned_nodes": 0,
-      "length": 319.6574976580996
+      "length": 319.7219837419659
     },
     "Census Tract 8391": {
       "n_banned_nodes": 2,
-      "length": 444.573797927507
+      "length": 444.6381040335704
     },
     "Census Tract 8419": {
       "n_banned_nodes": 2,
-      "length": 458.5167054125013
+      "length": 458.571989377946
     }
   },
   "Census Tract 2425": {
     "Census Tract 1612": {
       "n_banned_nodes": 2,
-      "length": 660.6764069199453
+      "length": 660.7348759714511
     },
     "Census Tract 2413": {
       "n_banned_nodes": 0,
-      "length": 129.61077470170912
+      "length": 129.64975227163634
     },
     "Census Tract 2434": {
       "n_banned_nodes": 1,
-      "length": 277.81956048410666
+      "length": 277.8607665015411
     },
     "Census Tract 7608.01": {},
     "Census Tract 8391": {
       "n_banned_nodes": 2,
-      "length": 466.3944423915178
+      "length": 466.43323048412304
     },
     "Census Tract 9800": {}
   },
   "Census Tract 2426": {
     "Census Tract 2425": {
       "n_banned_nodes": 0,
-      "length": 47.218725542312846
+      "length": 47.226777791214644
     },
     "Census Tract 2426": {},
     "Census Tract 2428": {},
@@ -2415,23 +2415,23 @@
   "Census Tract 2427": {
     "Census Tract 2435": {
       "n_banned_nodes": 1,
-      "length": 384.0848177336984
+      "length": 384.1494679758128
     },
     "Census Tract 8312": {
       "n_banned_nodes": 1,
-      "length": 362.9067220055596
+      "length": 362.9921797604893
     }
   },
   "Census Tract 2428": {
     "Census Tract 3108": {
       "n_banned_nodes": 1,
-      "length": 471.224442266643
+      "length": 471.3076282500086
     }
   },
   "Census Tract 2429": {
     "Census Tract 104": {
       "n_banned_nodes": 7,
-      "length": 1235.0660985528327
+      "length": 1235.2292999094032
     },
     "Census Tract 2429": {},
     "Census Tract 3201": {},
@@ -2445,61 +2445,61 @@
   "Census Tract 2430": {
     "Census Tract 2422": {
       "n_banned_nodes": 0,
-      "length": 111.51119638139069
+      "length": 111.53457830269774
     },
     "Census Tract 2801": {
       "n_banned_nodes": 0,
-      "length": 307.3949469619305
+      "length": 307.44021205560136
     },
     "Census Tract 2819": {
       "n_banned_nodes": 0,
-      "length": 372.3418892696932
+      "length": 372.3936416829111
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 469.70329910895856
+      "length": 469.7645064725669
     },
     "Census Tract 6303": {
       "n_banned_nodes": 1,
-      "length": 960.0899300118591
+      "length": 960.210874530966
     },
     "Census Tract 6704": {
       "n_banned_nodes": 1,
-      "length": 1059.0899693760152
+      "length": 1059.2298009970134
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 0,
-      "length": 449.584791510959
+      "length": 449.6505923950745
     },
     "Census Tract 8311": {
       "n_banned_nodes": 2,
-      "length": 563.7467074533033
+      "length": 563.7868649994768
     },
     "Census Tract 8330": {
       "n_banned_nodes": 0,
-      "length": 222.23565775068704
+      "length": 222.27472257453454
     },
     "Census Tract 8347": {
       "n_banned_nodes": 0,
-      "length": 852.1111178795101
+      "length": 852.1597965087401
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 417.0084267978955
+      "length": 417.06598017417167
     },
     "Census Tract 8419": {
       "n_banned_nodes": 0,
-      "length": 369.5781697050064
+      "length": 369.6158057439783
     },
     "Census Tract 8432": {
       "n_banned_nodes": 0,
-      "length": 530.7417836157719
+      "length": 530.8540153766118
     }
   },
   "Census Tract 2204": {
     "Census Tract 2106.01": {
       "n_banned_nodes": 1,
-      "length": 159.99800687348187
+      "length": 160.00499198151218
     },
     "Census Tract 2203": {
       "n_banned_nodes": 0,
@@ -2507,303 +2507,303 @@
     },
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 559.8675880367969
+      "length": 559.8745855493548
     },
     "Census Tract 4110": {
       "n_banned_nodes": 1,
-      "length": 1044.74197385774
+      "length": 1043.8143582265147
     },
     "Census Tract 4112": {
       "n_banned_nodes": 2,
-      "length": 1125.2936592883093
+      "length": 1125.3146779419833
     },
     "Census Tract 508": {
       "n_banned_nodes": 2,
-      "length": 307.10956621083153
+      "length": 307.1592286564135
     },
     "Census Tract 818": {
       "n_banned_nodes": 1,
-      "length": 387.9359784786938
+      "length": 387.93727562215
     },
     "Census Tract 8319": {
       "n_banned_nodes": 1,
-      "length": 349.79616008007804
+      "length": 349.81449009663453
     },
     "Census Tract 8325": {
       "n_banned_nodes": 1,
-      "length": 260.55650462516735
+      "length": 260.5605688831793
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 487.7981879197275
+      "length": 487.8115834329834
     },
     "Census Tract 8419": {
       "n_banned_nodes": 1,
-      "length": 501.7410954047218
+      "length": 501.7454687773589
     }
   },
   "Census Tract 2205": {
     "Census Tract 2819": {
       "n_banned_nodes": 1,
-      "length": 471.6347499035985
+      "length": 471.63994771949507
     },
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 590.0664648170532
+      "length": 590.0734623296112
     },
     "Census Tract 3204": {
       "n_banned_nodes": 2,
-      "length": 630.0614197018785
+      "length": 630.0852483562641
     },
     "Census Tract 3301": {
       "n_banned_nodes": 1,
-      "length": 745.0387493681358
+      "length": 745.0486506029158
     },
     "Census Tract 507": {
       "n_banned_nodes": 2,
-      "length": 354.24343123746394
+      "length": 354.2940405618524
     },
     "Census Tract 712": {
       "n_banned_nodes": 1,
-      "length": 418.06334281407317
+      "length": 418.06740707208525
     },
     "Census Tract 814.02": {
       "n_banned_nodes": 2,
-      "length": 613.8353455205867
+      "length": 613.8561428458272
     },
     "Census Tract 815": {
       "n_banned_nodes": 1,
-      "length": 482.0933647722049
+      "length": 482.102411812254
     },
     "Census Tract 816": {
       "n_banned_nodes": 1,
-      "length": 462.3205994089628
+      "length": 462.32732118901345
     },
     "Census Tract 8326": {
       "n_banned_nodes": 1,
-      "length": 354.3232398408733
+      "length": 354.3240796210278
     },
     "Census Tract 8329": {
       "n_banned_nodes": 1,
-      "length": 567.8071023745715
+      "length": 567.849659511857
     },
     "Census Tract 8382": {
       "n_banned_nodes": 1,
-      "length": 585.532784026851
+      "length": 585.5783935858778
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 517.9970646999839
+      "length": 518.0104602132398
     },
     "Census Tract 8419": {
       "n_banned_nodes": 1,
-      "length": 531.9399721849782
+      "length": 531.9443455576154
     },
     "Census Tract 8429": {
       "n_banned_nodes": 1,
-      "length": 682.7592461207162
+      "length": 682.8283087219329
     }
   },
   "Census Tract 318": {
     "Census Tract 305": {
       "n_banned_nodes": 0,
-      "length": 242.78269762480016
+      "length": 242.82715175806172
     },
     "Census Tract 3204": {
       "n_banned_nodes": 0,
-      "length": 771.746528223872
+      "length": 770.8021288351299
     },
     "Census Tract 602": {
       "n_banned_nodes": 0,
-      "length": 111.38946828544721
+      "length": 111.40906563117576
     },
     "Census Tract 610": {
       "n_banned_nodes": 1,
-      "length": 267.3273793440475
+      "length": 267.396643854508
     },
     "Census Tract 621": {
       "n_banned_nodes": 1,
-      "length": 276.5033537511747
+      "length": 276.5373840973863
     },
     "Census Tract 712": {
       "n_banned_nodes": 2,
-      "length": 488.9620127310537
+      "length": 489.01897163470625
     },
     "Census Tract 802.02": {
       "n_banned_nodes": 0,
-      "length": 645.5812363612611
+      "length": 639.2135999981882
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 0,
-      "length": 684.0901830984462
+      "length": 683.1556981605921
     },
     "Census Tract 8307": {
       "n_banned_nodes": 0,
-      "length": 126.5878936690298
+      "length": 126.60870701605462
     },
     "Census Tract 8319": {
       "n_banned_nodes": 0,
-      "length": 214.62365736588598
+      "length": 214.6577288390405
     }
   },
   "Census Tract 2210": {
     "Census Tract 2207.02": {
       "n_banned_nodes": 0,
-      "length": 164.66886450051896
+      "length": 164.70305122186576
     },
     "Census Tract 3206": {
       "n_banned_nodes": 1,
-      "length": 765.2372427361815
+      "length": 765.3149506617316
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 1,
-      "length": 670.0240856302723
+      "length": 670.1060397076668
     },
     "Census Tract 818": {
       "n_banned_nodes": 1,
-      "length": 540.2000699623031
+      "length": 540.2665284169038
     },
     "Census Tract 8378": {
       "n_banned_nodes": 0,
-      "length": 502.77136534159956
+      "length": 502.84976359294103
     },
     "Census Tract 8382": {
       "n_banned_nodes": 1,
-      "length": 651.6022347422946
+      "length": 651.6864924888142
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 640.0622794033368
+      "length": 640.1408362277372
     },
     "Census Tract 8419": {
       "n_banned_nodes": 1,
-      "length": 654.0051868883312
+      "length": 654.0747215721126
     },
     "Census Tract 8422": {
       "n_banned_nodes": 1,
-      "length": 492.6438350706633
+      "length": 492.7143251767199
     }
   },
   "Census Tract 8104": {
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 956.9381529845974
+      "length": 956.9507087176987
     }
   },
   "Census Tract 319": {
     "Census Tract 2801": {
       "n_banned_nodes": 1,
-      "length": 707.4154543843201
+      "length": 707.4792649726872
     },
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 752.6543409840124
+      "length": 751.7376303586702
     },
     "Census Tract 3204": {
       "n_banned_nodes": 1,
-      "length": 744.9896527333929
+      "length": 744.0563264239482
     },
     "Census Tract 3206": {
       "n_banned_nodes": 1,
-      "length": 778.515279677762
+      "length": 777.5821547119315
     },
     "Census Tract 501": {
       "n_banned_nodes": 0,
-      "length": 108.72850333768227
+      "length": 108.77975702473917
     },
     "Census Tract 602": {
       "n_banned_nodes": 0,
-      "length": 68.59459227871017
+      "length": 68.64166751820716
     },
     "Census Tract 603": {
       "n_banned_nodes": 0,
-      "length": 152.86733927977588
+      "length": 152.9061112853397
     },
     "Census Tract 710": {
       "n_banned_nodes": 1,
-      "length": 461.88062213207155
+      "length": 461.9081884986095
     },
     "Census Tract 711": {
       "n_banned_nodes": 2,
-      "length": 459.1108444288108
+      "length": 459.166593719756
     },
     "Census Tract 712": {
       "n_banned_nodes": 2,
-      "length": 459.19867213621416
+      "length": 459.2544214271594
     },
     "Census Tract 813": {
       "n_banned_nodes": 1,
-      "length": 622.7966699950957
+      "length": 621.8649482344445
     },
     "Census Tract 814.03": {
       "n_banned_nodes": 1,
-      "length": 708.0189662690789
+      "length": 707.090018740801
     },
     "Census Tract 818": {
       "n_banned_nodes": 1,
-      "length": 676.7574447446889
+      "length": 676.8158911169072
     },
     "Census Tract 8330": {
       "n_banned_nodes": 1,
-      "length": 699.2145726751075
+      "length": 699.3539371241789
     },
     "Census Tract 8380": {
       "n_banned_nodes": 1,
-      "length": 844.7305235679162
+      "length": 844.7898658725547
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 776.6196541857225
+      "length": 776.6901989277407
     }
   },
   "Census Tract 5205": {
     "Census Tract 4804": {
       "n_banned_nodes": 1,
-      "length": 578.8814380613126
+      "length": 578.9312434446796
     },
     "Census Tract 5001": {
       "n_banned_nodes": 0,
-      "length": 714.0247432990221
+      "length": 722.49775736127
     },
     "Census Tract 6719": {
       "n_banned_nodes": 0,
-      "length": 1082.7533171915707
+      "length": 1082.8957650562513
     },
     "Census Tract 8331": {
       "n_banned_nodes": 0,
-      "length": 1371.4098548239817
+      "length": 1371.503160298613
     },
     "Census Tract 8380": {
       "n_banned_nodes": 0,
-      "length": 1430.1001431507198
+      "length": 1430.1948019210727
     }
   },
   "Census Tract 7205": {
     "Census Tract 3204": {
       "n_banned_nodes": 1,
-      "length": 1351.808986782144
+      "length": 1351.8734258107866
     },
     "Census Tract 4204": {
       "n_banned_nodes": 2,
-      "length": 1031.3667274018194
+      "length": 1031.4714022567325
     },
     "Census Tract 7401": {
       "n_banned_nodes": 0,
-      "length": 239.4359024597349
+      "length": 239.55888985588635
     },
     "Census Tract 8330": {
       "n_banned_nodes": 1,
-      "length": 1413.4786955724019
+      "length": 1413.552045193806
     }
   },
   "Census Tract 4903": {
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 989.6623580289452
+      "length": 989.7013577405182
     },
     "Census Tract 4701": {
       "n_banned_nodes": 0,
-      "length": 242.32946353770643
+      "length": 242.49078615630657
     },
     "Census Tract 4903": {},
     "Census Tract 4905": {},
@@ -2814,33 +2814,33 @@
   "Census Tract 3501": {
     "Census Tract 2801": {
       "n_banned_nodes": 0,
-      "length": 422.0551840573512
+      "length": 422.05890270390324
     }
   },
   "Census Tract 3511": {
     "Census Tract 2819": {
       "n_banned_nodes": 0,
-      "length": 501.31857860901573
+      "length": 501.36420184172664
     },
     "Census Tract 3817": {
       "n_banned_nodes": 0,
-      "length": 270.11490711704477
+      "length": 270.1607326043067
     },
     "Census Tract 4109": {
       "n_banned_nodes": 0,
-      "length": 375.4628096987276
+      "length": 375.56000041871505
     },
     "Census Tract 803": {
       "n_banned_nodes": 0,
-      "length": 748.3201681281562
+      "length": 748.3645451237982
     },
     "Census Tract 8411": {
       "n_banned_nodes": 0,
-      "length": 315.662844174694
+      "length": 315.7134832840736
     },
     "Census Tract 9801": {
       "n_banned_nodes": 1,
-      "length": 922.833680018075
+      "length": 922.8729366439692
     }
   },
   "Census Tract 2512": {
@@ -2854,105 +2854,105 @@
   "Census Tract 309": {
     "Census Tract 3204": {
       "n_banned_nodes": 2,
-      "length": 820.0302568325588
+      "length": 819.0933650369727
     },
     "Census Tract 4110": {
       "n_banned_nodes": 2,
-      "length": 1369.6147025495754
+      "length": 1367.7493553426084
     }
   },
   "Census Tract 2506": {
     "Census Tract 8430": {
       "n_banned_nodes": 2,
-      "length": 601.995396855577
+      "length": 602.0810029727925
     }
   },
   "Census Tract 321": {
     "Census Tract 2819": {
       "n_banned_nodes": 1,
-      "length": 725.8984822533612
+      "length": 724.9832469059295
     },
     "Census Tract 317": {
       "n_banned_nodes": 0,
-      "length": 115.86092329326574
+      "length": 115.86916013701654
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 596.5069452962039
+      "length": 595.5719851792829
     },
     "Census Tract 704": {
       "n_banned_nodes": 0,
-      "length": 319.9186491168579
+      "length": 319.94864900664385
     },
     "Census Tract 710": {
       "n_banned_nodes": 0,
-      "length": 385.1264748408097
+      "length": 385.140962830995
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 0,
-      "length": 501.1859119201585
+      "length": 500.24425057002327
     },
     "Census Tract 814.03": {
       "n_banned_nodes": 0,
-      "length": 551.8715705812704
+      "length": 550.9243735614139
     },
     "Census Tract 816": {
       "n_banned_nodes": 0,
-      "length": 547.8548033659499
+      "length": 546.9186302368327
     },
     "Census Tract 817": {
       "n_banned_nodes": 0,
-      "length": 554.9797381055273
+      "length": 554.0444028625345
     },
     "Census Tract 818": {
       "n_banned_nodes": 0,
-      "length": 577.8090209619888
+      "length": 576.87615136476
     },
     "Census Tract 8333": {
       "n_banned_nodes": 3,
-      "length": 856.9601370461821
+      "length": 857.072515594894
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 645.6094777251866
+      "length": 644.6848004606978
     },
     "Census Tract 8422": {
       "n_banned_nodes": 2,
-      "length": 504.98845731197395
+      "length": 505.0624737768899
     }
   },
   "Census Tract 4905": {
     "Census Tract 4203": {
       "n_banned_nodes": 1,
-      "length": 622.2631024049674
+      "length": 622.3073745746384
     },
     "Census Tract 5001": {
       "n_banned_nodes": 0,
-      "length": 241.802985651305
+      "length": 241.86946052667435
     }
   },
   "Census Tract 4906": {
     "Census Tract 2801": {
       "n_banned_nodes": 0,
-      "length": 910.7417558344176
+      "length": 910.7450432564502
     },
     "Census Tract 3204": {
       "n_banned_nodes": 0,
-      "length": 908.9800871408119
+      "length": 908.98150910346
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 0,
-      "length": 1074.0421914699098
+      "length": 1074.0482340716283
     },
     "Census Tract 8318": {
       "n_banned_nodes": 3,
-      "length": 1709.316678226392
+      "length": 1709.397632814499
     }
   },
   "Census Tract 4907": {
     "Census Tract 5703": {
       "n_banned_nodes": 5,
-      "length": 1303.1873493368548
+      "length": 1303.3215202592282
     }
   },
   "Census Tract 4908": {
@@ -2966,73 +2966,73 @@
   "Census Tract 7002": {
     "Census Tract 8381": {
       "n_banned_nodes": 4,
-      "length": 1328.8006252857417
+      "length": 1328.9735999314632
     }
   },
   "Census Tract 7102": {
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 954.1581862063739
+      "length": 954.1676048022638
     },
     "Census Tract 6809": {
       "n_banned_nodes": 0,
-      "length": 302.9452941312892
+      "length": 302.9960721116653
     },
     "Census Tract 7005.01": {
       "n_banned_nodes": 1,
-      "length": 364.90612716758415
+      "length": 364.96705780696243
     },
     "Census Tract 7302.01": {
       "n_banned_nodes": 0,
-      "length": 359.2821033691487
+      "length": 359.3645104302851
     }
   },
   "Census Tract 7104": {
     "Census Tract 4804": {
       "n_banned_nodes": 1,
-      "length": 835.4512325854882
+      "length": 843.8074149067379
     },
     "Census Tract 5001": {
       "n_banned_nodes": 0,
-      "length": 793.3260392777033
+      "length": 793.4064042468447
     }
   },
   "Census Tract 7105": {
     "Census Tract 3201": {
       "n_banned_nodes": 2,
-      "length": 1118.927455252457
+      "length": 1118.9875168904855
     }
   },
   "Census Tract 7107": {
     "Census Tract 7005.02": {
       "n_banned_nodes": 0,
-      "length": 330.98931676485915
+      "length": 331.03640269566193
     },
     "Census Tract 7106": {
       "n_banned_nodes": 0,
-      "length": 34.1865630312608
+      "length": 34.210024656861506
     },
     "Census Tract 8355": {
       "n_banned_nodes": 2,
-      "length": 617.2540471064183
+      "length": 617.3125390449927
     },
     "Census Tract 8391": {
       "n_banned_nodes": 2,
-      "length": 1031.4867912913437
+      "length": 1031.551104933091
     }
   },
   "Census Tract 2510": {
     "Census Tract 1510.02": {
       "n_banned_nodes": 4,
-      "length": 363.3645487616133
+      "length": 363.36454876161326
     },
     "Census Tract 1901": {
       "n_banned_nodes": 4,
-      "length": 333.4458457562052
+      "length": 333.47725147844733
     },
     "Census Tract 8419": {
       "n_banned_nodes": 2,
-      "length": 677.9485854434142
+      "length": 677.9521190358968
     }
   },
   "Census Tract 2804": {
@@ -3055,232 +3055,232 @@
   "Census Tract 5808": {
     "Census Tract 5806": {
       "n_banned_nodes": 0,
-      "length": 145.58329178820497
+      "length": 145.6125888862977
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 692.2624806384899
+      "length": 692.3006236505546
     }
   },
   "Census Tract 3510": {
     "Census Tract 3801": {
       "n_banned_nodes": 0,
-      "length": 220.8130238648235
+      "length": 211.0003200264791
     },
     "Census Tract 8382": {
       "n_banned_nodes": 0,
-      "length": 500.070133501316
+      "length": 500.07638741900394
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 389.90768914214453
+      "length": 389.920341019547
     },
     "Census Tract 8395": {
       "n_banned_nodes": 1,
-      "length": 136.94677937777837
+      "length": 136.97136644284572
     },
     "Census Tract 8420": {
       "n_banned_nodes": 1,
-      "length": 176.5645381102061
+      "length": 176.58806343944153
     }
   },
   "Census Tract 3602": {
     "Census Tract 817": {
       "n_banned_nodes": 0,
-      "length": 636.8838490213229
+      "length": 636.9180825044211
     },
     "Census Tract 8365": {
       "n_banned_nodes": 0,
-      "length": 111.128217378729
+      "length": 111.14774876707465
     }
   },
   "Census Tract 3801": {
     "Census Tract 2432": {
       "n_banned_nodes": 1,
-      "length": 767.7872162336773
+      "length": 767.8595055545095
     }
   },
   "Census Tract 2315": {
     "Census Tract 1906.02": {
       "n_banned_nodes": 1,
-      "length": 616.1396320098244
+      "length": 616.2309512226318
     },
     "Census Tract 2429": {
       "n_banned_nodes": 1,
-      "length": 299.1821015865588
+      "length": 299.2293412680258
     },
     "Census Tract 2435": {
       "n_banned_nodes": 2,
-      "length": 521.9380811497977
+      "length": 522.0032329420214
     },
     "Census Tract 8314": {
       "n_banned_nodes": 2,
-      "length": 386.53375121714555
+      "length": 386.5901906930912
     },
     "Census Tract 8380": {
       "n_banned_nodes": 1,
-      "length": 388.5792464325799
+      "length": 388.60655122596336
     },
     "Census Tract 8429": {
       "n_banned_nodes": 0,
-      "length": 479.493955989356
+      "length": 479.54692849463834
     }
   },
   "Census Tract 2511": {
     "Census Tract 2515": {
       "n_banned_nodes": 0,
-      "length": 163.27223299749852
+      "length": 163.31407334188322
     }
   },
   "Census Tract 5502": {
     "Census Tract 4205": {
       "n_banned_nodes": 1,
-      "length": 1082.2735812717792
+      "length": 1082.3456624946516
     }
   },
   "Census Tract 5608": {
     "Census Tract 8382": {
       "n_banned_nodes": 3,
-      "length": 963.6149474645877
+      "length": 963.6752144271844
     }
   },
   "Census Tract 5609": {
     "Census Tract 2801": {
       "n_banned_nodes": 3,
-      "length": 1179.3062704437857
+      "length": 1179.3803667006339
     },
     "Census Tract 8391": {
       "n_banned_nodes": 3,
-      "length": 1230.3809013404214
+      "length": 1230.4591129233524
     }
   },
   "Census Tract 5003": {
     "Census Tract 8382": {
       "n_banned_nodes": 0,
-      "length": 1254.863385962915
+      "length": 1254.9089795366972
     }
   },
   "Census Tract 5610": {
     "Census Tract 2916": {
       "n_banned_nodes": 3,
-      "length": 1026.0450862703947
+      "length": 1026.169743127173
     },
     "Census Tract 3201": {
       "n_banned_nodes": 4,
-      "length": 1313.2182422139917
+      "length": 1313.296628785361
     },
     "Census Tract 6502": {
       "n_banned_nodes": 0,
-      "length": 586.177174209756
+      "length": 586.2793014931383
     },
     "Census Tract 8390": {
       "n_banned_nodes": 4,
-      "length": 1195.5214013878626
+      "length": 1195.6111816283683
     }
   },
   "Census Tract 5611": {
     "Census Tract 3206": {
       "n_banned_nodes": 3,
-      "length": 1088.6271736517192
+      "length": 1088.6510042524721
     },
     "Census Tract 3812": {
       "n_banned_nodes": 4,
-      "length": 1176.5707213446576
+      "length": 1176.7159289456913
     },
     "Census Tract 4905": {
       "n_banned_nodes": 3,
-      "length": 1456.791071982026
+      "length": 1456.9092108402567
     }
   },
   "Census Tract 5702": {
     "Census Tract 2714": {
       "n_banned_nodes": 0,
-      "length": 712.1127153354298
+      "length": 712.2143886962137
     },
     "Census Tract 5701": {
       "n_banned_nodes": 0,
-      "length": 123.57891965067131
+      "length": 123.66372964874955
     },
     "Census Tract 8381": {
       "n_banned_nodes": 0,
-      "length": 749.6916544672127
+      "length": 749.8158525545045
     }
   },
   "Census Tract 7304": {
     "Census Tract 3009": {
       "n_banned_nodes": 1,
-      "length": 1294.777251388491
+      "length": 1294.8413849656833
     },
     "Census Tract 6809": {
       "n_banned_nodes": 1,
-      "length": 583.2349364266161
+      "length": 583.2908345731691
     }
   },
   "Census Tract 7305": {
     "Census Tract 104": {
       "n_banned_nodes": 2,
-      "length": 1960.2707713900202
+      "length": 1960.3545798864686
     },
     "Census Tract 4906": {
       "n_banned_nodes": 0,
-      "length": 136.24789959782007
+      "length": 136.34140408981366
     },
     "Census Tract 8382": {
       "n_banned_nodes": 1,
-      "length": 1102.033168332336
+      "length": 1102.08103142843
     },
     "Census Tract 8433": {
       "n_banned_nodes": 1,
-      "length": 1218.7836170605106
+      "length": 1218.8554805435829
     }
   },
   "Census Tract 7306": {
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 1096.541441683717
+      "length": 1096.5747467466228
     },
     "Census Tract 8314": {
       "n_banned_nodes": 1,
-      "length": 1399.6499992887416
+      "length": 1399.7170816741504
     },
     "Census Tract 8331": {
       "n_banned_nodes": 1,
-      "length": 1046.4100463338657
+      "length": 1046.4365028590396
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 1076.9814989098568
+      "length": 1077.0141433685546
     }
   },
   "Census Tract 7307": {
     "Census Tract 4906": {
       "n_banned_nodes": 0,
-      "length": 302.3423295421949
+      "length": 302.3912014770405
     },
     "Census Tract 817": {
       "n_banned_nodes": 1,
-      "length": 1202.8411795556044
+      "length": 1202.8821007036845
     }
   },
   "Census Tract 2503": {
     "Census Tract 1801": {
       "n_banned_nodes": 0,
-      "length": 429.92193139254084
+      "length": 430.0076784417733
     },
     "Census Tract 1907.01": {
       "n_banned_nodes": 1,
-      "length": 237.0132186100967
+      "length": 237.0840018917901
     },
     "Census Tract 601": {
       "n_banned_nodes": 8,
-      "length": 972.8401003439143
+      "length": 972.8986127817476
     },
     "Census Tract 9800": {}
   },
   "Census Tract 2504": {
     "Census Tract 2412": {
       "n_banned_nodes": 5,
-      "length": 631.5532010813636
+      "length": 631.5726747308428
     },
     "Census Tract 2504": {},
     "Census Tract 313": {},
@@ -3296,119 +3296,119 @@
   "Census Tract 2507": {
     "Census Tract 2512": {
       "n_banned_nodes": 0,
-      "length": 153.23769556349907
+      "length": 153.26943895532892
     },
     "Census Tract 8314": {
       "n_banned_nodes": 1,
-      "length": 438.81597325267484
+      "length": 438.8871517757564
     },
     "Census Tract 8431": {
       "n_banned_nodes": 1,
-      "length": 725.0225752252418
+      "length": 725.0734157572402
     }
   },
   "Census Tract 2508": {
     "Census Tract 1701": {
       "n_banned_nodes": 2,
-      "length": 676.5154787974989
+      "length": 676.5710050718546
     },
     "Census Tract 8391": {
       "n_banned_nodes": 2,
-      "length": 845.2546992676621
+      "length": 845.2922023675912
     }
   },
   "Census Tract 5203": {
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 1368.2226510707949
+      "length": 1368.2581824109222
     },
     "Census Tract 3501": {
       "n_banned_nodes": 0,
-      "length": 1146.3071452479082
+      "length": 1146.3358280503041
     },
     "Census Tract 5002": {
       "n_banned_nodes": 0,
-      "length": 574.7630483561577
+      "length": 574.8827292776647
     },
     "Census Tract 5204": {
       "n_banned_nodes": 0,
-      "length": 88.3811780062916
+      "length": 88.40449142025373
     },
     "Census Tract 816": {
       "n_banned_nodes": 0,
-      "length": 1429.1446074152482
+      "length": 1429.17917221754
     },
     "Census Tract 8329": {
       "n_banned_nodes": 0,
-      "length": 1351.0893265369318
+      "length": 1351.1180093393273
     }
   },
   "Census Tract 5607": {
     "Census Tract 3206": {
       "n_banned_nodes": 3,
-      "length": 935.8341797340522
+      "length": 935.8461282127466
     },
     "Census Tract 8391": {
       "n_banned_nodes": 3,
-      "length": 947.6854825166084
+      "length": 947.7036189288269
     }
   },
   "Census Tract 7206": {
     "Census Tract 814.03": {
       "n_banned_nodes": 1,
-      "length": 1397.5133239451284
+      "length": 1397.5656248069295
     }
   },
   "Census Tract 310": {
     "Census Tract 1512": {
       "n_banned_nodes": 5,
-      "length": 913.3175288788242
+      "length": 913.3968029475378
     },
     "Census Tract 2819": {
       "n_banned_nodes": 2,
-      "length": 807.0791682600179
+      "length": 807.150570697575
     },
     "Census Tract 301.03": {
       "n_banned_nodes": 3,
-      "length": 317.0839096030209
+      "length": 317.1234578850384
     },
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 791.9038352439827
+      "length": 790.9861909086628
     },
     "Census Tract 403": {
       "n_banned_nodes": 1,
-      "length": 253.5502803567761
+      "length": 253.58540581412177
     },
     "Census Tract 718": {
       "n_banned_nodes": 3,
-      "length": 610.7004701513399
+      "length": 610.78675222253
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 841.0063676729654
+      "length": 840.0990061900777
     },
     "Census Tract 8423": {
       "n_banned_nodes": 2,
-      "length": 654.0639624170879
+      "length": 654.135971750255
     }
   },
   "Census Tract 505": {
     "Census Tract 2801": {
       "n_banned_nodes": 1,
-      "length": 596.2600956648728
+      "length": 596.324516570651
     },
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 737.5336955833445
+      "length": 737.5984526420757
     },
     "Census Tract 3204": {
       "n_banned_nodes": 2,
-      "length": 777.5286504681699
+      "length": 777.6102386687284
     },
     "Census Tract 3901": {
       "n_banned_nodes": 1,
-      "length": 1108.521025445732
+      "length": 1107.6519110781373
     },
     "Census Tract 505": {},
     "Census Tract 508": {},
@@ -3423,111 +3423,111 @@
   "Census Tract 508": {
     "Census Tract 3201": {
       "n_banned_nodes": 3,
-      "length": 682.5781097815958
+      "length": 682.6916556628458
     },
     "Census Tract 603": {
       "n_banned_nodes": 0,
-      "length": 145.34359375255923
+      "length": 145.38200221236943
     },
     "Census Tract 814.03": {
       "n_banned_nodes": 4,
-      "length": 706.3469904851294
+      "length": 706.4743361790617
     },
     "Census Tract 8362": {
       "n_banned_nodes": 4,
-      "length": 1201.293153446775
+      "length": 1201.420720469141
     },
     "Census Tract 8391": {
       "n_banned_nodes": 3,
-      "length": 610.5087096645265
+      "length": 610.6286535464741
     }
   },
   "Census Tract 510": {
     "Census Tract 501": {
       "n_banned_nodes": 0,
-      "length": 235.61932278343312
+      "length": 235.6408579648012
     },
     "Census Tract 8391": {
       "n_banned_nodes": 3,
-      "length": 586.7681227423311
+      "length": 586.7969039711766
     },
     "Census Tract 8437": {
       "n_banned_nodes": 0,
-      "length": 56.46404058760747
+      "length": 56.46882541381476
     }
   },
   "Census Tract 514": {
     "Census Tract 701.02": {
       "n_banned_nodes": 1,
-      "length": 289.0733236004788
+      "length": 289.1015207473208
     },
     "Census Tract 8391": {
       "n_banned_nodes": 3,
-      "length": 496.0345919156309
+      "length": 496.0759742618917
     }
   },
   "Census Tract 819": {
     "Census Tract 817": {
       "n_banned_nodes": 0,
-      "length": 124.44275891259389
+      "length": 124.4721487367938
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 211.4865420392349
+      "length": 211.51369455701504
     },
     "Census Tract 8411": {
       "n_banned_nodes": 0,
-      "length": 447.71216043640754
+      "length": 447.7679219872973
     }
   },
   "Census Tract 2520": {
     "Census Tract 1512": {
       "n_banned_nodes": 5,
-      "length": 619.6441610269806
+      "length": 619.7691288432036
     },
     "Census Tract 2819": {
       "n_banned_nodes": 0,
-      "length": 680.670035156058
+      "length": 680.717330927696
     },
     "Census Tract 317": {
       "n_banned_nodes": 1,
-      "length": 1318.8316781707908
+      "length": 1318.9215699758267
     },
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 802.8479367407664
+      "length": 802.8952084555921
     },
     "Census Tract 8307": {
       "n_banned_nodes": 1,
-      "length": 1311.638339277859
+      "length": 1311.731973956697
     }
   },
   "Census Tract 403": {
     "Census Tract 202": {
       "n_banned_nodes": 2,
-      "length": 377.50000548359276
+      "length": 377.557287108942
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 975.1931186907065
+      "length": 975.2499721296231
     },
     "Census Tract 703": {
       "n_banned_nodes": 1,
-      "length": 647.7734417532918
+      "length": 647.862031414616
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 903.123718573637
+      "length": 903.1869700132514
     }
   },
   "Census Tract 408": {
     "Census Tract 104": {
       "n_banned_nodes": 3,
-      "length": 627.5125226772702
+      "length": 627.5701356202126
     },
     "Census Tract 2801": {
       "n_banned_nodes": 2,
-      "length": 701.6976675369983
+      "length": 701.7525872835007
     },
     "Census Tract 408": {},
     "Census Tract 506": {},
@@ -3538,19 +3538,19 @@
   "Census Tract 501": {
     "Census Tract 1402": {
       "n_banned_nodes": 1,
-      "length": 352.5472276087205
+      "length": 352.5807498892668
     },
     "Census Tract 2414": {
       "n_banned_nodes": 3,
-      "length": 575.7920026495426
+      "length": 575.8281364715157
     },
     "Census Tract 3201": {
       "n_banned_nodes": 2,
-      "length": 759.9206968667504
+      "length": 759.0129272296188
     },
     "Census Tract 3204": {
       "n_banned_nodes": 2,
-      "length": 752.2560086161311
+      "length": 751.3316232948968
     },
     "Census Tract 501": {},
     "Census Tract 505": {},
@@ -3563,23 +3563,23 @@
   "Census Tract 502": {
     "Census Tract 2801": {
       "n_banned_nodes": 1,
-      "length": 659.6133273888859
+      "length": 659.681909481698
     },
     "Census Tract 318": {
       "n_banned_nodes": 0,
-      "length": 196.79434821028542
+      "length": 196.85933169512953
     },
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 800.8869273073576
+      "length": 800.9558455531226
     },
     "Census Tract 3204": {
       "n_banned_nodes": 2,
-      "length": 795.893951104229
+      "length": 794.969126623807
     },
     "Census Tract 408": {
       "n_banned_nodes": 1,
-      "length": 125.86992219702469
+      "length": 125.90777661173516
     },
     "Census Tract 502": {},
     "Census Tract 619.01": {},
@@ -3596,45 +3596,45 @@
   "Census Tract 503": {
     "Census Tract 2107": {
       "n_banned_nodes": 1,
-      "length": 318.12475839429135
+      "length": 318.20065889556264
     },
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 803.206569010817
+      "length": 803.2878238914705
     },
     "Census Tract 3301": {
       "n_banned_nodes": 1,
-      "length": 958.1788535618997
+      "length": 958.263012164775
     },
     "Census Tract 4106": {
       "n_banned_nodes": 1,
-      "length": 1349.2989983209984
+      "length": 1348.4841793165829
     },
     "Census Tract 817": {
       "n_banned_nodes": 1,
-      "length": 656.1366655669981
+      "length": 656.2153722250888
     },
     "Census Tract 8330": {
       "n_banned_nodes": 1,
-      "length": 653.7320873831326
+      "length": 653.8885599715373
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 731.1371688937477
+      "length": 731.2248217750988
     },
     "Census Tract 8432": {
       "n_banned_nodes": 1,
-      "length": 978.5603471073534
+      "length": 978.7035344179833
     }
   },
   "Census Tract 3802": {
     "Census Tract 2513": {
       "n_banned_nodes": 2,
-      "length": 1143.6755619723285
+      "length": 1143.7382623707222
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 552.9666817440873
+      "length": 552.9949411665214
     },
     "Census Tract 3802": {},
     "Census Tract 3903": {},
@@ -3643,89 +3643,89 @@
   "Census Tract 6004": {
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 484.9668381563901
+      "length": 485.0063553146377
     },
     "Census Tract 3204": {
       "n_banned_nodes": 0,
-      "length": 421.6623167456838
+      "length": 421.6787481658524
     },
     "Census Tract 3301": {
       "n_banned_nodes": 0,
-      "length": 301.9544543420383
+      "length": 301.97067861415064
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 400.6122795092813
+      "length": 400.65058043972033
     }
   },
   "Census Tract 815": {
     "Census Tract 2211": {
       "n_banned_nodes": 1,
-      "length": 561.2941838768222
+      "length": 561.3416199910837
     },
     "Census Tract 2801": {
       "n_banned_nodes": 1,
-      "length": 160.2249279006161
+      "length": 160.239419523092
     },
     "Census Tract 4203": {
       "n_banned_nodes": 0,
-      "length": 944.9985531011307
+      "length": 944.114315044346
     },
     "Census Tract 627": {
       "n_banned_nodes": 0,
-      "length": 478.7198289160868
+      "length": 478.7628203306067
     },
     "Census Tract 714": {
       "n_banned_nodes": 1,
-      "length": 274.3800642358103
+      "length": 274.39201295631375
     },
     "Census Tract 812.01": {
       "n_banned_nodes": 0,
-      "length": 75.08954061163517
+      "length": 75.09061954079293
     },
     "Census Tract 8382": {
       "n_banned_nodes": 1,
-      "length": 381.6300291526651
+      "length": 381.65327629568804
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 138.9544274995718
+      "length": 138.96742610882606
     }
   },
   "Census Tract 7201": {
     "Census Tract 3204": {
       "n_banned_nodes": 2,
-      "length": 1250.1623934162662
+      "length": 1250.2376959258524
     },
     "Census Tract 5502": {
       "n_banned_nodes": 3,
-      "length": 1070.8276456972048
+      "length": 1070.933286200583
     },
     "Census Tract 7202": {
       "n_banned_nodes": 0,
-      "length": 242.31872732007653
+      "length": 242.40993109454467
     },
     "Census Tract 814.02": {
       "n_banned_nodes": 2,
-      "length": 1380.447025599976
+      "length": 1380.52354050068
     },
     "Census Tract 8390": {
       "n_banned_nodes": 2,
-      "length": 1203.2649756668166
+      "length": 1203.3612228116574
     }
   },
   "Census Tract 7202": {
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 1198.4001384372732
+      "length": 1198.4159801631833
     },
     "Census Tract 7201": {
       "n_banned_nodes": 0,
-      "length": 224.49488685006656
+      "length": 224.57667559682847
     },
     "Census Tract 8382": {
       "n_banned_nodes": 1,
-      "length": 1213.5528109447744
+      "length": 1213.5680580506412
     }
   },
   "Census Tract 7203": {
@@ -3736,145 +3736,145 @@
   "Census Tract 7207": {
     "Census Tract 1602": {
       "n_banned_nodes": 1,
-      "length": 1660.1540239110186
+      "length": 1660.2084938368464
     },
     "Census Tract 7202": {
       "n_banned_nodes": 0,
-      "length": 170.36377453913133
+      "length": 170.48069214475623
     },
     "Census Tract 7203": {
       "n_banned_nodes": 0,
-      "length": 247.21709776270012
+      "length": 247.28301198995968
     },
     "Census Tract 8309": {
       "n_banned_nodes": 1,
-      "length": 1485.5271899639743
+      "length": 1485.5991572773926
     },
     "Census Tract 8382": {
       "n_banned_nodes": 1,
-      "length": 1271.5285743461284
+      "length": 1271.5892981896443
     },
     "Census Tract 8390": {
       "n_banned_nodes": 1,
-      "length": 1137.082241725076
+      "length": 1137.1578634342145
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 1236.815959064767
+      "length": 1236.8766169241187
     },
     "Census Tract 8410": {
       "n_banned_nodes": 1,
-      "length": 990.5689405894691
+      "length": 990.6248647802834
     }
   },
   "Census Tract 7301": {
     "Census Tract 4107": {
       "n_banned_nodes": 1,
-      "length": 809.6680508673837
+      "length": 809.7528352210679
     },
     "Census Tract 8392": {
       "n_banned_nodes": 0,
-      "length": 837.6446426029003
+      "length": 837.7233011199106
     },
     "Census Tract 8410": {
       "n_banned_nodes": 0,
-      "length": 804.9225604247832
+      "length": 804.964914141701
     }
   },
   "Census Tract 7303": {
     "Census Tract 7112": {
       "n_banned_nodes": 0,
-      "length": 209.0386758384846
+      "length": 209.1774364182963
     }
   },
   "Census Tract 311": {
     "Census Tract 3006": {
       "n_banned_nodes": 2,
-      "length": 1361.0703345916202
+      "length": 1361.244591009666
     },
     "Census Tract 301.03": {
       "n_banned_nodes": 3,
-      "length": 278.3197455554686
+      "length": 278.3753355507254
     },
     "Census Tract 309": {
       "n_banned_nodes": 0,
-      "length": 135.149735236742
+      "length": 135.2080239660611
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 766.3897468345492
+      "length": 765.4827536108659
     },
     "Census Tract 404.01": {
       "n_banned_nodes": 0,
-      "length": 221.51647534547263
+      "length": 221.65686548205574
     },
     "Census Tract 602": {
       "n_banned_nodes": 1,
-      "length": 202.65339184826894
+      "length": 202.68727377380907
     },
     "Census Tract 609": {
       "n_banned_nodes": 0,
-      "length": 302.195802584185
+      "length": 302.23264445057106
     },
     "Census Tract 701.02": {
       "n_banned_nodes": 1,
-      "length": 448.3245324272442
+      "length": 448.3797310508342
     },
     "Census Tract 812.01": {
       "n_banned_nodes": 0,
-      "length": 641.9214619555717
+      "length": 641.0149917529261
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 0,
-      "length": 671.0687134585038
+      "length": 670.155019001606
     },
     "Census Tract 818": {
       "n_banned_nodes": 0,
-      "length": 747.6918225003342
+      "length": 746.786919796343
     },
     "Census Tract 8307": {
       "n_banned_nodes": 0,
-      "length": 183.84638852345375
+      "length": 183.96553728457852
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 815.4922792635318
+      "length": 814.5955688922808
     },
     "Census Tract 8422": {
       "n_banned_nodes": 2,
-      "length": 693.7560837303222
+      "length": 693.8741891138731
     }
   },
   "Census Tract 312": {
     "Census Tract 2432": {
       "n_banned_nodes": 3,
-      "length": 845.9007673664532
+      "length": 846.0050780337289
     },
     "Census Tract 3204": {
       "n_banned_nodes": 0,
-      "length": 706.1398720397985
+      "length": 705.1842884445605
     },
     "Census Tract 815": {
       "n_banned_nodes": 0,
-      "length": 630.6617824167157
+      "length": 629.7175454246141
     },
     "Census Tract 8390": {
       "n_banned_nodes": 0,
-      "length": 850.8634163781812
+      "length": 849.935385951535
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 762.9070927194008
+      "length": 761.9784076606974
     }
   },
   "Census Tract 313": {
     "Census Tract 2819": {
       "n_banned_nodes": 1,
-      "length": 833.4541115801943
+      "length": 832.534252370735
     },
     "Census Tract 311": {
       "n_banned_nodes": 2,
-      "length": 173.4960178238178
+      "length": 173.52742163877167
     },
     "Census Tract 313": {},
     "Census Tract 3201": {},
@@ -3893,7 +3893,7 @@
   "Census Tract 314": {
     "Census Tract 2819": {
       "n_banned_nodes": 1,
-      "length": 730.2474244561881
+      "length": 729.3297953117284
     },
     "Census Tract 314": {},
     "Census Tract 3201": {},
@@ -3911,113 +3911,113 @@
   "Census Tract 5705": {
     "Census Tract 3302": {
       "n_banned_nodes": 1,
-      "length": 777.2412423523133
+      "length": 777.296117976152
     },
     "Census Tract 633.03": {
       "n_banned_nodes": 2,
-      "length": 1371.7960360576135
+      "length": 1371.840993139101
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 888.2805353930538
+      "length": 888.3310307041387
     }
   },
   "Census Tract 5801": {
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 592.1925091739228
+      "length": 592.2319474697118
     }
   },
   "Census Tract 603": {
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 718.95258945865
+      "length": 718.0471710553048
     },
     "Census Tract 3204": {
       "n_banned_nodes": 1,
-      "length": 711.2879012080305
+      "length": 710.3658671205828
     },
     "Census Tract 501": {
       "n_banned_nodes": 0,
-      "length": 124.06573266364285
+      "length": 124.1279507065726
     },
     "Census Tract 604": {
       "n_banned_nodes": 0,
-      "length": 45.29864580140121
+      "length": 45.32973345028359
     },
     "Census Tract 631": {
       "n_banned_nodes": 0,
-      "length": 252.089943332932
+      "length": 252.13141467570046
     },
     "Census Tract 812.01": {
       "n_banned_nodes": 1,
-      "length": 594.4843045796724
+      "length": 593.5794091973653
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 1,
-      "length": 623.6315560826046
+      "length": 622.7194364460452
     },
     "Census Tract 814.03": {
       "n_banned_nodes": 1,
-      "length": 674.3172147437165
+      "length": 673.3995594374358
     },
     "Census Tract 818": {
       "n_banned_nodes": 1,
-      "length": 568.1245540128632
+      "length": 568.1745856888947
     },
     "Census Tract 8318": {
       "n_banned_nodes": 1,
-      "length": 538.1233313323868
+      "length": 538.2341653346223
     },
     "Census Tract 8382": {
       "n_banned_nodes": 1,
-      "length": 735.522482780764
+      "length": 735.6168268723661
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 667.9867634538969
+      "length": 668.0488934997281
     },
     "Census Tract 8423": {
       "n_banned_nodes": 1,
-      "length": 468.6092428145816
+      "length": 468.66378205866334
     }
   },
   "Census Tract 5804": {
     "Census Tract 3204": {
       "n_banned_nodes": 0,
-      "length": 727.4009106526512
+      "length": 727.4465747147027
     },
     "Census Tract 3403": {
       "n_banned_nodes": 0,
-      "length": 592.0682864675965
+      "length": 592.1568149550147
     },
     "Census Tract 8411": {
       "n_banned_nodes": 0,
-      "length": 554.783386520307
+      "length": 554.8483305525762
     }
   },
   "Census Tract 5806": {
     "Census Tract 5805.01": {
       "n_banned_nodes": 0,
-      "length": 128.27129477118265
+      "length": 128.32352701216206
     },
     "Census Tract 6505": {
       "n_banned_nodes": 3,
-      "length": 868.4687703060307
+      "length": 868.6593285092993
     },
     "Census Tract 817": {
       "n_banned_nodes": 0,
-      "length": 745.8131617042529
+      "length": 745.9006725663957
     },
     "Census Tract 8438": {
       "n_banned_nodes": 1,
-      "length": 513.2089118969736
+      "length": 513.30841752595
     }
   },
   "Census Tract 513": {
     "Census Tract 2819": {
       "n_banned_nodes": 3,
-      "length": 464.2539461025769
+      "length": 464.30050396689415
     },
     "Census Tract 513": {},
     "Census Tract 7505": {},
@@ -4028,172 +4028,172 @@
   "Census Tract 5001": {
     "Census Tract 3301": {
       "n_banned_nodes": 0,
-      "length": 990.7796085645739
+      "length": 990.8433201916487
     },
     "Census Tract 4406": {
       "n_banned_nodes": 0,
-      "length": 353.63534599062535
+      "length": 353.7407991533343
     },
     "Census Tract 5003": {
       "n_banned_nodes": 0,
-      "length": 376.3906152819445
+      "length": 376.5067053289157
     },
     "Census Tract 6607": {
       "n_banned_nodes": 0,
-      "length": 938.8717347008702
+      "length": 938.9588809019867
     }
   },
   "Census Tract 506": {
     "Census Tract 2801": {
       "n_banned_nodes": 1,
-      "length": 588.189222984998
+      "length": 588.2307954211726
     },
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 729.4628229034697
+      "length": 729.5047314925974
     },
     "Census Tract 3204": {
       "n_banned_nodes": 1,
-      "length": 725.2228179141505
+      "length": 724.2860672348733
     },
     "Census Tract 8319": {
       "n_banned_nodes": 0,
-      "length": 86.93348350862135
+      "length": 86.94058785320345
     },
     "Census Tract 8322": {
       "n_banned_nodes": 3,
-      "length": 350.5597206453372
+      "length": 350.61434535771144
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 657.3934227864004
+      "length": 657.4417293762258
     }
   },
   "Census Tract 507": {
     "Census Tract 513": {
       "n_banned_nodes": 0,
-      "length": 114.5200294412022
+      "length": 114.59862248526088
     },
     "Census Tract 803": {
       "n_banned_nodes": 1,
-      "length": 525.0047823352471
+      "length": 525.0749925291682
     },
     "Census Tract 8391": {
       "n_banned_nodes": 3,
-      "length": 615.8628953808211
+      "length": 615.9016903989999
     },
     "Census Tract 8410": {
       "n_banned_nodes": 3,
-      "length": 804.0699809848663
+      "length": 804.0976745349301
     },
     "Census Tract 902": {
       "n_banned_nodes": 2,
-      "length": 908.4483426657075
+      "length": 908.5307633691546
     }
   },
   "Census Tract 509": {
     "Census Tract 206.01": {
       "n_banned_nodes": 5,
-      "length": 581.4702019899592
+      "length": 581.5642308325837
     },
     "Census Tract 8318": {
       "n_banned_nodes": 1,
-      "length": 534.8105521296636
+      "length": 534.8924667956086
     }
   },
   "Census Tract 511": {
     "Census Tract 508": {
       "n_banned_nodes": 0,
-      "length": 68.31802480854036
+      "length": 68.35725701900405
     },
     "Census Tract 8318": {
       "n_banned_nodes": 1,
-      "length": 601.6178787279616
+      "length": 601.6931176808337
     },
     "Census Tract 8382": {
       "n_banned_nodes": 3,
-      "length": 632.1982708472731
+      "length": 632.3189653781998
     }
   },
   "Census Tract 818": {
     "Census Tract 2801": {
       "n_banned_nodes": 0,
-      "length": 191.67617384016665
+      "length": 191.68199541961724
     },
     "Census Tract 2819": {
       "n_banned_nodes": 0,
-      "length": 214.51805884518373
+      "length": 214.52241688092565
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 335.33450800684386
+      "length": 335.3547436040169
     },
     "Census Tract 3204": {
       "n_banned_nodes": 1,
-      "length": 372.9447286434637
+      "length": 372.96771751769495
     },
     "Census Tract 3301": {
       "n_banned_nodes": 0,
-      "length": 487.922058309721
+      "length": 487.93111976434636
     },
     "Census Tract 7112": {
       "n_banned_nodes": 1,
-      "length": 1207.0419156182704
+      "length": 1207.1211203675855
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 0,
-      "length": 373.19545284843775
+      "length": 373.2115711088095
     },
     "Census Tract 817": {
       "n_banned_nodes": 0,
-      "length": 268.2331432947526
+      "length": 268.2369180788697
     },
     "Census Tract 8307": {
       "n_banned_nodes": 1,
-      "length": 675.2222294757137
+      "length": 675.2759966010578
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 260.880373641569
+      "length": 260.89292937467036
     }
   },
   "Census Tract 901": {
     "Census Tract 2801": {
       "n_banned_nodes": 1,
-      "length": 1158.2750296190247
+      "length": 1158.3372610697834
     },
     "Census Tract 710": {
       "n_banned_nodes": 1,
-      "length": 1057.7780612054908
+      "length": 1057.8376955546562
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 1227.479229420427
+      "length": 1227.5481950248363
     },
     "Census Tract 8422": {
       "n_banned_nodes": 1,
-      "length": 1080.0607850877532
+      "length": 1080.1216839738195
     }
   },
   "Census Tract 902": {
     "Census Tract 2801": {
       "n_banned_nodes": 0,
-      "length": 1080.4302764008705
+      "length": 1080.50265936855
     },
     "Census Tract 2819": {
       "n_banned_nodes": 0,
-      "length": 1103.2721614058876
+      "length": 1103.3430808298585
     },
     "Census Tract 8432": {
       "n_banned_nodes": 0,
-      "length": 1397.0576544158785
+      "length": 1397.192305966488
     },
     "Census Tract 902": {}
   },
   "Census Tract 903": {
     "Census Tract 203.01": {
       "n_banned_nodes": 1,
-      "length": 933.1495257691754
+      "length": 933.2889871192083
     }
   },
   "Census Tract 1001": {
@@ -4208,11 +4208,11 @@
   "Census Tract 2602": {
     "Census Tract 2434": {
       "n_banned_nodes": 2,
-      "length": 536.3739044594695
+      "length": 536.4537981885932
     },
     "Census Tract 817": {
       "n_banned_nodes": 0,
-      "length": 621.8243251433817
+      "length": 621.8557549039643
     }
   },
   "Census Tract 1002": {
@@ -4232,93 +4232,93 @@
   "Census Tract 624": {
     "Census Tract 104": {
       "n_banned_nodes": 3,
-      "length": 700.5161256825371
+      "length": 700.6264891042522
     },
     "Census Tract 2801": {
       "n_banned_nodes": 1,
-      "length": 516.8579961423584
+      "length": 516.9044061082008
     }
   },
   "Census Tract 4913": {
     "Census Tract 4910": {
       "n_banned_nodes": 0,
-      "length": 105.6409274078861
+      "length": 105.64092740788612
     }
   },
   "Census Tract 7204": {
     "Census Tract 3103": {
       "n_banned_nodes": 1,
-      "length": 1230.6913244551415
+      "length": 1230.773721714808
     },
     "Census Tract 8419": {
       "n_banned_nodes": 1,
-      "length": 1256.1887001338148
+      "length": 1256.2537918192727
     },
     "Census Tract 8435": {
       "n_banned_nodes": 1,
-      "length": 1482.836845572656
+      "length": 1482.9076171597599
     }
   },
   "Census Tract 5304": {
     "Census Tract 3201": {
       "n_banned_nodes": 3,
-      "length": 1465.6883648076341
+      "length": 1465.7730611245256
     },
     "Census Tract 8391": {
       "n_banned_nodes": 3,
-      "length": 1446.128422033774
+      "length": 1446.2124577464572
     }
   },
   "Census Tract 634": {
     "Census Tract 2410": {
       "n_banned_nodes": 4,
-      "length": 541.8023128576235
+      "length": 541.8309111650983
     },
     "Census Tract 2819": {
       "n_banned_nodes": 3,
-      "length": 563.1540035869966
+      "length": 563.2122850926702
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 478.37866171651484
+      "length": 477.4520631416862
     },
     "Census Tract 633.01": {
       "n_banned_nodes": 0,
-      "length": 40.80509613801878
+      "length": 40.82988595138657
     },
     "Census Tract 815": {
       "n_banned_nodes": 0,
-      "length": 395.2358838428126
+      "length": 394.30401618701774
     },
     "Census Tract 818": {
       "n_banned_nodes": 1,
-      "length": 425.0724719554643
+      "length": 425.09216224609025
     },
     "Census Tract 8325": {
       "n_banned_nodes": 0,
-      "length": 252.10596800536734
+      "length": 252.10850297437332
     },
     "Census Tract 8362": {
       "n_banned_nodes": 0,
-      "length": 1146.4872379870949
+      "length": 1144.621447219779
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 507.66236819841026
+      "length": 507.7193747997096
     },
     "Census Tract 8419": {
       "n_banned_nodes": 3,
-      "length": 623.4592258683763
+      "length": 623.5166829307906
     }
   },
   "Census Tract 7506": {
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 1225.6197755489852
+      "length": 1225.6572274375317
     },
     "Census Tract 7114": {
       "n_banned_nodes": 1,
-      "length": 488.6822953953615
+      "length": 488.78184847466605
     },
     "Census Tract 7506": {},
     "Census Tract 8391": {}
@@ -4326,61 +4326,61 @@
   "Census Tract 401": {
     "Census Tract 2414": {
       "n_banned_nodes": 3,
-      "length": 779.6621064739339
+      "length": 779.7138380870671
     },
     "Census Tract 3201": {
       "n_banned_nodes": 2,
-      "length": 890.2027824874584
+      "length": 889.2631985085101
     },
     "Census Tract 404.02": {
       "n_banned_nodes": 0,
-      "length": 91.2613254475362
+      "length": 91.26521345606308
     },
     "Census Tract 4202": {
       "n_banned_nodes": 2,
-      "length": 1575.8044908064808
+      "length": 1573.9473891859514
     },
     "Census Tract 602": {
       "n_banned_nodes": 0,
-      "length": 291.46570352765644
+      "length": 291.51911518660484
     },
     "Census Tract 718": {
       "n_banned_nodes": 1,
-      "length": 747.7440839131021
+      "length": 747.8255418756553
     },
     "Census Tract 818": {
       "n_banned_nodes": 3,
-      "length": 843.0303292810128
+      "length": 843.0570954530524
     },
     "Census Tract 8318": {
       "n_banned_nodes": 1,
-      "length": 344.3362817382458
+      "length": 344.3863327748804
     },
     "Census Tract 8331": {
       "n_banned_nodes": 3,
-      "length": 929.6144797002746
+      "length": 929.6415503490556
     },
     "Census Tract 8391": {
       "n_banned_nodes": 2,
-      "length": 939.3053149164411
+      "length": 938.376013789925
     }
   },
   "Census Tract 406": {
     "Census Tract 2819": {
       "n_banned_nodes": 2,
-      "length": 766.7336011034376
+      "length": 766.8055598754372
     },
     "Census Tract 301.03": {
       "n_banned_nodes": 3,
-      "length": 445.019243875628
+      "length": 445.0709364143196
     },
     "Census Tract 318": {
       "n_banned_nodes": 0,
-      "length": 121.48399138720265
+      "length": 121.56736367355381
     },
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 872.0325328802032
+      "length": 871.1292070645925
     },
     "Census Tract 406": {},
     "Census Tract 704": {},
@@ -4399,31 +4399,31 @@
   "Census Tract 407": {
     "Census Tract 301.03": {
       "n_banned_nodes": 5,
-      "length": 504.8523796757081
+      "length": 504.90398924832317
     },
     "Census Tract 301.04": {
       "n_banned_nodes": 5,
-      "length": 514.7480912703261
+      "length": 514.7969486196552
     },
     "Census Tract 318": {
       "n_banned_nodes": 1,
-      "length": 199.99646034729338
+      "length": 200.0460555919776
     },
     "Census Tract 3201": {
       "n_banned_nodes": 2,
-      "length": 884.7625657139274
+      "length": 884.8282897221476
     },
     "Census Tract 3204": {
       "n_banned_nodes": 2,
-      "length": 906.0914259391899
+      "length": 905.183059221011
     },
     "Census Tract 402.02": {
       "n_banned_nodes": 0,
-      "length": 172.68789434881512
+      "length": 172.77048677793394
     },
     "Census Tract 406": {
       "n_banned_nodes": 0,
-      "length": 88.8450729597717
+      "length": 88.89895997543277
     },
     "Census Tract 407": {},
     "Census Tract 408": {},
@@ -4437,114 +4437,114 @@
   "Census Tract 409": {
     "Census Tract 3201": {
       "n_banned_nodes": 2,
-      "length": 831.5709778253058
+      "length": 830.6495288570734
     },
     "Census Tract 3204": {
       "n_banned_nodes": 2,
-      "length": 823.9062895746863
+      "length": 822.9682249223514
     },
     "Census Tract 4201": {
       "n_banned_nodes": 2,
-      "length": 1409.6357838695112
+      "length": 1408.759762872992
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 2,
-      "length": 736.2499444492605
+      "length": 735.3217942478136
     },
     "Census Tract 8382": {
       "n_banned_nodes": 2,
-      "length": 849.2959085442632
+      "length": 849.3931127379951
     },
     "Census Tract 8391": {
       "n_banned_nodes": 2,
-      "length": 781.7601892173961
+      "length": 781.8251793653571
     },
     "Census Tract 8437": {
       "n_banned_nodes": 2,
-      "length": 211.3633815986272
+      "length": 211.39420005412634
     },
     "Census Tract 9800": {}
   },
   "Census Tract 816": {
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 131.72176195287722
+      "length": 131.72975684486389
     },
     "Census Tract 818": {
       "n_banned_nodes": 0,
-      "length": 59.154139327418754
+      "length": 59.16087674469015
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 135.555555261701
+      "length": 135.5703741924351
     }
   },
   "Census Tract 817": {
     "Census Tract 104": {
       "n_banned_nodes": 2,
-      "length": 908.8614379149767
+      "length": 908.9192115001927
     },
     "Census Tract 2206.01": {
       "n_banned_nodes": 1,
-      "length": 528.0383950721448
+      "length": 528.0835237012388
     },
     "Census Tract 2819": {
       "n_banned_nodes": 1,
-      "length": 195.17374868046988
+      "length": 195.1956925643409
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 150.7095039347468
+      "length": 150.71675282106222
     },
     "Census Tract 3204": {
       "n_banned_nodes": 0,
-      "length": 215.6880997073786
+      "length": 215.7035434442563
     },
     "Census Tract 802.01": {
       "n_banned_nodes": 0,
-      "length": 167.30846797514437
+      "length": 167.32186572505393
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 0,
-      "length": 104.96230955368517
+      "length": 104.97465302993984
     },
     "Census Tract 814.03": {
       "n_banned_nodes": 1,
-      "length": 173.0618669746096
+      "length": 173.08162680777247
     },
     "Census Tract 818": {
       "n_banned_nodes": 0,
-      "length": 39.735202133264515
+      "length": 39.7396559004222
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 117.1215007288568
+      "length": 117.1352741154115
     }
   },
   "Census Tract 2513": {
     "Census Tract 8391": {
       "n_banned_nodes": 2,
-      "length": 837.9778960548399
+      "length": 838.0139291569809
     }
   },
   "Census Tract 2514": {
     "Census Tract 1503": {
       "n_banned_nodes": 6,
-      "length": 706.1368055204819
+      "length": 706.2436197654312
     },
     "Census Tract 3206": {
       "n_banned_nodes": 1,
-      "length": 833.541633902304
+      "length": 833.6058195922398
     },
     "Census Tract 8331": {
       "n_banned_nodes": 1,
-      "length": 643.647375543924
+      "length": 643.6998543996084
     }
   },
   "Census Tract 2515": {
     "Census Tract 1903": {
       "n_banned_nodes": 3,
-      "length": 484.3998895563278
+      "length": 484.5025861570835
     },
     "Census Tract 2515": {},
     "Census Tract 8367": {}
@@ -4552,7 +4552,7 @@
   "Census Tract 2519": {
     "Census Tract 2517": {
       "n_banned_nodes": 0,
-      "length": 206.49137994238262
+      "length": 206.55381404912947
     },
     "Census Tract 2519": {},
     "Census Tract 2718": {},
@@ -4561,102 +4561,102 @@
   "Census Tract 6009": {
     "Census Tract 6609": {
       "n_banned_nodes": 3,
-      "length": 933.6694808320981
+      "length": 933.7984251012873
     },
     "Census Tract 817": {
       "n_banned_nodes": 0,
-      "length": 544.3898681018406
+      "length": 544.4353382403658
     },
     "Census Tract 8381": {
       "n_banned_nodes": 0,
-      "length": 491.94810192459
+      "length": 491.9965444942134
     },
     "Census Tract 8382": {
       "n_banned_nodes": 0,
-      "length": 445.5753935249596
+      "length": 445.61999065303274
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 483.23200701925555
+      "length": 483.2800555814636
     },
     "Census Tract 8403": {
       "n_banned_nodes": 0,
-      "length": 261.460736304893
+      "length": 261.5368485557437
     },
     "Census Tract 8428": {
       "n_banned_nodes": 0,
-      "length": 501.8277228777254
+      "length": 501.8996849243486
     },
     "Census Tract 8437": {
       "n_banned_nodes": 1,
-      "length": 859.0430436102604
+      "length": 859.1094068169803
     }
   },
   "Census Tract 628": {
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 590.8389222436829
+      "length": 590.9010472571284
     },
     "Census Tract 3204": {
       "n_banned_nodes": 1,
-      "length": 583.1742339930634
+      "length": 583.2197433224064
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 1,
-      "length": 495.51788886763745
+      "length": 495.57331264786853
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 567.9406289491076
+      "length": 567.983677766643
     },
     "Census Tract 8422": {
       "n_banned_nodes": 0,
-      "length": 336.9473890706978
+      "length": 336.9730725115366
     }
   },
   "Census Tract 629": {
     "Census Tract 2819": {
       "n_banned_nodes": 1,
-      "length": 551.3574897009896
+      "length": 551.3922375651827
     },
     "Census Tract 7608.01": {},
     "Census Tract 814.01": {
       "n_banned_nodes": 0,
-      "length": 474.76042371509527
+      "length": 473.84016259686575
     },
     "Census Tract 818": {
       "n_banned_nodes": 2,
-      "length": 479.4210892668606
+      "length": 479.4736418162384
     },
     "Census Tract 8330": {
       "n_banned_nodes": 1,
-      "length": 520.3147229867599
+      "length": 520.4264882553657
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 587.5243865650019
+      "length": 587.5954192143768
     },
     "Census Tract 8419": {
       "n_banned_nodes": 1,
-      "length": 611.6627119823693
+      "length": 611.6966354033029
     }
   },
   "Census Tract 630": {
     "Census Tract 2801": {
       "n_banned_nodes": 3,
-      "length": 507.1898941863101
+      "length": 507.25854265191015
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 530.4229825838381
+      "length": 529.5224493657964
     },
     "Census Tract 3204": {
       "n_banned_nodes": 0,
-      "length": 522.7582943332187
+      "length": 521.8411454310744
     },
     "Census Tract 404.02": {
       "n_banned_nodes": 2,
-      "length": 458.7690122655074
+      "length": 458.81999535173316
     },
     "Census Tract 630": {},
     "Census Tract 702": {},
@@ -4678,57 +4678,57 @@
   "Census Tract 631": {
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 506.8751740889433
+      "length": 505.95574422376484
     },
     "Census Tract 3204": {
       "n_banned_nodes": 1,
-      "length": 499.21048583832385
+      "length": 498.27444028904284
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 1,
-      "length": 411.55414071289795
+      "length": 410.62800961450495
     },
     "Census Tract 8390": {
       "n_banned_nodes": 1,
-      "length": 643.9340301767065
+      "length": 643.0255377960168
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 555.977706517926
+      "length": 555.0685595051796
     }
   },
   "Census Tract 632": {
     "Census Tract 201": {
       "n_banned_nodes": 2,
-      "length": 721.4240177390923
+      "length": 721.4895800198309
     },
     "Census Tract 2420": {
       "n_banned_nodes": 3,
-      "length": 591.8135339250873
+      "length": 591.8498316743344
     },
     "Census Tract 2801": {
       "n_banned_nodes": 2,
-      "length": 532.7214284165651
+      "length": 531.7955414269376
     },
     "Census Tract 2819": {
       "n_banned_nodes": 2,
-      "length": 589.5031759671339
+      "length": 588.5839664616011
     },
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 460.11163900997656
+      "length": 459.1727047349548
     },
     "Census Tract 3204": {
       "n_banned_nodes": 1,
-      "length": 452.4469507593571
+      "length": 451.4914008002328
     },
     "Census Tract 4204": {
       "n_banned_nodes": 1,
-      "length": 1223.6968741732612
+      "length": 1218.102001597566
     },
     "Census Tract 619.01": {
       "n_banned_nodes": 1,
-      "length": 90.89289904827135
+      "length": 90.90096013651355
     },
     "Census Tract 632": {},
     "Census Tract 703": {},
@@ -4751,23 +4751,23 @@
   "Census Tract 2516": {
     "Census Tract 2315": {
       "n_banned_nodes": 2,
-      "length": 332.8526224086896
+      "length": 332.9153073124987
     },
     "Census Tract 2513": {
       "n_banned_nodes": 1,
-      "length": 198.43801430403994
+      "length": 198.465472984499
     },
     "Census Tract 2519": {
       "n_banned_nodes": 0,
-      "length": 150.20974559383367
+      "length": 150.26628566386202
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 749.2154182970547
+      "length": 749.2473547523551
     },
     "Census Tract 8421": {
       "n_banned_nodes": 1,
-      "length": 198.58397442622018
+      "length": 198.63084571431847
     }
   },
   "Census Tract 2518": {
@@ -4777,106 +4777,106 @@
   "Census Tract 1006": {
     "Census Tract 1701": {
       "n_banned_nodes": 2,
-      "length": 400.6677572659214
+      "length": 400.74633153014594
     },
     "Census Tract 1711": {
       "n_banned_nodes": 2,
-      "length": 477.06165473137617
+      "length": 477.09456313774757
     },
     "Census Tract 319": {
       "n_banned_nodes": 3,
-      "length": 804.9273581140833
+      "length": 804.9583574004131
     },
     "Census Tract 630": {
       "n_banned_nodes": 3,
-      "length": 822.7739819156018
+      "length": 822.8056591726385
     },
     "Census Tract 9800": {}
   },
   "Census Tract 622": {
     "Census Tract 104": {
       "n_banned_nodes": 1,
-      "length": 641.6635061035522
+      "length": 641.7290436564667
     },
     "Census Tract 2421": {
       "n_banned_nodes": 2,
-      "length": 509.75440286403193
+      "length": 509.8152682500155
     },
     "Census Tract 2819": {
       "n_banned_nodes": 1,
-      "length": 623.0623961280213
+      "length": 623.108084930487
     },
     "Census Tract 301.01": {
       "n_banned_nodes": 1,
-      "length": 477.5468339336069
+      "length": 477.5848398904292
     },
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 573.738030575225
+      "length": 572.838750354332
     },
     "Census Tract 3206": {
       "n_banned_nodes": 1,
-      "length": 599.5989692689748
+      "length": 598.6832747075931
     },
     "Census Tract 401": {
       "n_banned_nodes": 1,
-      "length": 488.2162355610609
+      "length": 488.29258609318543
     },
     "Census Tract 620": {
       "n_banned_nodes": 0,
-      "length": 137.98521421080306
+      "length": 138.06103873469937
     },
     "Census Tract 629": {
       "n_banned_nodes": 0,
-      "length": 91.3309413365043
+      "length": 91.39362012493461
     },
     "Census Tract 812.01": {
       "n_banned_nodes": 1,
-      "length": 449.2697456962475
+      "length": 448.3709884963923
     },
     "Census Tract 816": {
       "n_banned_nodes": 1,
-      "length": 525.0858886449711
+      "length": 524.1853954118815
     },
     "Census Tract 818": {
       "n_banned_nodes": 2,
-      "length": 532.1692573972937
+      "length": 532.2218131364945
     },
     "Census Tract 8307": {
       "n_banned_nodes": 0,
-      "length": 243.06179827294153
+      "length": 243.08877457868354
     },
     "Census Tract 8330": {
       "n_banned_nodes": 1,
-      "length": 592.0196294137914
+      "length": 592.1423356206702
     },
     "Census Tract 8382": {
       "n_banned_nodes": 1,
-      "length": 736.9604302512737
+      "length": 737.0465307968698
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 622.8405630042078
+      "length": 621.9515656357468
     },
     "Census Tract 8419": {
       "n_banned_nodes": 1,
-      "length": 683.3676184094008
+      "length": 683.4124827686073
     }
   },
   "Census Tract 2610": {
     "Census Tract 317": {
       "n_banned_nodes": 1,
-      "length": 1085.8722075487726
+      "length": 1085.9222318003149
     },
     "Census Tract 6103": {
       "n_banned_nodes": 1,
-      "length": 837.7098342027575
+      "length": 837.7720034846669
     }
   },
   "Census Tract 626": {
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 607.2147123541374
+      "length": 607.2547968508069
     },
     "Census Tract 626": {},
     "Census Tract 815": {},
@@ -4885,175 +4885,175 @@
   "Census Tract 1101": {
     "Census Tract 1001": {
       "n_banned_nodes": 0,
-      "length": 138.00395165623263
+      "length": 138.0625666695565
     },
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 971.6497067875252
+      "length": 971.6663651385438
     },
     "Census Tract 3204": {
       "n_banned_nodes": 2,
-      "length": 1011.6446616723507
+      "length": 1011.6781511651967
     },
     "Census Tract 5301": {
       "n_banned_nodes": 1,
-      "length": 1995.4903961126643
+      "length": 1995.535906859178
     },
     "Census Tract 8331": {
       "n_banned_nodes": 1,
-      "length": 886.3022476486841
+      "length": 886.313510107342
     },
     "Census Tract 8367": {
       "n_banned_nodes": 2,
-      "length": 872.1242217582753
+      "length": 872.1563182913179
     },
     "Census Tract 8371": {
       "n_banned_nodes": 2,
-      "length": 949.6001717073289
+      "length": 949.6446884334821
     },
     "Census Tract 8382": {
       "n_banned_nodes": 1,
-      "length": 967.1160259973232
+      "length": 967.17129639481
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 899.5803066704561
+      "length": 899.6033630221721
     }
   },
   "Census Tract 2609": {
     "Census Tract 2420": {
       "n_banned_nodes": 1,
-      "length": 524.5926006909085
+      "length": 524.6393281154536
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 482.7541920315646
+      "length": 482.7786092783489
     }
   },
   "Census Tract 5201": {
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 1264.6614911972395
+      "length": 1264.7367016724208
     },
     "Census Tract 5102": {
       "n_banned_nodes": 0,
-      "length": 270.27808484472155
+      "length": 270.36479184460944
     },
     "Census Tract 5501": {
       "n_banned_nodes": 0,
-      "length": 573.5693230909657
+      "length": 573.6978879007827
     }
   },
   "Census Tract 6114": {
     "Census Tract 3204": {
       "n_banned_nodes": 0,
-      "length": 793.3401380460114
+      "length": 793.4056285593347
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 827.4636223502416
+      "length": 827.5264529205568
     }
   },
   "Census Tract 6103": {
     "Census Tract 3301": {
       "n_banned_nodes": 0,
-      "length": 626.6384723466285
+      "length": 626.6643824346679
     },
     "Census Tract 5905": {
       "n_banned_nodes": 0,
-      "length": 219.76046553635322
+      "length": 219.79598479261307
     },
     "Census Tract 6607": {
       "n_banned_nodes": 2,
-      "length": 492.76709894260347
+      "length": 492.8285552307915
     },
     "Census Tract 6708": {
       "n_banned_nodes": 0,
-      "length": 373.7602399989057
+      "length": 373.81142069566954
     },
     "Census Tract 6809": {
       "n_banned_nodes": 0,
-      "length": 586.9652386607313
+      "length": 587.0351253761746
     }
   },
   "Census Tract 6108": {
     "Census Tract 3301": {
       "n_banned_nodes": 0,
-      "length": 415.1595442936927
+      "length": 415.19686425162087
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 0,
-      "length": 699.9295110264363
+      "length": 699.9716587714909
     },
     "Census Tract 8362": {
       "n_banned_nodes": 1,
-      "length": 404.5426663190302
+      "length": 404.6245332047598
     },
     "Census Tract 8401": {
       "n_banned_nodes": 0,
-      "length": 341.4285418713408
+      "length": 341.5045917637246
     },
     "Census Tract 8422": {
       "n_banned_nodes": 1,
-      "length": 737.8174210128641
+      "length": 737.8816886561099
     },
     "Census Tract 8426": {
       "n_banned_nodes": 0,
-      "length": 180.87889640145303
+      "length": 180.99792339130948
     },
     "Census Tract 8435": {
       "n_banned_nodes": 0,
-      "length": 638.8077392828185
+      "length": 638.9148401400724
     }
   },
   "Census Tract 627": {
     "Census Tract 2101": {
       "n_banned_nodes": 0,
-      "length": 319.53038309636554
+      "length": 319.5660902058367
     },
     "Census Tract 2801": {
       "n_banned_nodes": 1,
-      "length": 470.1525813871089
+      "length": 470.19993971108124
     },
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 611.4261813055807
+      "length": 611.4738757825057
     },
     "Census Tract 3204": {
       "n_banned_nodes": 1,
-      "length": 614.7461057369775
+      "length": 614.7914024272802
     },
     "Census Tract 611": {
       "n_banned_nodes": 0,
-      "length": 200.146463699163
+      "length": 200.17845282017123
     },
     "Census Tract 622": {
       "n_banned_nodes": 0,
-      "length": 130.08033162102453
+      "length": 130.11735585992795
     },
     "Census Tract 626": {
       "n_banned_nodes": 0,
-      "length": 64.95386172374026
+      "length": 64.9937218986534
     },
     "Census Tract 630": {
       "n_banned_nodes": 0,
-      "length": 135.84016378843148
+      "length": 135.93338845864554
     },
     "Census Tract 711": {
       "n_banned_nodes": 0,
-      "length": 220.77159267362276
+      "length": 220.7925744606634
     },
     "Census Tract 811": {
       "n_banned_nodes": 1,
-      "length": 483.551538119797
+      "length": 483.59817120975316
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 539.3567811885113
+      "length": 539.4108736661343
     },
     "Census Tract 8419": {
       "n_banned_nodes": 1,
-      "length": 553.2996886735057
+      "length": 553.34475901051
     }
   },
   "Census Tract 1203": {
@@ -5063,89 +5063,89 @@
   "Census Tract 5204": {
     "Census Tract 5001": {
       "n_banned_nodes": 0,
-      "length": 630.1724452441299
+      "length": 638.6161845592638
     }
   },
   "Census Tract 5807": {
     "Census Tract 2809": {
       "n_banned_nodes": 3,
-      "length": 601.6807617244601
+      "length": 601.7700764840661
     },
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 733.6348630658313
+      "length": 733.682324627362
     },
     "Census Tract 4903": {
       "n_banned_nodes": 1,
-      "length": 993.157033273087
+      "length": 993.2582359787012
     },
     "Census Tract 5907": {
       "n_banned_nodes": 0,
-      "length": 258.9179506454584
+      "length": 258.97298575040145
     },
     "Census Tract 6407": {
       "n_banned_nodes": 2,
-      "length": 746.7123965877215
+      "length": 746.8216076168912
     },
     "Census Tract 6809": {
       "n_banned_nodes": 1,
-      "length": 706.221774686101
+      "length": 706.3249719377336
     },
     "Census Tract 6903": {
       "n_banned_nodes": 1,
-      "length": 737.1211824982029
+      "length": 737.18819261578
     },
     "Census Tract 803": {
       "n_banned_nodes": 0,
-      "length": 854.3802390259314
+      "length": 854.4335214306656
     },
     "Census Tract 812.01": {
       "n_banned_nodes": 1,
-      "length": 815.2468650994897
+      "length": 815.3109642382069
     },
     "Census Tract 8399": {
       "n_banned_nodes": 0,
-      "length": 368.0057877867826
+      "length": 368.09607543813877
     }
   },
   "Census Tract 612": {
     "Census Tract 3204": {
       "n_banned_nodes": 1,
-      "length": 631.9044645743634
+      "length": 630.9877804867251
     },
     "Census Tract 604": {
       "n_banned_nodes": 0,
-      "length": 67.91402777060617
+      "length": 67.96063595087665
     },
     "Census Tract 710": {
       "n_banned_nodes": 0,
-      "length": 301.80983158472145
+      "length": 301.8254857283156
     },
     "Census Tract 8326": {
       "n_banned_nodes": 0,
-      "length": 362.3636994796954
+      "length": 362.38483499556304
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 680.7597164576812
+      "length": 680.8184275379248
     },
     "Census Tract 8429": {
       "n_banned_nodes": 1,
-      "length": 845.5218978784135
+      "length": 845.6362760466181
     }
   },
   "Census Tract 5905": {
     "Census Tract 2801": {
       "n_banned_nodes": 0,
-      "length": 483.773212144409
+      "length": 483.80436280125986
     },
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 619.2024016881534
+      "length": 619.2388838988959
     },
     "Census Tract 3204": {
       "n_banned_nodes": 0,
-      "length": 556.5725558607292
+      "length": 556.6018410581955
     },
     "Census Tract 5905": {},
     "Census Tract 602": {},
@@ -5155,131 +5155,131 @@
   "Census Tract 5906": {
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 618.0905030416938
+      "length": 618.1238572361927
     },
     "Census Tract 6706": {
       "n_banned_nodes": 0,
-      "length": 539.3363878488365
+      "length": 539.4339337919549
     },
     "Census Tract 817": {
       "n_banned_nodes": 0,
-      "length": 594.89380547717
+      "length": 594.9233650201778
     },
     "Census Tract 8381": {
       "n_banned_nodes": 0,
-      "length": 513.4167256583175
+      "length": 513.5034113413428
     },
     "Census Tract 8382": {
       "n_banned_nodes": 0,
-      "length": 427.33894255213113
+      "length": 427.40132894714174
     }
   },
   "Census Tract 5907": {
     "Census Tract 209.02": {
       "n_banned_nodes": 2,
-      "length": 1469.3272959507335
+      "length": 1469.4411669746073
     },
     "Census Tract 2416": {
       "n_banned_nodes": 0,
-      "length": 723.1272521832254
+      "length": 723.194950470446
     },
     "Census Tract 312": {
       "n_banned_nodes": 1,
-      "length": 1321.8696598449887
+      "length": 1321.9635761369796
     },
     "Census Tract 3204": {
       "n_banned_nodes": 0,
-      "length": 619.6970438157593
+      "length": 619.7295471939293
     },
     "Census Tract 6006": {
       "n_banned_nodes": 0,
-      "length": 202.64327965370023
+      "length": 202.678539918137
     },
     "Census Tract 8381": {
       "n_banned_nodes": 0,
-      "length": 530.0210409981605
+      "length": 530.0905529588931
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 597.9723309960747
+      "length": 598.0108151597124
     }
   },
   "Census Tract 6006": {
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 484.6603947665749
+      "length": 484.68695996791024
     },
     "Census Tract 3204": {
       "n_banned_nodes": 1,
-      "length": 452.7008078257611
+      "length": 452.7295358208384
     },
     "Census Tract 815": {
       "n_banned_nodes": 0,
-      "length": 500.5605006010219
+      "length": 500.5878689009196
     },
     "Census Tract 8331": {
       "n_banned_nodes": 0,
-      "length": 369.7343835434748
+      "length": 369.753544583478
     },
     "Census Tract 8383": {
       "n_banned_nodes": 0,
-      "length": 524.4709820299144
+      "length": 524.5013907880486
     },
     "Census Tract 8390": {
       "n_banned_nodes": 0,
-      "length": 353.4752058583491
+      "length": 353.5172436639623
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 400.30583611946605
+      "length": 400.33118509299294
     },
     "Census Tract 8411": {
       "n_banned_nodes": 0,
-      "length": 175.04484850904424
+      "length": 175.08505694120922
     },
     "Census Tract 8429": {
       "n_banned_nodes": 0,
-      "length": 334.77431992350864
+      "length": 334.85322004333324
     },
     "Census Tract 8435": {
       "n_banned_nodes": 0,
-      "length": 377.2422121538998
+      "length": 377.3579140758988
     }
   },
   "Census Tract 6007": {
     "Census Tract 1711": {
       "n_banned_nodes": 3,
-      "length": 1277.6424912162097
+      "length": 1277.7119194934469
     },
     "Census Tract 2713": {
       "n_banned_nodes": 0,
-      "length": 594.3629782275951
+      "length": 594.3906644819759
     },
     "Census Tract 2801": {
       "n_banned_nodes": 0,
-      "length": 396.36671479367493
+      "length": 396.39647365549644
     },
     "Census Tract 4912": {
       "n_banned_nodes": 0,
-      "length": 1153.3620323976336
+      "length": 1153.4180315582691
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 447.4413456903105
+      "length": 447.4752198782151
     },
     "Census Tract 8399": {
       "n_banned_nodes": 0,
-      "length": 253.61289716208836
+      "length": 253.65771749401563
     }
   },
   "Census Tract 604": {
     "Census Tract 1407.02": {
       "n_banned_nodes": 1,
-      "length": 448.1425051924664
+      "length": 448.16573714259346
     },
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 691.029028904893
+      "length": 690.1200563023201
     },
     "Census Tract 604": {},
     "Census Tract 627": {},
@@ -5293,123 +5293,123 @@
   "Census Tract 605": {
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 643.1070551910123
+      "length": 642.1878559268065
     },
     "Census Tract 3301": {
       "n_banned_nodes": 1,
-      "length": 782.660088835621
+      "length": 781.7242738873125
     },
     "Census Tract 612": {
       "n_banned_nodes": 0,
-      "length": 59.26625016177228
+      "length": 59.28423266050631
     },
     "Census Tract 711": {
       "n_banned_nodes": 1,
-      "length": 315.5520541246133
+      "length": 315.58270377561564
     }
   },
   "Census Tract 609": {
     "Census Tract 208.02": {
       "n_banned_nodes": 2,
-      "length": 548.3589729147803
+      "length": 548.3657581475057
     },
     "Census Tract 2433": {
       "n_banned_nodes": 1,
-      "length": 750.0674141106088
+      "length": 749.1868748535016
     },
     "Census Tract 2801": {
       "n_banned_nodes": 1,
-      "length": 657.9953150898559
+      "length": 657.0717764895736
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 585.3855256832674
+      "length": 584.4489397975907
     },
     "Census Tract 3204": {
       "n_banned_nodes": 0,
-      "length": 577.7208374326478
+      "length": 576.7676358628687
     },
     "Census Tract 3206": {
       "n_banned_nodes": 0,
-      "length": 611.246464377017
+      "length": 610.2934641508518
     },
     "Census Tract 3301": {
       "n_banned_nodes": 0,
-      "length": 724.938559327876
+      "length": 723.9853577580969
     },
     "Census Tract 4110": {
       "n_banned_nodes": 0,
-      "length": 1127.3052831496643
+      "length": 1125.4236261685048
     },
     "Census Tract 4204": {
       "n_banned_nodes": 0,
-      "length": 1348.9707608465521
+      "length": 1343.3782366602013
     },
     "Census Tract 5906": {
       "n_banned_nodes": 0,
-      "length": 1117.9302424266002
+      "length": 1117.0039016845965
     },
     "Census Tract 714": {
       "n_banned_nodes": 0,
-      "length": 272.31244604374285
+      "length": 272.3154441370146
     },
     "Census Tract 813": {
       "n_banned_nodes": 0,
-      "length": 455.52785469435076
+      "length": 454.5762576733649
     },
     "Census Tract 817": {
       "n_banned_nodes": 0,
-      "length": 543.8583184925908
+      "length": 542.9213574808422
     },
     "Census Tract 818": {
       "n_banned_nodes": 0,
-      "length": 566.6876013490523
+      "length": 565.7531059830677
     },
     "Census Tract 8362": {
       "n_banned_nodes": 0,
-      "length": 1253.4941019538476
+      "length": 1251.6183238756832
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 634.4880581122502
+      "length": 633.5617550790055
     },
     "Census Tract 8419": {
       "n_banned_nodes": 0,
-      "length": 812.9665257758829
+      "length": 812.0328686777632
     },
     "Census Tract 8420": {
       "n_banned_nodes": 0,
-      "length": 952.8415654085069
+      "length": 951.9010202500832
     },
     "Census Tract 8422": {
       "n_banned_nodes": 3,
-      "length": 545.5975879971246
+      "length": 545.6470647490568
     },
     "Census Tract 9801": {
       "n_banned_nodes": 1,
-      "length": 1516.599288992481
+      "length": 1515.6541920574896
     }
   },
   "Census Tract 610": {
     "Census Tract 1005": {
       "n_banned_nodes": 2,
-      "length": 963.0361314251572
+      "length": 963.1379647481971
     },
     "Census Tract 2801": {
       "n_banned_nodes": 3,
-      "length": 621.6230923776211
+      "length": 621.703491182225
     },
     "Census Tract 2819": {
       "n_banned_nodes": 3,
-      "length": 686.5700346853838
+      "length": 686.6569208095344
     },
     "Census Tract 3204": {
       "n_banned_nodes": 1,
-      "length": 584.5655171530635
+      "length": 583.637627330467
     },
     "Census Tract 3301": {
       "n_banned_nodes": 1,
-      "length": 731.7832390482916
+      "length": 730.8553492256951
     },
     "Census Tract 610": {},
     "Census Tract 629": {},
@@ -5421,19 +5421,19 @@
   "Census Tract 620": {
     "Census Tract 106": {
       "n_banned_nodes": 1,
-      "length": 622.9846763474393
+      "length": 623.0552530076117
     },
     "Census Tract 2429": {
       "n_banned_nodes": 4,
-      "length": 710.9718535974894
+      "length": 711.0418039980455
     },
     "Census Tract 2819": {
       "n_banned_nodes": 3,
-      "length": 634.3687447380735
+      "length": 634.4361674680141
     },
     "Census Tract 3301": {
       "n_banned_nodes": 1,
-      "length": 695.0692842758306
+      "length": 694.1253679440537
     },
     "Census Tract 620": {},
     "Census Tract 7608.01": {},
@@ -5446,67 +5446,67 @@
   "Census Tract 621": {
     "Census Tract 104": {
       "n_banned_nodes": 1,
-      "length": 613.2531036373738
+      "length": 613.3054931868861
     },
     "Census Tract 2416": {
       "n_banned_nodes": 2,
-      "length": 442.49001607028947
+      "length": 442.55228002656276
     },
     "Census Tract 2435": {
       "n_banned_nodes": 3,
-      "length": 497.0189212651432
+      "length": 497.102049156027
     },
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 539.9258323388744
+      "length": 538.9989119811074
     },
     "Census Tract 3204": {
       "n_banned_nodes": 1,
-      "length": 532.261144088255
+      "length": 531.3176080463854
     },
     "Census Tract 622": {
       "n_banned_nodes": 0,
-      "length": 89.73113266671348
+      "length": 89.75471917642376
     },
     "Census Tract 623": {
       "n_banned_nodes": 0,
-      "length": 107.41422641951195
+      "length": 107.43129409769314
     },
     "Census Tract 630": {
       "n_banned_nodes": 0,
-      "length": 84.82698231607367
+      "length": 84.84977565929454
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 1,
-      "length": 444.6047989628292
+      "length": 443.6711773718476
     },
     "Census Tract 818": {
       "n_banned_nodes": 2,
-      "length": 501.4746540635915
+      "length": 501.5251657487766
     },
     "Census Tract 8319": {
       "n_banned_nodes": 0,
-      "length": 141.55816594814848
+      "length": 141.56334262061907
     },
     "Census Tract 8323": {
       "n_banned_nodes": 1,
-      "length": 398.5136747698266
+      "length": 398.5312305308232
     },
     "Census Tract 8330": {
       "n_banned_nodes": 3,
-      "length": 587.4933070787431
+      "length": 587.5623957803595
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 589.0283647678573
+      "length": 588.1117272625222
     },
     "Census Tract 8422": {
       "n_banned_nodes": 2,
-      "length": 361.23091529178794
+      "length": 361.28802599487466
     },
     "Census Tract 8433": {
       "n_banned_nodes": 3,
-      "length": 864.6217426360882
+      "length": 864.7019054639578
     }
   },
   "Census Tract 2608": {
@@ -5518,19 +5518,19 @@
   "Census Tract 6308": {
     "Census Tract 5805.02": {
       "n_banned_nodes": 2,
-      "length": 307.62611569606463
+      "length": 307.7145197984675
     },
     "Census Tract 710": {
       "n_banned_nodes": 2,
-      "length": 1195.6099340765
+      "length": 1195.6858710491897
     },
     "Census Tract 818": {
       "n_banned_nodes": 2,
-      "length": 974.3819994526245
+      "length": 974.4551693107587
     },
     "Census Tract 8418": {
       "n_banned_nodes": 2,
-      "length": 850.8332295380585
+      "length": 850.9406973309411
     }
   },
   "Census Tract 1003": {
@@ -5557,79 +5557,79 @@
   "Census Tract 2831": {
     "Census Tract 8382": {
       "n_banned_nodes": 0,
-      "length": 108.85079424046154
+      "length": 108.85528920589417
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 286.58155028822193
+      "length": 286.595927989659
     }
   },
   "Census Tract 2712": {
     "Census Tract 8382": {
       "n_banned_nodes": 0,
-      "length": 179.38764586871844
+      "length": 179.39531668588495
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 388.80619883977704
+      "length": 388.8150976380829
     }
   },
   "Census Tract 623": {
     "Census Tract 703": {
       "n_banned_nodes": 0,
-      "length": 179.27158976624364
+      "length": 179.31042975595955
     },
     "Census Tract 818": {
       "n_banned_nodes": 1,
-      "length": 519.0056960348458
+      "length": 519.0504539316414
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 618.8679054758793
+      "length": 618.9247617424745
     }
   },
   "Census Tract 625": {
     "Census Tract 1701": {
       "n_banned_nodes": 7,
-      "length": 801.9891863432521
+      "length": 802.0295178223248
     },
     "Census Tract 2801": {
       "n_banned_nodes": 1,
-      "length": 506.6621780510296
+      "length": 506.69284939287786
     },
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 647.9357779695014
+      "length": 647.9667854643026
     },
     "Census Tract 802.02": {
       "n_banned_nodes": 1,
-      "length": 481.8321581866495
+      "length": 481.87194017325476
     },
     "Census Tract 812.01": {
       "n_banned_nodes": 1,
-      "length": 539.7933183566456
+      "length": 538.8802292135689
     },
     "Census Tract 8306": {
       "n_banned_nodes": 2,
-      "length": 614.6380489180626
+      "length": 614.7419096588887
     },
     "Census Tract 8330": {
       "n_banned_nodes": 1,
-      "length": 498.4612963418169
+      "length": 498.56752154436936
     },
     "Census Tract 8359": {
       "n_banned_nodes": 1,
-      "length": 924.3417705542771
+      "length": 924.3882698945508
     }
   },
   "Census Tract 707": {
     "Census Tract 2801": {
       "n_banned_nodes": 0,
-      "length": 392.51849404772884
+      "length": 392.5370557764731
     },
     "Census Tract 317": {
       "n_banned_nodes": 1,
-      "length": 424.8566523152399
+      "length": 424.93269989823887
     },
     "Census Tract 707": {},
     "Census Tract 710": {},
@@ -5640,30 +5640,30 @@
   "Census Tract 711": {
     "Census Tract 2435": {
       "n_banned_nodes": 2,
-      "length": 319.44541366778435
+      "length": 319.50561300122695
     },
     "Census Tract 3204": {
       "n_banned_nodes": 0,
-      "length": 440.6008588791228
+      "length": 440.6141650095367
     },
     "Census Tract 711": {}
   },
   "Census Tract 713": {
     "Census Tract 2216": {
       "n_banned_nodes": 0,
-      "length": 350.7337936263067
+      "length": 350.7875988927161
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 394.2779791471103
+      "length": 394.30510098473127
     },
     "Census Tract 503": {
       "n_banned_nodes": 1,
-      "length": 554.2180591453566
+      "length": 554.2838657962393
     },
     "Census Tract 602": {
       "n_banned_nodes": 3,
-      "length": 437.89454883337623
+      "length": 437.93295186400735
     },
     "Census Tract 712": {
       "n_banned_nodes": 0,
@@ -5671,194 +5671,194 @@
     },
     "Census Tract 714": {
       "n_banned_nodes": 0,
-      "length": 123.4253080738834
+      "length": 123.42910848892292
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 0,
-      "length": 298.95694577106497
+      "length": 298.9773663754715
     },
     "Census Tract 818": {
       "n_banned_nodes": 0,
-      "length": 299.68051017504195
+      "length": 299.7031996101659
     },
     "Census Tract 8333": {
       "n_banned_nodes": 2,
-      "length": 570.7151650432536
+      "length": 570.7877092726951
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 399.346358256817
+      "length": 399.38800849762873
     },
     "Census Tract 8420": {
       "n_banned_nodes": 2,
-      "length": 754.5691207513115
+      "length": 754.6254952108449
     }
   },
   "Census Tract 1402": {
     "Census Tract 1003": {
       "n_banned_nodes": 3,
-      "length": 573.1188305009248
+      "length": 573.173926719423
     },
     "Census Tract 1005": {
       "n_banned_nodes": 3,
-      "length": 665.2587264125023
+      "length": 665.3551842063827
     },
     "Census Tract 1408": {
       "n_banned_nodes": 0,
-      "length": 146.31972537010768
+      "length": 146.32763305685293
     },
     "Census Tract 203.01": {
       "n_banned_nodes": 0,
-      "length": 458.1054213558338
+      "length": 458.22903767878995
     },
     "Census Tract 2801": {
       "n_banned_nodes": 0,
-      "length": 762.1236634675802
+      "length": 762.1625694880007
     },
     "Census Tract 317": {
       "n_banned_nodes": 2,
-      "length": 392.6967435324367
+      "length": 392.73557774382436
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 903.3972633860519
+      "length": 903.4365055594254
     },
     "Census Tract 3204": {
       "n_banned_nodes": 1,
-      "length": 943.3922182708773
+      "length": 943.4482915860782
     },
     "Census Tract 3301": {
       "n_banned_nodes": 0,
-      "length": 1058.3695479371345
+      "length": 1058.41169383273
     },
     "Census Tract 407": {
       "n_banned_nodes": 0,
-      "length": 177.98383047584272
+      "length": 178.01513289795537
     },
     "Census Tract 501": {
       "n_banned_nodes": 1,
-      "length": 357.93709104273137
+      "length": 357.98903047354827
     },
     "Census Tract 506": {
       "n_banned_nodes": 1,
-      "length": 381.7965917450964
+      "length": 381.8388370537801
     },
     "Census Tract 602": {
       "n_banned_nodes": 1,
-      "length": 404.0548483965132
+      "length": 404.12569104660514
     },
     "Census Tract 802.02": {
       "n_banned_nodes": 1,
-      "length": 812.6487308424
+      "length": 812.6818152833702
     },
     "Census Tract 815": {
       "n_banned_nodes": 0,
-      "length": 795.4241633412037
+      "length": 795.4654550420681
     },
     "Census Tract 8318": {
       "n_banned_nodes": 0,
-      "length": 140.8920499766054
+      "length": 140.92329613342466
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 831.3278632689826
+      "length": 831.3735034430538
     }
   },
   "Census Tract 706": {
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 469.89460538003135
+      "length": 469.93395632305885
     }
   },
   "Census Tract 1204": {
     "Census Tract 3204": {
       "n_banned_nodes": 1,
-      "length": 887.4815849908919
+      "length": 887.529454655796
     }
   },
   "Census Tract 1301": {
     "Census Tract 104": {
       "n_banned_nodes": 3,
-      "length": 545.3165032620492
+      "length": 545.3611035441563
     },
     "Census Tract 3107": {
       "n_banned_nodes": 3,
-      "length": 1142.6429407314863
+      "length": 1142.73466731188
     },
     "Census Tract 8311": {
       "n_banned_nodes": 3,
-      "length": 477.7276261639554
+      "length": 477.76130480936064
     },
     "Census Tract 8391": {
       "n_banned_nodes": 3,
-      "length": 959.307079705469
+      "length": 959.3533140839758
     },
     "Census Tract 9800": {}
   },
   "Census Tract 1401": {
     "Census Tract 1402": {
       "n_banned_nodes": 0,
-      "length": 112.28920395126798
+      "length": 112.35211780896519
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 924.6209869900931
+      "length": 924.6903724463768
     },
     "Census Tract 3206": {
       "n_banned_nodes": 0,
-      "length": 977.7265502058685
+      "length": 977.8014847639997
     },
     "Census Tract 403": {
       "n_banned_nodes": 0,
-      "length": 139.87173406222354
+      "length": 139.9205821132293
     },
     "Census Tract 818": {
       "n_banned_nodes": 0,
-      "length": 752.6893774319901
+      "length": 752.753062519172
     },
     "Census Tract 8307": {
       "n_banned_nodes": 1,
-      "length": 389.928509301139
+      "length": 389.9993583077355
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 852.5515868730239
+      "length": 852.6273703300052
     }
   },
   "Census Tract 2832": {
     "Census Tract 3204": {
       "n_banned_nodes": 2,
-      "length": 350.13093719506503
+      "length": 350.15504451688236
     },
     "Census Tract 8330": {
       "n_banned_nodes": 0,
-      "length": 186.6348836265391
+      "length": 186.670677535435
     },
     "Census Tract 8382": {
       "n_banned_nodes": 0,
-      "length": 141.94999100496693
+      "length": 141.9583784071328
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 270.20727504737545
+      "length": 270.22995065214263
     }
   },
   "Census Tract 1404": {
     "Census Tract 2002": {
       "n_banned_nodes": 4,
-      "length": 522.4762682240167
+      "length": 522.5555821278415
     },
     "Census Tract 817": {
       "n_banned_nodes": 0,
-      "length": 722.2526156377556
+      "length": 722.2955902805968
     },
     "Census Tract 818": {
       "n_banned_nodes": 0,
-      "length": 697.3909095234717
+      "length": 697.4307320197736
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 797.2531189645053
+      "length": 797.3050398306071
     }
   },
   "Census Tract 2924": {
@@ -5869,7 +5869,7 @@
   "Census Tract 2827": {
     "Census Tract 2434": {
       "n_banned_nodes": 0,
-      "length": 328.32414356081597
+      "length": 328.37837127273457
     },
     "Census Tract 2827": {},
     "Census Tract 3301": {},
@@ -5885,63 +5885,63 @@
   "Census Tract 2925": {
     "Census Tract 2311": {
       "n_banned_nodes": 2,
-      "length": 545.6072659464937
+      "length": 545.6673913842674
     },
     "Census Tract 3201": {
       "n_banned_nodes": 2,
-      "length": 760.9651034838253
+      "length": 761.0086912427565
     }
   },
   "Census Tract 3006": {
     "Census Tract 2414": {
       "n_banned_nodes": 1,
-      "length": 742.3075745414848
+      "length": 742.3817840100197
     },
     "Census Tract 8315": {
       "n_banned_nodes": 4,
-      "length": 1113.090622560484
+      "length": 1113.2325756592052
     },
     "Census Tract 8333": {
       "n_banned_nodes": 0,
-      "length": 565.7394650063133
+      "length": 565.7793145332323
     }
   },
   "Census Tract 3007": {
     "Census Tract 2712": {
       "n_banned_nodes": 0,
-      "length": 349.51072863243314
+      "length": 349.57710269568486
     },
     "Census Tract 3006": {
       "n_banned_nodes": 0,
-      "length": 117.58900506232027
+      "length": 117.6203519613713
     }
   },
   "Census Tract 2828": {
     "Census Tract 1004": {
       "n_banned_nodes": 0,
-      "length": 1162.6830513107955
+      "length": 1162.76156355585
     },
     "Census Tract 2801": {
       "n_banned_nodes": 0,
-      "length": 298.86996130848274
+      "length": 298.87991454412884
     },
     "Census Tract 8382": {
       "n_banned_nodes": 0,
-      "length": 95.19154126690921
+      "length": 95.20732991698432
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 352.91945709331475
+      "length": 352.9335256550439
     },
     "Census Tract 8419": {
       "n_banned_nodes": 0,
-      "length": 291.84830263770743
+      "length": 291.85971685839564
     }
   },
   "Census Tract 2838": {
     "Census Tract 106": {
       "n_banned_nodes": 3,
-      "length": 1280.3844912485683
+      "length": 1280.5390470343802
     },
     "Census Tract 2838": {},
     "Census Tract 3201": {},
@@ -5957,11 +5957,11 @@
   "Census Tract 2909": {
     "Census Tract 2414": {
       "n_banned_nodes": 2,
-      "length": 641.3763308256339
+      "length": 641.4496408095586
     },
     "Census Tract 2819": {
       "n_banned_nodes": 1,
-      "length": 535.8157398214112
+      "length": 535.8389794920246
     },
     "Census Tract 2909": {},
     "Census Tract 2924": {},
@@ -5971,121 +5971,121 @@
   "Census Tract 2916": {
     "Census Tract 2315": {
       "n_banned_nodes": 0,
-      "length": 531.5746221154081
+      "length": 531.659170444721
     },
     "Census Tract 3204": {
       "n_banned_nodes": 1,
-      "length": 594.702242826072
+      "length": 594.7629976317241
     },
     "Census Tract 8419": {
       "n_banned_nodes": 1,
-      "length": 464.02085688915133
+      "length": 464.08859239270424
     }
   },
   "Census Tract 2713": {
     "Census Tract 2106.01": {
       "n_banned_nodes": 2,
-      "length": 604.1127501083959
+      "length": 604.1672480929891
     },
     "Census Tract 2315": {
       "n_banned_nodes": 0,
-      "length": 201.35449866076206
+      "length": 201.37849617259164
     },
     "Census Tract 4112": {
       "n_banned_nodes": 1,
-      "length": 986.4791218781219
+      "length": 986.5020116164239
     }
   },
   "Census Tract 2809": {
     "Census Tract 8367": {
       "n_banned_nodes": 2,
-      "length": 250.05548071149556
+      "length": 250.09998469897135
     },
     "Census Tract 8433": {
       "n_banned_nodes": 0,
-      "length": 199.3412180273998
+      "length": 199.37228354188585
     }
   },
   "Census Tract 703": {
     "Census Tract 2819": {
       "n_banned_nodes": 3,
-      "length": 505.6863781952196
+      "length": 505.7536830432929
     },
     "Census Tract 319": {
       "n_banned_nodes": 1,
-      "length": 398.36979447647445
+      "length": 398.4339096490581
     },
     "Census Tract 3204": {
       "n_banned_nodes": 1,
-      "length": 490.64621322995816
+      "length": 490.6843733995049
     },
     "Census Tract 611": {
       "n_banned_nodes": 0,
-      "length": 228.75308441774007
+      "length": 228.79534737299304
     },
     "Census Tract 702": {
       "n_banned_nodes": 0,
-      "length": 45.282461901702376
+      "length": 45.313538443864395
     },
     "Census Tract 710": {
       "n_banned_nodes": 0,
-      "length": 110.6066245108241
+      "length": 110.62226899330518
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 1,
-      "length": 402.9898681045323
+      "length": 403.03794272496714
     },
     "Census Tract 815": {
       "n_banned_nodes": 1,
-      "length": 415.1681236068753
+      "length": 415.21763037955844
     },
     "Census Tract 8326": {
       "n_banned_nodes": 0,
-      "length": 159.5029878659827
+      "length": 159.51863234846377
     },
     "Census Tract 8330": {
       "n_banned_nodes": 0,
-      "length": 480.7372638154247
+      "length": 480.8342837380605
     },
     "Census Tract 8331": {
       "n_banned_nodes": 3,
-      "length": 538.770633969833
+      "length": 538.8343426222074
     },
     "Census Tract 8382": {
       "n_banned_nodes": 0,
-      "length": 625.6780646529069
+      "length": 625.7384789142603
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 503.37928059028434
+      "length": 503.4485848471244
     }
   },
   "Census Tract 3005": {
     "Census Tract 3017.01": {
       "n_banned_nodes": 0,
-      "length": 132.71316436797514
+      "length": 132.7287753329364
     },
     "Census Tract 8307": {
       "n_banned_nodes": 1,
-      "length": 1290.8368544805744
+      "length": 1290.9650675501618
     },
     "Census Tract 8381": {
       "n_banned_nodes": 0,
-      "length": 520.3474657885877
+      "length": 520.4157793604624
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 716.1193889104441
+      "length": 716.1733810720456
     },
     "Census Tract 8413": {
       "n_banned_nodes": 0,
-      "length": 343.04186509673076
+      "length": 343.1066776751524
     }
   },
   "Census Tract 2912": {
     "Census Tract 8433": {
       "n_banned_nodes": 0,
-      "length": 189.01057550281715
+      "length": 189.02412310876042
     }
   },
   "Census Tract 6203": {
@@ -6096,15 +6096,15 @@
   "Census Tract 6304": {
     "Census Tract 3201": {
       "n_banned_nodes": 2,
-      "length": 956.1961585212539
+      "length": 956.2685536624421
     },
     "Census Tract 321": {
       "n_banned_nodes": 3,
-      "length": 1474.7681931973573
+      "length": 1474.8859860202901
     },
     "Census Tract 5704": {
       "n_banned_nodes": 0,
-      "length": 245.87602136452597
+      "length": 245.93682359047898
     },
     "Census Tract 6304": {},
     "Census Tract 8378": {}
@@ -6112,71 +6112,71 @@
   "Census Tract 6305": {
     "Census Tract 814.03": {
       "n_banned_nodes": 1,
-      "length": 1005.8047347587874
+      "length": 1005.8830022951645
     }
   },
   "Census Tract 1103": {
     "Census Tract 1001": {
       "n_banned_nodes": 0,
-      "length": 179.8374172980526
+      "length": 179.87563219649317
     },
     "Census Tract 2801": {
       "n_banned_nodes": 0,
-      "length": 748.4503921122463
+      "length": 748.4562136916967
     },
     "Census Tract 2819": {
       "n_banned_nodes": 0,
-      "length": 771.2922771172634
+      "length": 771.2966351530051
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 817.6545919136488
+      "length": 817.6671476467499
     },
     "Census Tract 8435": {
       "n_banned_nodes": 0,
-      "length": 1238.374304745167
+      "length": 1238.382567640487
     }
   },
   "Census Tract 1104": {
     "Census Tract 1407.02": {
       "n_banned_nodes": 0,
-      "length": 423.85625905347854
+      "length": 423.88084386546325
     },
     "Census Tract 1502": {
       "n_banned_nodes": 1,
-      "length": 208.61205270505127
+      "length": 208.6438406621782
     },
     "Census Tract 1504.01": {
       "n_banned_nodes": 0,
-      "length": 150.15560330494796
+      "length": 150.20580665258973
     },
     "Census Tract 1508": {
       "n_banned_nodes": 1,
-      "length": 345.35634677998445
+      "length": 345.45665828292556
     },
     "Census Tract 1701": {
       "n_banned_nodes": 1,
-      "length": 360.48673914726965
+      "length": 360.5346172646398
     },
     "Census Tract 2819": {
       "n_banned_nodes": 0,
-      "length": 740.8428471724324
+      "length": 740.8550465165114
     },
     "Census Tract 3204": {
       "n_banned_nodes": 1,
-      "length": 899.2695169707122
+      "length": 899.3003471532804
     },
     "Census Tract 812.01": {
       "n_banned_nodes": 1,
-      "length": 817.01335824025
+      "length": 817.0452412871058
     },
     "Census Tract 818": {
       "n_banned_nodes": 0,
-      "length": 687.3429525277838
+      "length": 687.3512511994228
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 787.2051619688176
+      "length": 787.225559010256
     },
     "Census Tract 9800": {}
   },
@@ -6208,332 +6208,332 @@
   "Census Tract 2714": {
     "Census Tract 2705": {
       "n_banned_nodes": 0,
-      "length": 42.88930477169838
+      "length": 42.89896709592588
     },
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 504.69933350325704
+      "length": 504.70673766458924
     },
     "Census Tract 8422": {
       "n_banned_nodes": 1,
-      "length": 565.5184271572065
+      "length": 565.5453748425241
     }
   },
   "Census Tract 710": {
     "Census Tract 2819": {
       "n_banned_nodes": 0,
-      "length": 426.4874709798088
+      "length": 426.49505811213726
     },
     "Census Tract 3204": {
       "n_banned_nodes": 0,
-      "length": 475.4831538256282
+      "length": 475.49645995604214
     },
     "Census Tract 814.03": {
       "n_banned_nodes": 0,
-      "length": 438.5124673613143
+      "length": 438.53015227289495
     },
     "Census Tract 8331": {
       "n_banned_nodes": 0,
-      "length": 459.5717267544221
+      "length": 459.5757176910516
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 472.84978577619415
+      "length": 472.86557060588194
     }
   },
   "Census Tract 2819": {
     "Census Tract 2435": {
       "n_banned_nodes": 0,
-      "length": 164.1020502775216
+      "length": 164.12083781964657
     },
     "Census Tract 2801": {
       "n_banned_nodes": 0,
-      "length": 58.56404736292866
+      "length": 58.57093444393017
     },
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 192.6450333688153
+      "length": 192.66425146017548
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 1,
-      "length": 271.5806839572204
+      "length": 271.5922902974437
     },
     "Census Tract 8331": {
       "n_banned_nodes": 0,
-      "length": 102.44709203313434
+      "length": 102.45084603777279
     },
     "Census Tract 8367": {
       "n_banned_nodes": 1,
-      "length": 446.1265947020217
+      "length": 446.1506010912647
     },
     "Census Tract 8382": {
       "n_banned_nodes": 0,
-      "length": 242.19746879682765
+      "length": 242.20820355154927
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 86.79898637361622
+      "length": 86.80919385887248
     }
   },
   "Census Tract 5501": {
     "Census Tract 3201": {
       "n_banned_nodes": 0,
-      "length": 1690.3434969413897
+      "length": 1690.4094306717968
     },
     "Census Tract 3206": {
       "n_banned_nodes": 0,
-      "length": 1584.3712389750472
+      "length": 1584.4303241677233
     },
     "Census Tract 5001": {
       "n_banned_nodes": 0,
-      "length": 887.6974225016766
+      "length": 896.1299660953443
     },
     "Census Tract 5206": {
       "n_banned_nodes": 0,
-      "length": 229.02580959045548
+      "length": 229.05818394983652
     },
     "Census Tract 5305.03": {
       "n_banned_nodes": 0,
-      "length": 802.4298986234746
+      "length": 802.512495392772
     },
     "Census Tract 5501": {}
   },
   "Census Tract 712": {
     "Census Tract 311": {
       "n_banned_nodes": 1,
-      "length": 540.7405837000899
+      "length": 540.8391574702274
     },
     "Census Tract 3204": {
       "n_banned_nodes": 0,
-      "length": 405.71570749660276
+      "length": 405.72901362701674
     },
     "Census Tract 702": {
       "n_banned_nodes": 0,
-      "length": 91.12421805065917
+      "length": 91.1867549686028
     },
     "Census Tract 818": {
       "n_banned_nodes": 0,
-      "length": 317.81933598514433
+      "length": 317.8291685320864
     },
     "Census Tract 8391": {
       "n_banned_nodes": 0,
-      "length": 418.4487748569289
+      "length": 418.4932250746361
     },
     "Census Tract 8419": {
       "n_banned_nodes": 2,
-      "length": 494.7045913580922
+      "length": 494.7478307338073
     }
   },
   "Census Tract 6115": {
     "Census Tract 8419": {
       "n_banned_nodes": 0,
-      "length": 692.9776171752803
+      "length": 693.071519260528
     }
   },
   "Census Tract 6118": {
     "Census Tract 6119": {
       "n_banned_nodes": 0,
-      "length": 113.93283796411711
+      "length": 114.01102802918727
     },
     "Census Tract 8419": {
       "n_banned_nodes": 1,
-      "length": 733.0900364075451
+      "length": 733.15321652873
     }
   },
   "Census Tract 6119": {
     "Census Tract 6201": {
       "n_banned_nodes": 0,
-      "length": 488.71925164823904
+      "length": 488.7697863038228
     },
     "Census Tract 6809": {
       "n_banned_nodes": 0,
-      "length": 374.1922814374342
+      "length": 374.29121386354524
     },
     "Census Tract 8429": {
       "n_banned_nodes": 0,
-      "length": 717.830364610535
+      "length": 717.9927225646026
     }
   },
   "Census Tract 6202": {
     "Census Tract 6203": {
       "n_banned_nodes": 0,
-      "length": 96.84745494784356
+      "length": 96.90443475807226
     },
     "Census Tract 8429": {
       "n_banned_nodes": 1,
-      "length": 763.8735025929909
+      "length": 763.9934204288046
     }
   },
   "Census Tract 702": {
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 467.00134782854605
+      "length": 466.09678212621475
     },
     "Census Tract 3204": {
       "n_banned_nodes": 1,
-      "length": 459.33665957792664
+      "length": 458.41547819149275
     },
     "Census Tract 713": {
       "n_banned_nodes": 1,
-      "length": 120.19019871713476
+      "length": 120.21523217996614
     },
     "Census Tract 802.02": {
       "n_banned_nodes": 1,
-      "length": 272.76494040692353
+      "length": 272.807822974304
     },
     "Census Tract 818": {
       "n_banned_nodes": 2,
-      "length": 395.5374263687093
+      "length": 395.5884299492508
     },
     "Census Tract 8330": {
       "n_banned_nodes": 3,
-      "length": 481.5560793838609
+      "length": 481.62565998083346
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 488.21542831841793
+      "length": 488.28945497309167
     },
     "Census Tract 8422": {
       "n_banned_nodes": 2,
-      "length": 255.29368759690573
+      "length": 255.35129019534884
     }
   },
   "Census Tract 704": {
     "Census Tract 2801": {
       "n_banned_nodes": 3,
-      "length": 454.4652751571698
+      "length": 454.52775931901186
     },
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 512.0367407502905
+      "length": 512.0931832372555
     },
     "Census Tract 3204": {
       "n_banned_nodes": 1,
-      "length": 504.37205249967104
+      "length": 504.4118793025336
     },
     "Census Tract 814.01": {
       "n_banned_nodes": 1,
-      "length": 416.7157073742452
+      "length": 416.7654486279958
     },
     "Census Tract 814.03": {
       "n_banned_nodes": 1,
-      "length": 467.40136603535706
+      "length": 467.44557161938644
     },
     "Census Tract 818": {
       "n_banned_nodes": 2,
-      "length": 409.0018225618559
+      "length": 409.0543133520145
     },
     "Census Tract 8307": {
       "n_banned_nodes": 0,
-      "length": 366.0399551311034
+      "length": 366.0668664878033
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 517.1051198599972
+      "length": 517.176090750153
     },
     "Census Tract 8423": {
       "n_banned_nodes": 3,
-      "length": 317.8298881062542
+      "length": 317.8801184539667
     }
   },
   "Census Tract 705": {
     "Census Tract 2801": {
       "n_banned_nodes": 1,
-      "length": 435.16377467587773
+      "length": 435.1958716942798
     },
     "Census Tract 2819": {
       "n_banned_nodes": 1,
-      "length": 458.00565968089484
+      "length": 458.03629315558834
     },
     "Census Tract 815": {
       "n_banned_nodes": 1,
-      "length": 468.46427454950117
+      "length": 468.49875724834726
     },
     "Census Tract 817": {
       "n_banned_nodes": 1,
-      "length": 429.3674711505305
+      "length": 429.3973560993228
     },
     "Census Tract 8391": {
       "n_banned_nodes": 1,
-      "length": 504.3679744772801
+      "length": 504.406805649333
     },
     "Census Tract 8422": {
       "n_banned_nodes": 0,
-      "length": 270.39332946693673
+      "length": 270.41921989840176
     }
   },
   "Census Tract 1303": {
     "Census Tract 1913.01": {
       "n_banned_nodes": 6,
-      "length": 1007.8999879428977
+      "length": 1007.935044051109
     },
     "Census Tract 206.02": {
       "n_banned_nodes": 2,
-      "length": 275.46399944179916
+      "length": 275.50776573024086
     },
     "Census Tract 2801": {
       "n_banned_nodes": 0,
-      "length": 910.5449092637514
+      "length": 910.5955707448385
     },
     "Census Tract 3204": {
       "n_banned_nodes": 1,
-      "length": 1091.8134640670482
+      "length": 1091.8812928429159
     },
     "Census Tract 8330": {
       "n_banned_nodes": 0,
-      "length": 902.3440275545387
+      "length": 902.4702428963303
     },
     "Census Tract 8419": {
       "n_banned_nodes": 0,
-      "length": 993.6920165501481
+      "length": 993.7403900442673
     }
   },
   "Census Tract 2922": {
     "Census Tract 2712": {
       "n_banned_nodes": 0,
-      "length": 274.9660000212432
+      "length": 274.97653539021076
     },
     "Census Tract 2924": {
       "n_banned_nodes": 0,
-      "length": 124.29323017798862
+      "length": 124.33039162495778
     },
     "Census Tract 3201": {
       "n_banned_nodes": 1,
-      "length": 650.715718079584
+      "length": 650.7307995889496
     },
     "Census Tract 8369": {
       "n_banned_nodes": 0,
-      "length": 301.3503124785303
+      "length": 301.3657391947637
     },
     "Census Tract 8382": {
       "n_banned_nodes": 0,
-      "length": 324.2712717554906
+      "length": 324.28971994258603
     },
     "Census Tract 8413": {
       "n_banned_nodes": 1,
-      "length": 330.4523580901755
+      "length": 330.48357957582306
     },
     "Census Tract 8430": {
       "n_banned_nodes": 0,
-      "length": 169.3581752081222
+      "length": 169.38563184191128
     }
   },
   "Census Tract 6309": {
     "Census Tract 2838": {
       "n_banned_nodes": 2,
-      "length": 869.430779770192
+      "length": 869.5591311276897
     },
     "Census Tract 6505": {
       "n_banned_nodes": 1,
-      "length": 588.0384029919896
+      "length": 588.2051181868029
     },
     "Census Tract 712": {
       "n_banned_nodes": 4,
-      "length": 1230.7000799274829
+      "length": 1230.8132848887485
     },
     "Census Tract 8426": {
       "n_banned_nodes": 2,
-      "length": 655.8467768124553
+      "length": 655.966728850441
     }
   }
 }

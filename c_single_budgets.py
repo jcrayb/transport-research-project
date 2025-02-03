@@ -91,7 +91,7 @@ m.Params.Method = 0
 
 weights = [travel_time for edge, travel_time in travel_times_dict.items()]
 
-f = m.addMVar(shape=n_edges, vtype=GRB.INTEGER, lb=0, name="")
+f = m.addMVar(shape=n_edges, vtype=GRB.CONTINUOUS, lb=0, name="")
 
 lon, lat = single_destinations[query]
 
@@ -166,7 +166,7 @@ for i in tqdm.trange(len(centroids)):
             if i in flowed_edges_idx:
                 flowed_edges += [(u, v, k)]
         try:
-            pts = utils.pathfinding.get_edges_and_points(flowed_edges, \
+            path, pts = utils.pathfinding.get_edges_and_points(flowed_edges, \
                                         starting_node=starting_node, final_node=final_node)
         except:
             with open(f'./computation_results/budget_paths/err-{query}-{seg}-{ts}.txt', 'a+') as file:

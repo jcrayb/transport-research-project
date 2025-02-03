@@ -23,7 +23,7 @@ if not seg:
 if seg > ts:
     raise ValueError
 
-with open(f'./computation_results/initial_paths/err-{seg}-{ts}.txt', 'w+') as file:
+with open(f'./computation_results/weighted/err-init-{seg}-{ts}.txt', 'w+') as file:
     file.write(f'')
 
 all_tracts = json.load(open('./data/tract-centroids.json'))
@@ -60,6 +60,7 @@ n_edges = len(city.edges)
 A = np.zeros((n_points, n_edges))
 
 for i, (u, v, k) in enumerate(edges):
+    if u == v: continue
     if u in banned_nodes or v in banned_nodes:
         banned_edges += [(u, v, k)]
         banned_edges_idx += [i]
@@ -84,7 +85,7 @@ m.Params.Method = 0
 
 weights = [travel_time for edge, travel_time in travel_times_dict.items()]
 
-f = m.addMVar(shape=n_edges, vtype=GRB.INTEGER, lb=0, name="")
+f = m.addMVar(shape=n_edges, vtype=GRB.CONTINUOUS, lb=0, name="")
 
 obj = np.array(weights)@f
 
@@ -96,9 +97,10 @@ m.addConstr(A@f==b)
 m.update()
 
 cnstr = m.getConstrs()
+print(len(indexes), len(cnstr))
 print('Model generated, solving...')
-for i in tqdm.trange(len(tracts)):
-    origin_tract = list(tracts.keys())[i]
+for n in tqdm.trange(len(tracts)):
+    origin_tract = list(tracts.keys())[n]
 
     if not origin_tract in origin_pairs: continue
 
@@ -107,7 +109,7 @@ for i in tqdm.trange(len(tracts)):
     starting_node = nodes_numbers[origin_tract]
 
     s_idx = indexes[starting_node]
-    
+
     cnstr[s_idx].rhs = -1
     m.update()
 
@@ -134,16 +136,16 @@ for i in tqdm.trange(len(tracts)):
         
         try:
             flows = m.getAttr("X", m.getVars())
+            objval = m.ObjVal
         except Exception as e:
             with open(f'./computation_results/weighted/err-init-{seg}-{ts}.txt', 'a+') as file:
                 file.write(f'ERR: {origin_tract} {dest_tract} -- No solution found, {e}\n')
             continue
-
-        objval = m.ObjVal
+        
 
         flowed_edges_idx = []
         flowed_edges = []
-
+        
         for i in range(len(flows)):
             if flows[i]:
                 flowed_edges_idx.append(i)
@@ -151,19 +153,31 @@ for i in tqdm.trange(len(tracts)):
         for i, (u, v, k) in enumerate(city.edges):
             if i in flowed_edges_idx:
                 flowed_edges.append((u, v, k))
+        
         try:
-            path, pts = utils.pathfinding.get_edges_and_points(flowed_edges, \
-                                        starting_node=starting_node, final_node=final_node)
-        except:
+            flowed_nodes = []
+
+            for e in flowed_edges:
+                s, t, b = e
+                if not s in flowed_nodes: flowed_nodes.append(s)
+                if not t in flowed_nodes: flowed_nodes.append(t)
+
+            G = nx.DiGraph()
+            G.add_nodes_from(flowed_nodes)
+            G.add_weighted_edges_from(flowed_edges)
+    
+            if nx.has_path(G, starting_node, final_node): pass
+            else: raise Exception('Path not found')
+        except Exception as e:
             with open(f'./computation_results/weighted/err-init-{seg}-{ts}.txt', 'a+') as file:
-                file.write(f'ERR {seg}: {origin_tract} {dest_tract} -- No path found, {str((starting_node, final_node))}, {str(flowed_edges)}\n')
+                file.write(f'ERR {e}: {origin_tract} {dest_tract} -- No path found, {str((starting_node, final_node))}, {str(flowed_edges)}\n')
             continue
 
-        unrestricted_path_lengths[origin_tract][dest_tract]['n_banned_nodes'] = len([pt for pt in pts if pt in red_nodes])
+        unrestricted_path_lengths[origin_tract][dest_tract]['n_banned_nodes'] = len([pt for pt in flowed_nodes if pt in red_nodes])
         unrestricted_path_lengths[origin_tract][dest_tract]['length'] = objval
         
         json.dump(unrestricted_path_lengths, open(f'./computation_results/weighted/initial-{seg}-{ts}.json', 'w'), indent=2)
         
     
     cnstr[s_idx].rhs = 0
-        
+    m.update()

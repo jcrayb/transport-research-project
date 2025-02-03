@@ -76,7 +76,7 @@ m.Params.Method = 0
 
 weights = [travel_time for edge, travel_time in travel_times_dict.items()]
 
-f = m.addMVar(shape=n_edges, vtype=GRB.INTEGER, lb=0, name="")
+f = m.addMVar(shape=n_edges, vtype=GRB.CONTINUOUS, lb=0, name="")
 
 path_lengths = json.load(open(f'./computation_results/budget_paths/{query}-{seg}-{ts}.json', 'r')) if os.path.exists(f'./computation_results/budget_paths/{query}-{seg}-{ts}.json') else {}
 previous_results = json.load(open(f'./computation_results/initial_paths/{query}-{seg}-{ts}.json', 'r'))

@@ -83,4 +83,15 @@ A =
     \end{aligned} 
 \]
 
+\[
+    \sum_{r \in R} f_r \leq B
+\]
+
+$R$ is the set of all "red-nodes", B is the maximum of these nodes we can travel through.
+\[
+\begin{aligned}
+\sum\limits_{j: \left(i,j\right)\in E} f_{ij} - \sum\limits_{j: \left(j,i\right)\in E} f_{ji} = \begin{cases} 1 & \text{if $i=s$} \\ -1 & \text{if $i=t$} \\ 0 & \text{otherwise} \end{cases} \\
+	 & f_{ij} \in \left\{0,1\right\} & \forall \left(i,j\right)\in E.
+	\end{aligned}
+\]
 \end{document}

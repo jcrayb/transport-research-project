@@ -32,7 +32,7 @@ if not query in single_destinations:
 if seg > ts:
     raise ValueError
 
-with open(f'./computation_results/initial_paths/err-{query}-{seg}-{ts}.txt', 'w+') as file:
+with open(f'./computation_results/initial_paths/err-{query}-{seg}-{ts}-int.txt', 'w+') as file:
     file.write(f'')
 
 centroids = json.load(open('./data/tract-centroids.json'))
@@ -80,7 +80,7 @@ print('Starting Linear Program logic')
 if not os.path.exists('./computation_results/initial_paths'):
     os.mkdir('./computation_results/initial_paths')
 
-previous_results = json.load(open(f'./computation_results/initial_paths/{query}-{seg}-{ts}.json', 'r')) if os.path.exists(f'./computation_results/initial_paths/{query}-{seg}-{ts}.json') else {}
+previous_results = json.load(open(f'./computation_results/initial_paths/{query}-{seg}-{ts}-int.json', 'r')) if os.path.exists(f'./computation_results/initial_paths/{query}-{seg}-{ts}-int.json') else {}
 unrestricted_path_lengths = {} 
 
 m = gp.Model("lp")
@@ -89,7 +89,7 @@ m.Params.Method = 0
 
 weights = [travel_time for edge, travel_time in travel_times_dict.items()]
 
-f = m.addMVar(shape=n_edges, vtype=GRB.CONTINUOUS, lb=0, name="")
+f = m.addMVar(shape=n_edges, vtype=GRB.INTEGER, lb=0, name="")
 
 lon, lat = single_destinations[query]
 
@@ -137,7 +137,7 @@ for i in tqdm.trange(len(centroids)):
     try:
         flows = m.getAttr("X", m.getVars())
     except Exception as e:
-        with open(f'./computation_results/initial_paths/err-{query}-{seg}-{ts}.txt', 'a+') as file:
+        with open(f'./computation_results/initial_paths/err-{query}-{seg}-{ts}-int.txt', 'a+') as file:
             file.write(f'ERR: {tract} -- No solution found, {e}\n')
         continue
 
@@ -158,11 +158,11 @@ for i in tqdm.trange(len(centroids)):
         path, pts = utils.pathfinding.get_edges_and_points(flowed_edges, \
                                     starting_node=starting_node, final_node=final_node)
     except:
-        with open(f'./computation_results/initial_paths/err-{query}-{seg}-{ts}.txt', 'a+') as file:
+        with open(f'./computation_results/initial_paths/err-{query}-{seg}-{ts}-int.txt', 'a+') as file:
             file.write(f'ERR {seg}: {tract} -- No path found, {str((starting_node, final_node))}, {str(flowed_edges)}\n')
         continue
 
     unrestricted_path_lengths[tract]['n_banned_nodes'] = len([pt for pt in pts if pt in red_nodes])
     
-    json.dump(unrestricted_path_lengths, open(f'./computation_results/initial_paths/{query}-{seg}-{ts}.json', 'w'), indent=2)
+    json.dump(unrestricted_path_lengths, open(f'./computation_results/initial_paths/{query}-{seg}-{ts}-int.json', 'w'), indent=2)
         

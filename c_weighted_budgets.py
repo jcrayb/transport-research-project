@@ -82,7 +82,7 @@ m.Params.Method = 0
 
 weights = [travel_time for edge, travel_time in travel_times_dict.items()]
 
-f = m.addMVar(shape=n_edges, vtype=GRB.INTEGER, lb=0, name="")
+f = m.addMVar(shape=n_edges, vtype=GRB.CONTINUOUS, lb=0, name="")
 
 obj = np.array(weights)@f
 
