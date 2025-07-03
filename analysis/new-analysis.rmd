@@ -1,0 +1,36 @@
+---
+title: "Analysis"
+output: pdf_document
+date: "2024-10-10"
+---
+
+```{r imports}
+library(ggplot2)
+```
+
+## Union station
+
+```{r data}
+data <- read.csv('./weighted_refactored_income.csv')
+nona <-  na.omit(data)
+head(nona)
+```
+
+```{r linmod1}
+
+linmod <- lm(data=nona, shortest_path ~ income^2)
+
+summary(linmod)
+```
+
+```{r linmod2}
+linmod <- lm(data=nona, n_cameras ~ shortest_path + 0) 
+
+summary(linmod)
+```
+
+```{r linmod3}
+linmod <- lm(data=data, n_cameras ~ poly(income, 2, raw=TRUE)) 
+
+summary(linmod)
+```
