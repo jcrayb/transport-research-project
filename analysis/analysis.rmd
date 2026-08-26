@@ -10,218 +10,27 @@ library(ggplot2)
 
 ## Union station
 
-```{r data_chi}
-data <- read.csv('./CHI.csv')
-
-data$majority <-relevel(factor(data$majority), ref='white')
-
-#head(data)
+```{r data}
+data <- read.csv('./weighted_refactored_income.csv')
+nona <-  na.omit(data)
+head(nona)
 ```
 
-```{r means_chi}
-black_mean_ttr <- mean(data[data$majority == 'black', ]$shortest_path)
-white_mean_ttr <- mean(data[data$majority == 'white', ]$shortest_path)
-```
+```{r linmod1}
 
-### Mean time to reach by demographic group
-```{r plot_means_chi}
-ggplot(data, aes(x = seq_along(shortest_path), y = shortest_path, color = majority)) + 
-    geom_point() + 
-    geom_hline(yintercept=black_mean_ttr, linewidth=1, color="#00bfc4") + 
-    geom_hline(yintercept=white_mean_ttr, linewidth=1, color="#F8766D") + 
-    labs(x = "Row Number", y = "Shortest Path", 
-        title = "Time to reach destination by demographic group")
-```
+linmod <- lm(data=nona, shortest_path ~ income^2)
 
-```{r distance_means_hypothesis_test_chi}
-results <- t.test(data[data$majority == 'black', ]$shortest_path, data[data$majority == 'white', ]$shortest_path, alternative= "greater")
-
-results
-```
-Therefore, there is a significant *increase* in the amount of time needed to reach Union Station by individuals coming from Black majority neighborhoods.
-
-### Number of cameras en route by demographic group
-```{r hist_cameras_chi}
-ggplot(data, aes(x = n_cameras, fill = majority)) +
-    geom_bar(position = "dodge") +
-    labs(x = "Number of occurences", x = "Number of cameras", 
-        title = "Number of cameras en route to destination by demographic group")
-```
-
-```{r camera_means_hypothesis_test}
-black_mean_cameras <- mean(data[data$majority == 'black', ]$n_cameras)
-white_mean_cameras <- mean(data[data$majority == 'white', ]$n_cameras)
-
-results <- t.test(data[data$majority == 'black', ]$n_cameras, data[data$majority == 'white', ]$n_cameras, alternative= "greater")
-
-results
-```
-
-Therefore, there is no significant difference in the number of cameras encountered on the way to Union station by individuals coming from Black majority neighborhoods.
-
-```{r lm_plot_chi}
-ggplot(data, aes(x = shortest_path, y = n_cameras, color = majority)) +
-    geom_point() +
-    geom_hline(yintercept=white_mean_cameras, linewidth=1, color="#F8766D", linetype="dotted") +
-    geom_hline(yintercept=black_mean_cameras, linewidth=1, color="#00bfc4", linetype="dotted") +
-    geom_smooth(method="lm") +
-    labs(x = "Time to reach destination", y = "Number of cameras", 
-        title = "Number of cameras en route to destination by demographic group")
-```
-
-Dotted line represents group mean.
-
-```{r lm_chi}
-linmod <- lm(data = data, n_cameras ~ majority + shortest_path)
-summary(linmod)
-
-linmod <- lm(data = data, absolute_increase ~ majority + shortest_path)
 summary(linmod)
 ```
 
-Therefore, there is a significant *decrease* in the number of cameras encountered and additional time when avoiding cameras, when going to Union station by individuals coming from Black majority neighborhoods, when controlling for distance traveled.
+```{r linmod2}
+linmod <- lm(data=nona, n_cameras ~ shortest_path + 0) 
 
-## O'Hare airport
-
-```{r data_ord}
-data <- read.csv('./ORD.csv')
-
-data$majority <-relevel(factor(data$majority), ref='white')
-
-#head(data)
-```
-
-```{r means_ord}
-black_mean_ttr <- mean(data[data$majority == 'black', ]$shortest_path)
-white_mean_ttr <- mean(data[data$majority == 'white', ]$shortest_path)
-```
-
-### Mean time to reach by demographic group
-```{r plot_means_ord}
-ggplot(data, aes(x = seq_along(shortest_path), y = shortest_path, color = majority)) + 
-    geom_point() + 
-    geom_hline(yintercept=black_mean_ttr, linewidth=1, color="#00bfc4") + 
-    geom_hline(yintercept=white_mean_ttr, linewidth=1, color="#F8766D") + 
-    labs(x = "Row Number", y = "Shortest Path", 
-        title = "Time to reach destination by demographic group")
-```
-```{r distance_means_hypothesis_test_ord}
-results <- t.test(data[data$majority == 'black', ]$shortest_path, data[data$majority == 'white', ]$shortest_path, alternative= "greater")
-
-results
-```
-Therefore, there is a significant *increase* in the amount of time needed to reach O'Hare airport by individuals coming from Black majority neighborhoods.
-
-### Number of cameras en route by demographic group
-```{r hist_cameras_ord}
-ggplot(data, aes(x = n_cameras, fill = majority)) +
-    geom_bar(position = "dodge") +
-    labs(x = "Number of occurences", x = "Number of cameras", 
-        title = "Number of cameras en route to destination by demographic group")
-```
-
-```{r camera_means_hypothesis_test_ord}
-black_mean_cameras <- mean(data[data$majority == 'black', ]$n_cameras)
-white_mean_cameras <- mean(data[data$majority == 'white', ]$n_cameras)
-
-results <- t.test(data[data$majority == 'black', ]$n_cameras, data[data$majority == 'white', ]$n_cameras, alternative= "greater")
-
-results
-```
-
-Therefore, there is a no significant difference in the number of cameras encountered on the way to O'Hare airport by individuals coming from Black majority neighborhoods.
-
-```{r lm_plot_ord}
-ggplot(data, aes(x = shortest_path, y = n_cameras, color = majority)) +
-    geom_point() +
-    geom_hline(yintercept=white_mean_cameras, linewidth=1, color="#F8766D", linetype="dotted") +
-    geom_hline(yintercept=black_mean_cameras, linewidth=1, color="#00bfc4", linetype="dotted") +
-    geom_smooth(method="lm") +
-    labs(x = "Time to reach destination", y = "Number of cameras", 
-        title = "Number of cameras en route to destination by demographic group")
-```
-
-Dotted line represents group mean.
-
-```{r lm_ord}
-linmod <- lm(data = data, n_cameras ~ majority + shortest_path)
-summary(linmod)
-
-linmod <- lm(data = data, absolute_increase ~ majority + shortest_path)
 summary(linmod)
 ```
 
-Therefore, there is a no significant difference in the number of cameras encountered or additional time when avoiding cameras, when going to O'Hare airport by individuals coming from Black majority neighborhoods, when controlling for distance traveled.
+```{r linmod3}
+linmod <- lm(data=data, n_cameras ~ poly(income, 2, raw=TRUE)) 
 
-## Midway airport
-
-```{r data_mdw}
-data <- read.csv('./MDW.csv')
-
-data$majority <-relevel(factor(data$majority), ref='white')
-
-#head(data)
-```
-
-```{r means_mdw}
-black_mean_ttr <- mean(data[data$majority == 'black', ]$shortest_path)
-white_mean_ttr <- mean(data[data$majority == 'white', ]$shortest_path)
-```
-
-### Mean time to reach by demographic group
-```{r plot_means_mdw}
-ggplot(data, aes(x = seq_along(shortest_path), y = shortest_path, color = majority)) + 
-    geom_point() + 
-    geom_hline(yintercept=black_mean_ttr, linewidth=1, color="#00bfc4") + 
-    geom_hline(yintercept=white_mean_ttr, linewidth=1, color="#F8766D") + 
-    labs(x = "Row Number", y = "Shortest Path", 
-        title = "Time to reach destination by demographic group")
-```
-
-```{r distance_means_hypothesis_test_mdw}
-results <- t.test(data[data$majority == 'black', ]$shortest_path, data[data$majority == 'white', ]$shortest_path, alternative= "greater")
-
-results
-```
-Therefore, there is a no significant difference in the amount of time needed to reach Midway airport by individuals coming from Black majority neighborhoods.
-
-### Number of cameras en route by demographic group
-```{r hist_cameras_mdw}
-ggplot(data, aes(x = n_cameras, fill = majority)) +
-    geom_bar(position = "dodge") +
-    labs(x = "Number of occurences", x = "Number of cameras", 
-        title = "Number of cameras en route to destination by demographic group")
-```
-
-```{r camera_means_hypothesis_test_mdw}
-black_mean_cameras <- mean(data[data$majority == 'black', ]$n_cameras)
-white_mean_cameras <- mean(data[data$majority == 'white', ]$n_cameras)
-
-results <- t.test(data[data$majority == 'black', ]$n_cameras, data[data$majority == 'white', ]$n_cameras, alternative= "greater")
-
-results
-```
-
-Therefore, there is a significant *increase* in the number of cameras encountered on the way to Midway airport by individuals coming from Black majority neighborhoods, when controlling for distance traveled.
-
-```{r lm_plot_mdw}
-ggplot(data, aes(x = shortest_path, y = n_cameras, color = majority)) +
-    geom_point() +
-    geom_hline(yintercept=white_mean_cameras, linewidth=1, color="#F8766D", linetype="dotted") +
-    geom_hline(yintercept=black_mean_cameras, linewidth=1, color="#00bfc4", linetype="dotted") +
-    geom_smooth(method="lm") +
-    labs(x = "Time to reach destination", y = "Number of cameras", 
-        title = "Number of cameras en route to destination by demographic group")
-```
-
-Dotted line represents group mean.
-
-```{r lm_mdw}
-linmod <- lm(data = data, n_cameras ~ majority + shortest_path)
-summary(linmod)
-
-linmod <- lm(data = data, absolute_increase ~ majority + shortest_path)
 summary(linmod)
 ```
-
-Therefore, there is a significant *increase* in the number of cameras encountered and additional time when avoiding cameras, when going to Midway airport by individuals coming from Black majority neighborhoods, when controlling for distance traveled.

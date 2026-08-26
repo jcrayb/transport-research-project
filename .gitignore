@@ -1,12 +1,20 @@
+# --- virtualenv leftovers (this repo was committed with a venv) ---
 lib64
 bin
 cache
 include
 pyvenv.cfg
+etc/
+share/
+.claude
 
-#computation_results/
-#*.json
+# --- generated outputs we don't track ---
+results/logs/
+debug*.lp
+
+# geojson is generally ignored, but the curated inputs under data/geo are kept
 *.geojson
+!data/geo/*.geojson
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
