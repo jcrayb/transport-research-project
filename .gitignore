@@ -8,6 +8,8 @@ etc/
 share/
 .claude
 
+key
+
 # --- generated outputs we don't track ---
 results/logs/
 debug*.lp
