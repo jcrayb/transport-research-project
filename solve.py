@@ -1,5 +1,6 @@
 import osmnx as ox
 import networkx as nx
+import geopandas as gpd
 import numpy as np
 import gurobipy as gp
 from gurobipy import GRB
@@ -26,16 +27,7 @@ scope = args.scope
 seg = args.segment
 ts = args.totalsplits
 
-if seg is None and ts is None:
-    seg, ts = 0, 1       
-elif seg is None or ts is None:
-    parser.error("pass both -s/--segment and -ts/--totalsplits, or neither")
-elif not 0 <= seg < ts:
-    raise ValueError("segment must be in [0, totalsplits)")
-if scope == "poi" and not args.option:
-    raise ValueError("--scope poi requires --option")
-if scope == "fixed" and (args.latitude is None or args.longitude is None):
-    raise ValueError("--scope fixed requires --latitude and --longitude")
+
 
 if scope == "poi":
     label = args.option
@@ -72,6 +64,8 @@ def lookup(tree, key):
         tree = tree[part]
     return tree
 
+GRAPH_FILE = "data/1.gpkg"
+
 console = Console()
 
 with console.status("[bold green]Loading computational parameters...") as status:
@@ -84,11 +78,14 @@ with console.status("[bold green]Loading computational parameters...") as status
     
     ## IMPORT CITY
     console.log("Loading road network data (takes a while)...")
-    city = ox.graph_from_place("Chicago, IL, USA", network_type="drive")
+    if os.path.exists(GRAPH_FILE):  # data/chicago.graphml
+        city = ox.load_graphml(GRAPH_FILE)
+    else:
+        city = ox.graph_from_place("Chicago, IL, USA", network_type="drive")
 
-    ## ADDING EDGE PROPERTIES
-    city = ox.add_edge_speeds(city)
-    city = ox.add_edge_travel_times(city)
+        ## ADDING EDGE PROPERTIES
+        city = ox.add_edge_speeds(city)
+        city = ox.add_edge_travel_times(city)
     console.log("Finished loading road network data!")
     
     ## GENERATING IMPORTANT INFO
@@ -107,8 +104,7 @@ with console.status("[bold green]Loading computational parameters...") as status
         A[indexes[u]][i] = -1
         A[indexes[v]][i] = 1
 
-    console.log("Finished generating incidence matrix!")
-    
+    console.log("Finished generating incidence matrix!")    
 
 ## ENUMERATING (source, sink, key) JOBS FOR THIS SCOPE
 def jobs():
@@ -142,6 +138,8 @@ all_jobs = list(jobs())
 
 console = Console()
 
+penalty_time = 26
+
 with console.status("[bold green]Loading computational parameters...") as status:
     ## LINEAR PROGRAM LOGIC
     console.log("Building Linear Programming model (takes a while)...")
@@ -149,7 +147,12 @@ with console.status("[bold green]Loading computational parameters...") as status
     m.Params.LogToConsole = 0
     m.Params.Method = 0
 
-    weights = np.array([city.edges[e]["travel_time"] for e in edges])
+    # per-edge signal penalty: penalty_time/2 if either endpoint has a signal, else 0
+    signal_dict = json.load(open('data/signal_nodes.json', 'r'))
+    c = np.array([penalty_time / 2 if signal_dict[str(u)] or signal_dict[str(v)] else 0
+                  for u, v, k in edges])
+    weights = np.array([city.edges[e]["travel_time"] for e in edges]) + c
+
     f = m.addMVar(shape=n_edges, vtype=GRB.INTEGER if args.integer else GRB.CONTINUOUS, lb=0, name="")
     m.setObjective(weights @ f, GRB.MINIMIZE)
     m.addConstr(A @ f == np.zeros(n_points))

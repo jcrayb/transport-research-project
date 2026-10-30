@@ -1,0 +1,23 @@
+{
+    "layout.plot_bgcolor": "rgba(0, 0, 0, 0)",
+    "layout.font.family": "Times New Roman",
+    "layout.autosize": false,
+    "layout.showlegend": true,
+    "layout.margin": {"r": 5, "t": 5, "l": 5, "b": 5},
+    "layout.xaxis.linecolor": "black",
+    "layout.xaxis.ticks": "inside",
+    "layout.xaxis.mirror": true,
+    "layout.xaxis.showline": true,
+    "layout.xaxis.tickfont.size": 16,
+    "layout.xaxis.title.font.size": 20,
+    "layout.yaxis.linecolor": "black",
+    "layout.yaxis.ticks": "inside",
+    "layout.yaxis.mirror": true,
+    "layout.yaxis.showline": true,
+    "layout.yaxis.tickfont.size": 16,
+    "layout.yaxis.title.font.size": 20,
+    "layout.legend.bgcolor": "rgba(0, 0, 0, 0)",
+    "layout.legend.xanchor": "right",
+    "layout.legend.x": 1,
+    "layout.legend.font.family": "monospace"
+}

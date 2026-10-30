@@ -1,14 +1,37 @@
 import os
 import pandas as pd
-import matplotlib
-matplotlib.use("Agg")
-import matplotlib.pyplot as plt
+import plotly.graph_objects as go
 import statsmodels.formula.api as smf
 from scipy import stats
 
 TABLES = "results/tables"
 FIGURES = "analysis/figures"
-COLORS = {"black": "#00bfc4", "white": "#F8766D"}
+COLORS = {"black": "#039be5", "white": "#f4511e"}
+
+# figure styl
+STYLE = {
+    "layout.plot_bgcolor": "rgba(0, 0, 0, 0)",
+    "layout.font.family": "Times New Roman",
+    "layout.autosize": False,
+    "layout.showlegend": True,
+    "layout.margin": {"r": 5, "t": 5, "l": 5, "b": 5},
+    "layout.xaxis.linecolor": "black",
+    "layout.xaxis.ticks": "inside",
+    "layout.xaxis.mirror": True,
+    "layout.xaxis.showline": True,
+    "layout.xaxis.tickfont.size": 16,
+    "layout.xaxis.title.font.size": 20,
+    "layout.yaxis.linecolor": "black",
+    "layout.yaxis.ticks": "inside",
+    "layout.yaxis.mirror": True,
+    "layout.yaxis.showline": True,
+    "layout.yaxis.tickfont.size": 16,
+    "layout.yaxis.title.font.size": 20,
+    "layout.legend.bgcolor": "rgba(0, 0, 0, 0)",
+    "layout.legend.xanchor": "right",
+    "layout.legend.x": 1,
+    "layout.legend.font.family": "monospace",
+}
 
 os.makedirs(FIGURES, exist_ok=True)
 
@@ -31,13 +54,31 @@ def analyse(csv, label, white_ref=False):
     print(smf.ols(f"absolute_increase ~ {majority} + shortest_path", data).fit().summary())
 
     # time to reach by group, with group-mean lines
-    plt.figure(figsize=(8, 5))
+    fig = go.Figure()
     for grp, sub in data.groupby("majority"):
-        plt.scatter(range(len(sub)), sub.shortest_path, s=8, color=COLORS.get(grp), label=grp)
-        plt.axhline(sub.shortest_path.mean(), color=COLORS.get(grp), linewidth=1)
-    plt.xlabel("Row number"); plt.ylabel("Time to reach destination")
-    plt.title(f"Time to reach {label} by group"); plt.legend(title="majority")
-    plt.tight_layout(); plt.savefig(f"{FIGURES}/{csv[:-4]}_time.png", dpi=120); plt.close()
+        fig.add_trace(go.Scatter(x=list(range(len(sub))), y=sub.shortest_path, mode="markers",
+                                 name=grp, legendgroup=grp, marker=dict(size=4, color=COLORS.get(grp))))
+        fig.add_trace(go.Scatter(x=[0, len(sub) - 1], y=[sub.shortest_path.mean()] * 2, mode="lines",
+                                 name=f"{grp} mean", legendgroup=grp, line_color=COLORS.get(grp)))
+
+    fig.update(**STYLE)
+    fig.update_layout(legend=dict(
+        orientation="h",
+        entrywidthmode="fraction",
+        entrywidth=0.22,
+        x=1, xanchor="right",
+        y=1, yanchor="top",
+    ))
+    fig.update_layout(
+        font=dict(size=20),
+        legend_font_size=16,
+        xaxis=dict(title_font_size=24, tickfont_size=24, title="Row number"),
+        yaxis=dict(title_font_size=24, tickfont_size=24, title=f"Time to reach {label}"),
+    )
+    try:
+        fig.write_image(f"{FIGURES}/{csv[:-4]}_time.pdf", scale=4)
+    except Exception as e:
+        print("could not write the image:", e)
 
 
 def income_models():
@@ -48,17 +89,6 @@ def income_models():
     print(smf.ols("n_cameras ~ shortest_path - 1", data).fit().summary())
     print(smf.ols("n_cameras ~ income + I(income**2)", data).fit().summary())
 
-
-# transport hubs (analysis.rmd) -- white baseline
-for csv, label in [("CHI.csv", "Union Station"), ("ORD.csv", "O'Hare"), ("MDW.csv", "Midway")]:
-    analyse(csv, label, white_ref=True)
-
-# nearest POI (highschool-*.rmd, hospital-*.rmd)
-for csv, label in [("high-school-1-closest.csv", "high school (nearest)"),
-                   ("high-school-3-closest.csv", "high school (3 nearest)"),
-                   ("hospital-1-closest.csv", "hospital (nearest)"),
-                   ("hospital-3-closest.csv", "hospital (3 nearest)")]:
-    analyse(csv, label)
 
 # commuting pairs (weighted.rmd)
 analyse("weighted.csv", "commuting pairs")
