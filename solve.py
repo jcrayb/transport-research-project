@@ -21,6 +21,8 @@ parser.add_argument("--latitude", type=float, help="destination, for --scope fix
 parser.add_argument("--longitude", type=float, help="destination, for --scope fixed")
 parser.add_argument("--name", help="output label for --scope fixed")
 parser.add_argument("--integer", action="store_true")
+parser.add_argument("--traffic", action="store_true",
+                    help="simulate high traffic: scale highway/city edge travel times by (1+beta)")
 args = parser.parse_args()
 
 scope = args.scope
@@ -35,6 +37,22 @@ elif scope == "commutes":
     label = "commutes"
 else:
     label = args.name or f"{args.latitude}_{args.longitude}"
+
+if args.traffic:
+    label += "-traffic"
+
+# high traffic slowdown, from the regression in matrix_compute.ipynb:
+# traffic_flow_delta ~ highway_time + city_time + 0 (5pm, TRAFFIC_AWARE)
+BETA_HIGHWAY = 0.8320
+BETA_CITY = 0.5106
+
+HIGHWAY_TAGS = {"motorway", "motorway_link", "trunk", "trunk_link"}
+
+def is_highway(tag):
+    # osmnx stores merged ways as lists (or their string repr when loaded from graphml)
+    if isinstance(tag, list):
+        return any(t in HIGHWAY_TAGS for t in tag)
+    return any(t in str(tag) for t in HIGHWAY_TAGS)
 
 
 # path reconstruction from the (unordered) edges carrying flow
@@ -151,7 +169,11 @@ with console.status("[bold green]Loading computational parameters...") as status
     signal_dict = json.load(open('data/signal_nodes.json', 'r'))
     c = np.array([penalty_time / 2 if signal_dict[str(u)] or signal_dict[str(v)] else 0
                   for u, v, k in edges])
-    weights = np.array([city.edges[e]["travel_time"] for e in edges]) + c
+    travel_times = np.array([city.edges[e]["travel_time"] for e in edges])
+    if args.traffic:
+        highway_mask = np.array([is_highway(city.edges[e].get("highway")) for e in edges])
+        travel_times = travel_times * np.where(highway_mask, 1 + BETA_HIGHWAY, 1 + BETA_CITY)
+    weights = travel_times + c
 
     f = m.addMVar(shape=n_edges, vtype=GRB.INTEGER if args.integer else GRB.CONTINUOUS, lb=0, name="")
     m.setObjective(weights @ f, GRB.MINIMIZE)
